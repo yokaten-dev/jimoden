@@ -1,0 +1,998 @@
+@charset "UTF-8";
+/* -----------------------------------------------------------
+
+事業者ページ
+
+----------------------------------------------------------- */
+/*-------------------------------------------
+下部固定お問い合わせリンク
+-------------------------------------------*/
+.contact-links {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75); /* 背景を透過35%の黒に設定 */
+  text-align: center;
+  padding: 10px;
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+.contact-links.slide-out {
+  transform: translateY(100%); /* 下にスライドアウト */
+}
+.contact-links p {
+  color: white;
+  font-size: clamp(var(--fz16), 0.85rem + 0.64vw, var(--fz20));
+  font-weight: bold;
+}
+.contact-links .btn-block {
+  display: flex;
+  justify-content: space-around;
+  max-width: 880px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.contact-links .btn-block .btn {
+  display: inline-flex;
+  padding: 10px 0;
+  background-color: #fff;
+  color: var(--color-main);
+  border-bottom: 4px solid #bbb;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: clamp(var(--fz16), 0.4rem + 2.56vw, var(--fz32));
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  align-items: center;
+  width: 31%;
+  justify-content: center;
+}
+.contact-links .btn-block .btn::before {
+  content: "";
+  display: inline-block;
+  width: 1.5em;
+  height: 1.75em;
+  margin-right: 0.4em;
+  transition: 0.3s;
+}
+.contact-links .btn.tel::before {
+  mask: url(../../assets/img/ico_tel.svg) no-repeat center / contain;
+  background-color: var(--color-main);
+}
+.contact-links .btn.line::before {
+  mask: url(../../assets/img/ico_line.svg) no-repeat center / contain;
+  background-color: var(--color-main);
+}
+.contact-links .btn.mail::before {
+  mask: url(../../assets/img/ico_mail.svg) no-repeat center / contain;
+  background-color: var(--color-main);
+}
+@media (hover: hover) and (pointer: fine) {
+  /*ホバーアクションはPCのみ適用*/
+  .contact-links .btn:hover {
+    opacity: 1;
+    background-color: var(--color-main);
+    color: white;
+    border-top: 4px solid #900;
+    border-bottom: none;
+    transition: 0.3s;
+  }
+  .contact-links .btn.tel:hover::before {
+    mask: url(../../assets/img/ico_tel.svg) no-repeat center / contain;
+    background-color: white;
+  }
+  .contact-links .btn.line:hover::before {
+    mask: url(../../assets/img/ico_line.svg) no-repeat center / contain;
+    background-color: white;
+  }
+  .contact-links .btn.mail:hover::before {
+    mask: url(../../assets/img/ico_mail.svg) no-repeat center / contain;
+    background-color: white;
+  }
+}
+/*-------------------------------------------
+メインビジュアル
+-------------------------------------------*/
+.mainvisual {
+  padding: 30px 0px;
+  background-image: url("../../assets/img/bg_townscape.png"), linear-gradient(to bottom, white 50%, #f2f2f2 50%);
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: 100%;
+}
+.mainvisual .mv-title {
+  text-align: center;
+  font-size: clamp(var(--fz18), 0.375rem + 3.2vw, var(--fz38));
+  font-weight: bold;
+}
+.mainvisual .mv-title span {
+  font-size: 1.25em;
+}
+.mainvisual .mv-logo {
+  width: 370px;
+  max-width: 70%;
+  margin: 35px auto 0;
+}
+.mainvisual .mv-lead {
+  font-size: clamp(var(--fz14), 0.575rem + 1.28vw, var(--fz22));
+  font-weight: bold;
+  margin: 75px 0 0;
+  letter-spacing: 0.1em;
+  position: relative;
+  display: inline-block;
+}
+.mainvisual .mv-lead::before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  bottom: 30%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 55px;
+  height: 2px;
+  background-color: var(--color-main);
+}
+.mainvisual .mv-lead::after {
+  content: "";
+  position: absolute;
+  right: -25px;
+  bottom: 30%;
+  transform: translateY(-50%) rotate(-45deg);
+  width: 55px;
+  height: 2px;
+  background-color: var(--color-main);
+}
+.mv-image {
+  width: 100%;
+  max-width: 1000px;
+  height: clamp(11.688rem, -0.05rem + 50.08vw, 31.25rem);
+  margin: 20px auto 0;
+  overflow: hidden;
+}
+.mv-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%;
+}
+@media (max-width: 767px) {
+  .mainvisual {
+    background-size: 150%;
+  }
+}
+/*--- ３つのポイント ---*/
+.mv-3points-container {
+  background: var(--color-base);
+  margin-top: -140px;
+}
+.mv-3points {
+  display: flex;
+  justify-content: space-evenly;
+}
+.mv-3points li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: clamp(7.125rem, 30vw, 15.875rem);
+  text-align: center;
+  font-size: clamp(var(--fz12), 0.188rem + 2.4vw, var(--fz28));
+  font-weight: bold;
+  line-height: 1.4;
+  background: url(../img/bg_3points_lamp.png) no-repeat center top / contain;
+  flex: 1 1 auto;
+}
+@media (max-width: 767px) {
+  .mv-3points-container {
+    margin-top: -84px;
+  }
+}
+/*-------------------------------------------
+対応電気工事
+-------------------------------------------*/
+.service-types {
+  background: var(--color-base);
+  padding: 15px 0 100px;
+}
+.service-types .wrapper {
+  max-width: 1200px;
+}
+.service-types .service-types-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: clamp(var(--fz22), 0.85rem + 2.24vw, var(--fz36));
+  letter-spacing: 0.05em;
+}
+.service-types .service-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.service-types .service-list li {
+  flex: 1 1 12.5%; /* 通常時は1行に8個 (12.5% x 8 = 100%) */
+  padding: 10px 0;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .service-types {
+    padding-bottom: 10vw;
+  }
+  .service-types .wrapper {
+    max-width: 550px;
+  }
+  .service-types .service-list li {
+    flex: 1 1 25%; /* 1行に4個ずつ (25% x 4 = 100%) */
+  }
+}
+/*-------------------------------------------
+会社と担当者の紹介
+-------------------------------------------*/
+.location-message {
+  background: linear-gradient(to bottom, #f2f2f2 35%, white 35%);
+  padding-bottom: 100px;
+}
+.location-message .location-message-inner {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--fz20);
+  padding: 0 20px;
+}
+.location-message .location {
+  width: 48%;
+}
+.location-message .location .company-info {
+  margin-top: 15px;
+}
+.location-message .location .company-name {
+  font-weight: bold;
+}
+.location-message .message {
+  width: 48%;
+  background: white;
+  padding: 30px;
+  border: 3px solid var(--color-base);
+}
+.location-message .message .message-bubble {
+  border: 2px solid #e1807d;
+  border-radius: 15px;
+  padding: 15px;
+  margin: -60px -15px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  background: white;
+  position: relative;
+}
+/* 吹き出しの下に三角形を作成 */
+.location-message .message .message-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-width: 10px; /* 三角形のサイズ */
+  border-style: solid;
+  border-color: white transparent transparent transparent; /* 白背景の三角形 */
+}
+/* 三角形の枠線 */
+.location-message .message .message-bubble::before {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-width: 11px; /* 枠線部分を含むサイズ */
+  border-style: solid;
+  border-color: #e1807d transparent transparent transparent; /* ピンクの枠線の三角形 */
+}
+.location-message .person-info {
+  width: 222px;
+  height: 222px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px auto 0;
+}
+.location-message .person-info img {
+  object-fit: cover;
+}
+.location-message .greeting-text {
+  margin: 30px auto 0;
+  width: max-content;
+  max-width: 100%;
+}
+/* for SP */
+@media (max-width: 767px) {
+  .location-message {
+    padding-bottom: 30px;
+  }
+  .location-message .location-message-inner {
+    flex-direction: column;
+    background: var(--color-base);
+    font-size: var(--fz16);
+    padding: 0;
+  }
+  .location-message .location,
+  .location-message .message {
+    width: 100%;
+  }
+  .location-message .location {
+    padding: 0 20px;
+  }
+  .location-message .message {
+    border: none;
+    margin-top: 70px;
+  }
+}
+/*-------------------------------------------
+セクション共通
+-------------------------------------------*/
+.section {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.sec-content {
+  padding: 0 20px 100px;
+}
+.sec-title {
+  font-size: clamp(var(--fz24), 0.675rem + 3.52vw, var(--fz46));
+  font-weight: bold;
+  color: var(--color-main);
+  text-align: center;
+  padding: 30px 20px;
+  cursor: pointer;
+  border-top: 3px solid var(--color-main);
+  letter-spacing: 0.1em;
+}
+.supplement {
+  font-weight: bold;
+  color: #999;
+  text-align: center;
+  margin-top: -30px;
+}
+@media (min-width: 768px) {
+  .sec-title {
+    cursor: auto;
+  }
+}
+/* js-accordion
+---------------------------------*/
+.js-accordion-title {
+  position: relative;
+}
+/* アイコン部分 */
+.js-toggle-mark {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  cursor: pointer;
+}
+.js-toggle-mark::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 41%;
+  width: 3px;
+  height: 100%;
+  background-color: var(--color-main);
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+.js-toggle-mark::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-main);
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+/* アコーディオンOPEN時 */
+.open .js-toggle-mark::before {
+  transform: rotate(90deg); /* 縦線が水平になる */
+}
+.open .js-toggle-mark::after {
+  transform: rotate(0deg); /* 横線はそのまま */
+}
+/*-------------------------------------------
+工事までの流れ
+-------------------------------------------*/
+.sec-flow .service-flow {
+  list-style-type: none;
+  padding-left: 0;
+  position: relative;
+  text-align: left;
+  counter-reset: flow-step; /* counter の初期化 */
+}
+.sec-flow .service-flow li {
+  position: relative;
+  padding: 30px;
+  background-color: var(--color-base);
+  border-radius: 15px;
+  padding-left: 60px;
+  margin-left: 25px;
+}
+.sec-flow .service-flow li:not(:last-child) {
+  margin-bottom: 40px;
+}
+.sec-flow .service-flow li::before {
+  content: counter(flow-step); /* カウンターの値を表示 */
+  counter-increment: flow-step; /* カウンターを1つずつ増やす */
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-main);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fz20);
+  font-weight: bold;
+}
+/* リスト項目の間に横長の赤い▼を表示 */
+.sec-flow .service-flow li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid var(--color-main);
+}
+.sec-flow .service-flow .label {
+  font-size: clamp(var(--fz20), 1.1rem + 0.64vw, var(--fz24));
+  font-weight: bold;
+  color: var(--color-main);
+  letter-spacing: 0.1em;
+}
+.sec-flow .service-flow .label span {
+  background: var(--color-text);
+  color: white;
+  font-size: 0.66em;
+  padding: 0 3px;
+  margin-left: 8px;
+  letter-spacing: 0;
+  font-weight: normal;
+  line-height: 1.4em;
+  word-break: keep-all;
+}
+.service-flow .detail {
+  margin: 10px 0 0;
+}
+/*-------------------------------------------
+工事料金例
+-------------------------------------------*/
+.sec-price .sec-lead {
+  margin: 40px auto 40px;
+  text-align: center;
+}
+.sec-price .sec-lead p {
+  font-size: clamp(var(--fz14), 0.575rem + 1.28vw, var(--fz22));
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  position: relative;
+  display: inline-block;
+  color: var(--color-main);
+}
+.sec-price .sec-lead p::before {
+  content: "";
+  position: absolute;
+  left: -40px;
+  bottom: 20%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 35px;
+  height: 2px;
+  background-color: var(--color-main);
+}
+.sec-price .sec-lead p::after {
+  content: "";
+  position: absolute;
+  right: -40px;
+  bottom: 20%;
+  transform: translateY(-50%) rotate(-45deg);
+  width: 35px;
+  height: 2px;
+  background-color: var(--color-main);
+}
+.sec-price .service-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 60px 30px;
+}
+.sec-price .service-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 48%;
+}
+.sec-price .service-img {
+  width: 30%;
+}
+.sec-price .service-img img {
+  max-width: 100%;
+  height: auto;
+}
+.sec-price .service-details {
+  width: 70%;
+  padding-left: 20px;
+}
+.sec-price .service-title {
+  font-weight: bold;
+  font-size: clamp(var(--fz20), 1.025rem + 0.96vw, var(--fz26));
+}
+.service-description {
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.sec-price .service-price {
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+.sec-price .service-price .price-label {
+  font-size: 1.8em;
+}
+.sec-price .btn-to-more-container {
+  width: 90%;
+  padding-top: 20px;
+  margin: 0 auto;
+  align-self: flex-end;
+}
+.sec-price .btn-to-more {
+  font-size: 1.2em;
+}
+@media (max-width: 767px) {
+  .sec-price .service-list {
+    flex-direction: column;
+  }
+  .sec-price .service-item {
+    width: 100%;
+  }
+  .sec-price .btn-to-more-container {
+    width: 100%;
+  }
+}
+/*-------------------------------------------
+会社概要
+-------------------------------------------*/
+.sec-aboutus .info-list dt {
+  font-weight: bold;
+  padding: 30px 0 5px;
+}
+.sec-aboutus .info-list dd {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0 30px;
+}
+@media screen and (min-width: 500px) {
+  .sec-aboutus .info-list dl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sec-aboutus .info-list dt,
+  .sec-aboutus .info-list dd {
+    padding: 30px 0;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+  }
+  .sec-aboutus .info-list dt {
+    width: 30%;
+  }
+  .sec-aboutus .info-list dd {
+    width: 70%;
+  }
+}
+/*-------------------------------------------
+お問い合わせ
+-------------------------------------------*/
+.sec-contact {
+  margin-bottom: 60px;
+}
+.sec-contact .sec-title {
+  cursor: default;
+}
+.sec-contact .contact-heading {
+  text-align: center;
+}
+.sec-contact .contact-link-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 760px;
+  margin: 30px auto 0;
+}
+.sec-contact .contact-link-list li {
+  border-bottom: 2px solid #bbb;
+  border-right: 2px solid #bbb;
+  height: 145px;
+  width: 32%;
+}
+.sec-contact .contact-link-list li a {
+  text-align: center;
+  color: var(--color-main);
+  font-weight: bold;
+  font-size: var(--fz20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  letter-spacing: 0.1em;
+}
+.sec-contact .contact-link-list li a::before {
+  content: "";
+  display: inline-block;
+  height: 56px;
+  width: 52px;
+}
+.sec-contact .contact-link-list li a::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  width: 0.75em;
+  height: 0.75em;
+  border: 0.15em solid currentColor;
+  border-left: 0;
+  border-bottom: 0;
+  box-sizing: border-box;
+  transform: translateY(-25%) rotate(135deg);
+  bottom: -6px;
+  position: relative;
+}
+.sec-contact .contact-link-tel a::before {
+  background: url(../../assets/img/ico_tel.svg) no-repeat center center / contain;
+  margin-top: 10px;
+}
+.sec-contact .contact-link-line a::before {
+  background: url(../../assets/img/ico_line.svg) no-repeat center center / contain;
+}
+.sec-contact .contact-link-mail a::before {
+  background: url(../../assets/img/ico_mail.svg) no-repeat center center / contain;
+}
+/* 電話・LINE・メール 共通
+---------------------------------*/
+.sec-contact .contact-block {
+  text-align: center;
+  margin: 0 auto 0;
+  max-width: 510px;
+  border-bottom: 2px solid #bbb;
+  padding: 60px 0;
+}
+.sec-contact .contact-block .contact-way {
+  color: var(--color-main);
+  font-weight: bold;
+  font-size: clamp(var(--fz24), 1.2rem + 1.28vw, var(--fz32));
+}
+.sec-contact .contact-block .contact-way::before {
+  content: "";
+  display: block;
+  height: 56px;
+  margin: 0 auto;
+}
+.sec-contact .contact-block .contact-caption {
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* 電話
+---------------------------------*/
+.sec-contact .contact-tel .contact-way::before {
+  background: url(../../assets/img/ico_tel.svg) no-repeat center center;
+}
+.sec-contact .contact-tel-number {
+  color: var(--color-main);
+  font-weight: bold;
+  font-size: var(--fz36);
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+.sec-contact .contact-business-hours {
+  color: #666;
+}
+.sec-contact .btn-call-number-container {
+  margin: 20px auto 0;
+  width: 350px;
+  max-width: 100%;
+}
+.sec-contact .btn-call-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 999px;
+  background: var(--color-main);
+  font-size: var(--fz20);
+  cursor: pointer;
+  height: 60px;
+}
+.sec-contact .btn-call-number::before {
+  content: "";
+  display: inline-block;
+  margin-right: 0.75em;
+  height: 1.5em;
+  width: 1.5em;
+  mask: url(../../assets/img/ico_tel.svg) no-repeat center / contain;
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .sec-contact .btn-call-number-container {
+    display: none;
+  }
+}
+/* セールスお断り */
+.sec-contact .sales-refusal {
+  cursor: pointer;
+  margin: 30px 0 0;
+}
+.sec-contact .sales-refusal summary {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.sec-contact .sales-refusal summary span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.sec-contact .sales-refusal summary::after {
+  content: "▼"; /* 初期のアイコン */
+  font-size: 0.5em;
+  margin-left: 3px;
+}
+.sec-contact .sales-refusal[open] summary::after {
+  content: "▲"; /* 開いた時のアイコン */
+  font-size: 0.5em;
+}
+.sec-contact .sales-refusal summary::-webkit-details-marker {
+  display: none; /* デフォルトのマーカーを非表示に */
+}
+.sec-contact .sales-refusal .deteils-content {
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 0;
+  text-align: left;
+  font-size: var(--fz14);
+}
+.sec-contact .sales-refusal .deteils-content p {
+  margin: 20px 0;
+}
+.sec-contact .sales-refusal .deteils-content ul {
+  padding-left: 1.5em;
+}
+.sec-contact .sales-refusal .deteils-content li {
+  list-style: disc;
+}
+/* LINE
+---------------------------------*/
+.sec-contact .contact-line .contact-way::before {
+  background: url(../../assets/img/ico_line.svg) no-repeat center center;
+}
+.sec-contact .line-comment {
+  margin-top: 30px;
+}
+/* 友だち追加ボタン */
+.sec-contact .btn-line-friend-container {
+  margin: 10px auto 0;
+  width: 350px;
+  max-width: 100%;
+}
+.sec-contact .btn-line-friend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: var(--fz20);
+  font-weight: bold;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 15px;
+  background: #06c755;
+  letter-spacing: 0.1em;
+}
+.sec-contact .btn-line-friend::before {
+  content: "";
+  background: url(../../assets/img/ico_line.png) no-repeat center center / contain;
+  width: 75px;
+  height: 75px;
+}
+/* QRコード */
+.sec-contact .qr-code {
+  margin: 30px auto 0;
+  width: 200px;
+}
+@media screen and (max-width: 767px) {
+  .sec-contact .qr-code {
+    /* SPでは非表示 */
+    display: none;
+  }
+}
+/* メール
+---------------------------------*/
+.sec-contact .contact-mail {
+  border-bottom: none;
+}
+.sec-contact .contact-mail .contact-way::before {
+  background: url(../../assets/img/ico_mail.svg) no-repeat center center;
+}
+/*
+問い合わせフォーム
+---------------------------------*/
+.mail-form {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.mail-form .title {
+  font-size: var(--fz22);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mail-form table.formTable {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  text-align: left;
+}
+.mail-form table.formTable tr {
+  display: flex;
+  flex-direction: column;
+}
+.mail-form table.formTable th {
+  font-size: var(--fz18);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.mail-form table.formTable th .rqrd {
+  background-color: var(--color-text);
+  color: white;
+  font-size: var(--fz12);
+  font-weight: normal;
+  padding: 0 6px;
+  margin-left: 6px;
+}
+.mail-form table.formTable th .limit {
+  font-size: 0.875em;
+  color: #666;
+  margin-left: 5px;
+  font-weight: normal;
+}
+.mail-form table.formTable td {
+  padding: 15px 0 30px;
+  display: flex;
+  align-items: center;
+}
+.mail-form table.formTable input[type="text"],
+.mail-form table.formTable input[type="email"],
+.mail-form table.formTable input[type="tel"] {
+  width: 100%;
+  height: 60px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 2px solid #999;
+  box-sizing: border-box;
+  line-height: 1;
+}
+.mail-form table.formTable textarea {
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: 15px;
+  border: 2px solid #999;
+  box-sizing: border-box;
+}
+.mail-form input[type="reset"],
+.mail-form input[type="submit"] {
+  width: 50%;
+  height: 3em;
+  padding: 0;
+  border-radius: 999px;
+  line-height: 60px;
+  font-size: clamp(var(--fz20), 0.95rem + 1.28vw, var(--fz28));
+  font-weight: bold;
+  text-align: center;
+}
+.mail-form input::placeholder,
+.mail-form textarea::placeholder {
+  color: #aaa;
+}
+.mail-form input:focus,
+.mail-form textarea:focus {
+  background-color: #faeae9;
+}
+@media (hover: hover) and (pointer: fine) {
+  /*ホバーアクションはPCのみ適用*/
+  .mail-form input[type="reset"]:hover,
+  .mail-form input[type="submit"]:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+}
+.mail-form input[type="reset"] {
+  background: white;
+  color: var(--color-main);
+  border: 2px solid var(--color-main);
+  width: 38%;
+}
+.mail-form input[type="submit"] {
+  background: var(--color-main);
+  color: white;
+  width: 60%;
+}
+.mail-form .btn-wrap {
+  display: flex;
+  padding: 0 0 30px;
+  justify-content: space-between;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.mail-form .btn-file {
+  /* 「選択されていません（選択後はファイル名）」のスタイル */
+  font-size: var(--fz14);
+}
+.mail-form .btn-file::file-selector-button {
+  /* 「ファイルを選択」ボタンのスタイル */
+  font-size: var(--fz16);
+  font-weight: bold;
+  color: var(--color-main);
+  background: white;
+  border: 2px solid var(--color-main);
+  border-radius: 999px;
+  height: 60px;
+  text-align: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+@media (hover: hover) and (pointer: fine) {
+  /*ホバーアクションはPCのみ適用*/
+  .mail-form .btn-file::file-selector-button:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+}
+@media screen and (min-width: 901px) {
+  .mail-form table.formTable tr {
+    flex-direction: row;
+  }
+  .mail-form table.formTable th {
+    width: 30%;
+  }
+  .mail-form table.formTable td {
+    width: 70%;
+  }
+}
+/* プライバシーポリシーへのリンク */
+.privacy-policy {
+  text-align: center;
+}
+.privacy-policy a {
+  text-decoration: underline;
+  position: relative;
+}
+.privacy-policy a::after {
+  content: "";
+  background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24"><path fill="%23999999" d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" /></svg>') no-repeat center center;
+  display: block;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  bottom: 0.25em;
+  right: -1.25em;
+}

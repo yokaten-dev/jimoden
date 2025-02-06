@@ -1,0 +1,456 @@
+@charset "UTF-8";
+/* -----------------------------------------------------------
+
+全ページ共通css
+
+----------------------------------------------------------- */
+/*-------------------------------------------
+custom property
+-------------------------------------------*/
+:root {
+  --fz14: calc(14 / 16 * 1rem);
+  --fz12: calc(12 / 16 * 1rem);
+  --color-main: #b92225;
+  --color-base: #f2f2f2;
+  --color-text: #333;
+}
+/*-------------------------------------------
+reset & common
+-------------------------------------------*/
+html {
+  font-size: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Jost", "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+  background: white;
+  color: var(--color-text);
+  word-wrap: break-word;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+a {
+  text-decoration: none;
+  color: var(--color-text);
+  opacity: 1;
+  transition: 0.3s;
+}
+@media (hover: hover) and (pointer: fine) {
+  /*ホバーアクションはPCのみ適用*/
+  a:hover {
+    color: var(--color-main);
+  }
+}
+li {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+/* コンテンツ幅の設定 */
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+/*--------------------------------
+ヘッダー
+---------------------------------*/
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.header .header-logo {
+  width: 100px;
+}
+/*-------------------------------------------
+メインビジュアル
+-------------------------------------------*/
+#mainvisual {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-image: url("img/bg-dummy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#mainvisual .mv-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainvisual .mv-content {
+  color: white;
+  text-align: center;
+}
+/* h1 */
+#mainvisual .main-title {
+  font-size: clamp(1.5rem, 0.6rem + 3.84vw, 3rem); /* 24 <-> 48 */
+  margin: 0;
+  font-weight: bold;
+}
+/*-------------------------------------------
+概要
+-------------------------------------------*/
+.content-overview {
+  background: var(--color-base);
+  padding: 60px 30px;
+  /* margin: 0 auto; */
+}
+/* リード文 */
+.lead {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: clamp(1.125rem, 1.05rem + 0.32vw, 1.25rem); /* 18 <-> 20 */
+}
+/* 目次 */
+.index {
+  padding: 30px 30px 60px;
+  margin: 60px auto 30px;
+  max-width: 700px;
+  width: 100%;
+  background: white;
+  border: 1px solid var(--color-main);
+  border-radius: 15px;
+}
+.index .page-index-title {
+  text-align: center;
+}
+.index .page-index-title span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #b92225;
+  font-size: var(--fz14);
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 0.5em 1.8em;
+  background-color: #fff;
+  border: 3px solid #b92225;
+  border-radius: 999px;
+  position: relative;
+  margin-bottom: 30px;
+  min-width: 126px;
+}
+.index .page-index-title span::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  aspect-ratio: 9/35;
+  background-image: url(img/label-switch.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+.index .index-list {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  font-size: clamp(1rem, 0.85rem + 0.64vw, 1.25rem); /* 16 <-> 20 */
+  font-weight: 600;
+  max-width: 100%;
+}
+.index .index-item {
+  width: 100%;
+}
+.index .index-item a {
+  display: flex;
+  border-bottom: 2px dotted #ccc;
+  padding: 1em 0;
+}
+.index .inner-list .inner-item {
+  margin-left: 30px;
+}
+.index .link-num {
+  color: var(--color-main);
+  margin-right: -1rem;
+  flex-shrink: 0;
+}
+.index .link-title {
+  display: inline-block;
+  margin-left: 2em;
+}
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+.footer {
+  padding: 120px 0 20px 0;
+}
+.footer .copyright {
+  text-align: center;
+  font-size: var(--fz12);
+}
+/*-------------------------------------------
+TOPへ戻るボタン
+-------------------------------------------*/
+#page_top {
+  position: fixed;
+  bottom: -80px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background: #333;
+  transition: bottom 0.5s ease;
+}
+#page_top.show {
+  bottom: 16px;
+}
+#page_top a::before {
+  position: absolute;
+  content: "";
+  background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24"><path fill="%23ffffff" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>') no-repeat center center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+#page_top:hover {
+  background-color: #555;
+}
+/*-------------------------------------------
+セクション共通パーツ
+-------------------------------------------*/
+.section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+/*---------------
+見出し
+  - 大見出し：sec-title（h2）
+  - 中見出し；sub-title（h3）
+  - 小見出し：mid-title
+  - 極小見出し；minor-title
+---------------*/
+/* 大見出し */
+.sec-title {
+  position: relative;
+  font-size: clamp(1.5rem, 1.275rem + 0.96vw, 1.875rem); /* 24 <-> 30 */
+  font-weight: bold;
+  background: var(--color-main);
+  color: white;
+  padding: 1rem 2rem;
+  margin: 60px 0 1em;
+  border-radius: 10px;
+  line-height: 1.4;
+}
+.sec-title:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  bottom: -10px;
+  left: 1.5em;
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: var(--color-main) transparent transparent transparent;
+}
+/* 中見出し */
+.sub-title {
+  margin: 60px 0 1em;
+  font-size: clamp(1.5rem, 1.275rem + 0.96vw, 1.875rem); /* 24 <-> 30 */
+  color: var(--color-main);
+  font-weight: bold;
+  border-left: solid 10px var(--color-main);
+  padding-left: 0.5em;
+}
+/* 小見出し */
+.mid-title {
+  margin: 60px 0 1em;
+  font-size: clamp(1.125rem, 0.975rem + 0.64vw, 1.375rem); /* 18 <-> 22 */
+  color: var(--color-main);
+  font-weight: bold;
+}
+/* 極小見出し（caption） */
+.minor-title {
+  margin: 60px 0 0.5em;
+  font-size: clamp(1rem, 0.85rem + 0.64vw, 1.25rem); /* 16 <-> 20 */
+  font-weight: bold;
+}
+/* 画像 */
+.picture {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+}
+/* テキスト */
+.desc {
+  margin: 1em 0;
+}
+/* リスト */
+.desc-list {
+  padding-left: 1.75em;
+  background: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 20px 20px 20px 40px;
+}
+.desc-list li {
+  position: relative;
+}
+.desc-list li::before {
+  content: "";
+  position: absolute;
+  top: 0.75em;
+  left: -0.75em;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 0.25em solid transparent;
+  border-bottom: 0.25em solid transparent;
+  border-left: 0.5em solid var(--color-main);
+}
+/* 引用 */
+.reference {
+  position: relative;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 60px 0;
+  border: 3px solid #ccc;
+}
+.reference::before {
+  content: "";
+  background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24"><path fill="%23cccccc" d="M10,7L8,11H11V17H5V11L7,7H10M18,7L16,11H19V17H13V11L15,7H18Z" /></svg>') no-repeat center center;
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -30px;
+  left: 20px;
+}
+.reference .site-link {
+  text-indent: -3em;
+  padding-left: 3em;
+}
+.reference .site-link a {
+  color: var(--color-main);
+  text-decoration: underline;
+  position: relative;
+}
+.reference .site-link a::after {
+  content: "";
+  background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24"><path fill="%23999999" d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" /></svg>') no-repeat center center;
+  display: block;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  bottom: 0.25em;
+  right: -1.25em;
+}
+/* この記事を書いた人 */
+.profile-card-container {
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.profile-content {
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.profile-content .profile-heading {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-content .profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-content .profile-image {
+  width: 100px;
+  max-width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
+  flex: 1 0 auto;
+}
+
+.profile-content .profile-info {
+  text-align: center;
+}
+
+
+.profile-content .profile-name {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #b92225;
+}
+
+
+.profile-content .profile-text {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 0.9375em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------
+utility
+---------------------------------*/
+/* テキスト強調 */
+em {
+  color: var(--color-main);
+  font-weight: bold;
+}

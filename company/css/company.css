@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* -----------------------------------------------------------
+
+プライバシーポリシー
+
+----------------------------------------------------------- */
+.about-company {
+  padding: 60px 20px 180px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.about-company .ttl {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: var(--fz24);
+  border-bottom: 1px solid var(--color-main);
+}
+.about-company .company-info {
+  margin-top: 60px;
+}
+.about-company .list-ttl {
+  font-weight: bold;
+  background: var(--color-base);
+  padding: 0.25em 1em;
+}
+.about-company .info-list {
+  padding: 0 1em;
+}
+.about-company .info-list dt {
+  font-weight: bold;
+  padding: 30px 0 5px;
+}
+.about-company .info-list dd {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0 30px;
+}
+@media screen and (min-width: 901px) {
+  .about-company .info-list dl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-company .info-list dt,
+  .about-company .info-list dd {
+    padding: 30px 0;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+  }
+  .about-company .info-list dt {
+    width: 30%;
+  }
+  .about-company .info-list dd {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-company {
+    padding-top: 30px;
+  }
+}

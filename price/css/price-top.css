@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* -----------------------------------------------------------
+
+料金表トップページ
+
+----------------------------------------------------------- */
+.sec-price {
+  padding: 60px 0 180px;
+}
+.sec-price .sub-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.sec-price .sub-title .sub-heading {
+  font-size: clamp(var(--fz16), 0.775rem + 0.96vw, var(--fz22));
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-left: 10px;
+}
+.sec-price .sub-title .small-logo {
+  width: 92px;
+}
+.sec-price .main-title {
+  font-weight: bold;
+  color: var(--color-main);
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-size: 1em;
+  font-size: clamp(var(--fz32), 1.475rem + 2.24vw, var(--fz46));
+}
+.sec-price .sec-title {
+  font-size: clamp(var(--fz24), 0.675rem + 3.52vw, var(--fz46));
+  font-weight: bold;
+  color: var(--color-main);
+  text-align: center;
+  padding: 30px 20px;
+  cursor: pointer;
+  border-top: 3px solid var(--color-main);
+  letter-spacing: 0.1em;
+}
+.sec-price .supplement {
+  font-weight: bold;
+  color: #999;
+  text-align: center;
+}
+.sec-price .sec-lead {
+  margin: 40px auto 60px;
+  text-align: center;
+}
+.sec-price .sec-lead p {
+  font-size: clamp(var(--fz14), 0.575rem + 1.28vw, var(--fz22));
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  position: relative;
+  display: inline-block;
+}
+.sec-price .sec-lead p::before {
+  content: "";
+  position: absolute;
+  left: -40px;
+  bottom: 20%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 35px;
+  height: 2px;
+  background-color: var(--color-main);
+}
+.sec-price .sec-lead p::after {
+  content: "";
+  position: absolute;
+  right: -40px;
+  bottom: 20%;
+  transform: translateY(-50%) rotate(-45deg);
+  width: 35px;
+  height: 2px;
+  background-color: var(--color-main);
+}
+.sec-price .service-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 80px 30px;
+}
+.sec-price .service-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 48%;
+}
+.sec-price .service-img {
+  width: 30%;
+}
+.sec-price .service-img img {
+  max-width: 100%;
+  height: auto;
+}
+.sec-price .service-details {
+  width: 70%;
+  padding-left: 20px;
+}
+.sec-price .service-title {
+  font-weight: bold;
+  font-size: clamp(var(--fz20), 1.025rem + 0.96vw, var(--fz26));
+}
+.service-description {
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.sec-price .service-price {
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+.sec-price .service-price .price-label {
+  font-size: 1.8em;
+}
+.sec-price .btn-to-more-container {
+  width: 90%;
+  padding-top: 20px;
+  margin: 0 auto;
+  align-self: flex-end;
+}
+.sec-price .btn-to-more {
+  font-size: 1.2em;
+}
+/* for SP */
+@media (max-width: 767px) {
+  .sec-price {
+    padding-top: 40px;
+  }
+  .sec-price .service-list {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .sec-price .service-item {
+    width: 100%;
+  }
+  .sec-price .btn-to-more-container {
+    width: 100%;
+  }
+}

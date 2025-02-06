@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* -----------------------------------------------------------
+
+privacy
+
+----------------------------------------------------------- */
+.privacy-policy {
+  padding: clamp(1.875rem, 0.75rem + 4.8vw, 3.75rem) 20px 150px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.privacy-policy .policy-info {
+  margin: 2rem 0;
+}
+.privacy-policy h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: var(--fz24);
+  border-bottom: 1px solid var(--color-main);
+}
+.privacy-policy h2 {
+  margin: 2rem 0;
+  font-size: var(--fz22);
+  font-weight: bold;
+  color: var(--color-main);
+}
+.privacy-policy h3,
+.privacy-policy h4,
+.privacy-policy h5 {
+  margin: 2rem 0;
+}
+.privacy-policy ol,
+.privacy-policy ul {
+  padding-left: 1.5em;
+  margin: 30px 0;
+}
+.privacy-policy ol > li {
+  list-style: decimal;
+}
+.privacy-policy ul li {
+  list-style: disc;
+}
+.privacy-policy .indent {
+  margin-left: 2em;
+}
+.privacy-policy .indent-1em {
+  padding-left: 1em;
+}
+.privacy-policy .indent-1em > li {
+  text-indent: -1em;
+  list-style: none;
+}

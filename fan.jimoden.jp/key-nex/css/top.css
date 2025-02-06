@@ -1,0 +1,800 @@
+@charset "UTF-8";
+/* -----------------------------------------------------------
+
+index.html用css
+
+----------------------------------------------------------- */
+.contents {
+  /* .対応エリアの行数が増えた時のためにsmpl-costの背景色と揃えておく */
+  background: var(--color-base-light);
+}
+/*
+メインビジュアル
+-------------------------------------------*/
+.mainvisual {
+  position: relative;
+  overflow: hidden;
+  height: 146vw;
+  min-height: 482px;
+  max-height: 770px;
+  padding-top: 52px;
+  z-index: 0;
+}
+.mainvisual::before {
+  content: "";
+  background: url(../img/bg_mv.webp) center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  filter: blur(5px);
+  z-index: -1;
+}
+.mainvisual .inner {
+  background: url(../img/bg_mv2.webp) right bottom no-repeat;
+  height: 100%;
+  background-size: contain;
+  background-position-x: calc(50% + 20vw);
+}
+.mainvisual .mv-wrapper {
+  margin: 0 auto;
+  height: 100%;
+}
+.mainvisual .bg {
+  position: relative;
+  background: url(../img/mainvisual.png) right bottom no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+.mainvisual .mv-title {
+  margin: 12px 15px 0;
+  font-size: var(--fz12);
+  font-weight: normal;
+}
+.mainvisual .mv-sub-title {
+  margin-top: 12px;
+  margin-left: 15px;
+  font-size: var(--lfz22-mv);
+  color: var(--color-main);
+  font-weight: bold;
+}
+.mainvisual .mv-sub-title span {
+  display: inline-block;
+  background-color: var(--color-white);
+  padding: 0 7px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+.mainvisual .mv-sub-infos {
+  position: absolute;
+  bottom: 15px;
+  max-width: 580px;
+}
+.mainvisual .mv-3points {
+  margin: 0 15px;
+}
+.mainvisual .mv-images {
+  margin: 0 15px;
+}
+.mainvisual .mv-images-pc {
+  display: none;
+}
+/* -----for PC----- */
+@media screen and (min-width: 901px) {
+  .mainvisual {
+    padding-top: 90px; /* グロナビ分 */
+    height: 853px;
+    max-height: 853px;
+  }
+  .mainvisual .mv-wrapper {
+    max-width: 1000px;
+  }
+  .mainvisual .inner {
+    background-position-x: right;
+  }
+  .mainvisual .mv-sub-infos {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    max-width: 100%;
+  }
+  .mainvisual .mv-images {
+    display: none;
+  }
+  .mainvisual .mv-3points {
+    z-index: 2;
+    max-width: 687px;
+  }
+  .mainvisual .mv-images-pc {
+    display: block;
+    position: relative;
+    top: -80px;
+    flex-grow: 1;
+    margin-left: -50px;
+    max-width: 365px;
+    z-index: 1;
+  }
+}
+/*
+対応エリア
+-------------------------------------------*/
+.coverage-area {
+  font-weight: bold;
+}
+.coverage-area .box {
+  font-size: var(--lfz13-area);
+  background: var(--color-white);
+  border-top: 1px solid var(--color-main);
+  border-bottom: 1px solid var(--color-main);
+  padding: 0 15px 15px;
+}
+.coverage-area .ttl {
+  background: var(--color-main);
+  color: var(--color-white);
+  display: inline-block;
+  border-radius: 30px;
+  padding: 2px 10px;
+  position: relative;
+  left: calc(50% - 42px);
+  top: -12px;
+}
+/* -----for PC----- */
+@media screen and (min-width: 901px) {
+  .coverage-area {
+    position: relative;
+    top: -120px;
+    margin: -4px auto;
+    max-width: 1030px;
+    padding: 0 15px;
+  }
+  .coverage-area .box {
+    border-left: 1px solid var(--color-main);
+    border-right: 1px solid var(--color-main);
+    border-radius: 30px;
+    padding-bottom: 30px;
+    letter-spacing: -0.01em;
+  }
+}
+/*
+サンプル価格
+-------------------------------------------*/
+.smpl-cost {
+  padding: 30px 0;
+  text-align: center;
+  font-weight: bold;
+}
+.smpl-cost .ttl {
+  font-size: var(--lfz22-sec-ttl);
+  color: var(--color-main);
+  margin: 0 auto;
+}
+.smpl-cost .ttl span {
+  display: inline-block;
+  padding: 0 5px;
+  margin-left: 3px;
+  line-height: 1.7;
+  background: var(--color-white);
+}
+.smpl-cost .smpl-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.smpl-cost .smpl {
+  width: 30%;
+  background: url(../img/rnk_1st.svg) no-repeat top center;
+  background-size: 52px 39px;
+  padding-top: 50px;
+}
+.smpl-cost .smpl-ttl {
+  font-size: var(--fz16);
+  color: var(--color-main);
+  line-height: 1.3;
+}
+.smpl-cost .img-fan {
+  max-height: 218px;
+  height: 21.8vw; /* vwを指定したい画像のMAX高さ(218px) ÷ viewportのMAX幅(1000px) × 100 */
+  object-fit: contain;
+  width: 75%;
+}
+.smpl-cost .price-label {
+  font-size: var(--lfz11-smpl-cost);
+  color: #666;
+}
+.smpl-cost .price {
+  font-size: var(--lfz11-smpl-cost);
+  color: var(--color-price);
+}
+.smpl-cost .price span {
+  font-size: 2.4em;
+}
+.smpl-cost .tax {
+  font-size: var(--lfz11-smpl-cost);
+  font-weight: normal;
+  color: #666;
+}
+/* -----for PC----- */
+@media screen and (min-width: 901px) {
+  .smpl-cost {
+    margin-top: -80px;
+  }
+}
+/*
+標準工事とは？
+-------------------------------------------*/
+.exp-const {
+  background: var(--color-white);
+}
+.exp-const .ttl {
+  padding-top: 40px;
+  text-align: center;
+}
+.exp-const .ttl span {
+  color: var(--color-main);
+  font-size: var(--lfz22-sec-ttl);
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.exp-const .ttl span::before,
+.exp-const .ttl span::after {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background: url(../img/heading_tile.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+.exp-const .ttl span::before {
+  top: -10px;
+  left: -40px;
+}
+.exp-const .ttl span::after {
+  bottom: -10px;
+  right: -40px;
+  transform: rotate(180deg);
+}
+.exp-const .txt {
+  margin-top: 30px;
+}
+.exp-const.normal {
+  text-align: center;
+}
+.exp-const.normal .normal-detail {
+  margin-top: 20px;
+}
+.exp-const.normal .normal-detail .lead-list {
+  font-weight: bold;
+  font-size: var(--fz20);
+}
+.exp-const.normal .normal-detail .lead-list span {
+  color: var(--color-alert);
+}
+.exp-const.normal .normal-detail .lead-list::before,
+.exp-const.normal .normal-detail .lead-list::after {
+  content: "";
+  display: inline-block;
+  height: 40px;
+  width: 30px;
+}
+.exp-const.normal .normal-detail .lead-list::before {
+  clip-path: polygon(12% 32%, 85% 100%, 20% 22%);
+  /* 鈍角三角形 */
+  background: var(--color-main);
+}
+.exp-const.normal .normal-detail .lead-list::after {
+  clip-path: polygon(12% 32%, 85% 100%, 20% 22%);
+  /* 鈍角三角形 */
+  background: var(--color-main);
+  transform: rotateY(180deg);
+}
+.exp-const.normal .normal-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 35px 0;
+  max-width: 1000px;
+  margin: auto;
+}
+.exp-const.normal .normal-list li {
+  width: 48%;
+  margin-bottom: 6px;
+}
+.exp-const.additional {
+  padding: 30px 0 60px;
+}
+.exp-const.additional .txt {
+  text-align: left;
+}
+.exp-const.additional .additional-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.exp-const.additional .additional-list li {
+  width: 30%;
+  justify-content: center;
+  /* 水平方向にセンターに配置 */
+  align-items: center;
+}
+.exp-const.additional .additional-list img {
+  border-radius: 50%;
+  max-height: 291px;
+  height: 29.1vw;
+  object-fit: cover;
+  width: 100%;
+}
+.exp-const.additional .additional-list .label {
+  padding-top: 3px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+@media screen and (min-width: 646px) {
+  .exp-const.normal .normal-list li {
+    width: 24%;
+  }
+}
+@media screen and (min-width: 901px) {
+  .exp-const.additional .txt {
+    text-align: center;
+  }
+}
+/*
+ランキング
+-------------------------------------------*/
+.sec-ranking {
+  background: var(--color-base-mono);
+}
+.sec-ranking .sec-title {
+  text-align: center;
+  font-size: var(--lfz22-sec-ttl);
+  color: var(--color-main);
+  padding: 50px 0;
+  font-weight: bold;
+}
+.sec-ranking .rnk-list-wrap {
+  overflow: hidden;
+  background: var(--color-white);
+  max-width: 1000px;
+  margin: auto;
+}
+.sec-ranking .rnk-list-wrap:not(:first-of-type) {
+  margin-top: 25px;
+}
+.sec-ranking .rnk-ttl {
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 1.5rem 0 1rem;
+  background-color: var(--color-main);
+  color: var(--color-white);
+  font-size: var(--fz18);
+  font-weight: bold;
+  text-align: center;
+}
+.rnk-ttl::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent var(--color-white) transparent transparent;
+  border-width: 20px 10px 20px 0;
+}
+.sec-ranking .rnk-list {
+  justify-content: space-around;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 0;
+  overflow-x: auto; /* 横スクロールの指定 */
+  white-space: nowrap; /* 横スクロールの指定 */
+}
+.sec-ranking .rnk-list li {
+  display: inline-block;
+  list-style: none;
+  width: 320px;
+  padding: 5px 15px 25px;
+}
+.sec-ranking .rnk-list li:not(:first-of-type) {
+  padding-left: 0;
+}
+.sec-ranking .rnk-list .rnk-icon {
+  display: block;
+  overflow: hidden;
+  height: 0;
+  padding-top: 52px;
+  margin-bottom: 10px;
+}
+.sec-ranking .rnk-list .rnk1 {
+  background: url(../img/rnk_1st.svg) no-repeat center center;
+  background-size: 52px 39px;
+}
+.sec-ranking .rnk-list .rnk2 {
+  background: url(../img/rnk_2nd.svg) no-repeat center center;
+  background-size: 52px 39px;
+}
+.sec-ranking .rnk-list .rnk3 {
+  background: url(../img/rnk_3rd.svg) no-repeat center center;
+  background-size: 52px 39px;
+}
+.sec-ranking .info-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.sec-ranking .info-wrap .img-fan {
+  width: 55%;
+}
+.sec-ranking .info-wrap .img-fan img {
+  max-height: 291px;
+  height: 156.2px;
+  object-fit: contain;
+  width: 100%;
+}
+.sec-ranking .info-wrap .detail {
+  width: 45%;
+  margin-left: 6px;
+}
+.sec-ranking .info-wrap .detail .label {
+  background: var(--color-base-light);
+  display: inline;
+  padding: 0px 8px;
+}
+.sec-ranking .info-wrap .detail .price-label {
+  font-size: var(--fz12);
+  font-weight: bold;
+  color: #666;
+  margin-top: 10px;
+}
+.sec-ranking .info-wrap .detail .brand {
+  width: 75px;
+  margin-top: 3px;
+}
+.sec-ranking .info-wrap .detail .number {
+  font-size: var(--fz20);
+  font-weight: bold;
+  margin-top: 3px;
+}
+.sec-ranking .info-wrap .detail .price {
+  color: var(--color-price);
+  float: left;
+}
+.sec-ranking .info-wrap .detail .price > span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.sec-ranking .info-wrap .detail .tax {
+  font-size: var(--fz12);
+  color: #666;
+  position: relative;
+  top: 13px;
+}
+/* -----for PC----- */
+@media (min-width: 1001px) {
+  /* 1000pxを超えたら角丸にする */
+  .sec-ranking .rnk-list-wrap {
+    border-radius: 0 30px 30px 30px;
+  }
+}
+/*
+追加工事詳細
+-------------------------------------------*/
+.sec-additional-detail {
+  background: var(--color-base-mono);
+  padding-bottom: 60px;
+}
+.sec-additional-detail .wrapper {
+  max-width: 1030px;
+}
+.sec-additional-detail .sec-title {
+  text-align: center;
+  font-size: var(--lfz22-sec-ttl);
+  color: var(--color-main);
+  padding: 50px 0;
+  font-weight: bold;
+}
+.accordion-container {
+  width: 100%;
+}
+.accordion {
+  border: 1px solid var(--color-main);
+  border-radius: 15px;
+  overflow: hidden;
+  background: var(--color-white);
+}
+.accordion:not(:first-of-type) {
+  margin-top: 30px;
+}
+.accordion-visible {
+  margin: auto;
+  padding: 15px;
+}
+.accordion-visible .column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion-visible .sub-ttl {
+  font-size: var(--lfz20-addordion-ttl);
+  font-weight: bold;
+  color: var(--color-main);
+}
+.accordion-visible .block-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accordion-visible .label {
+  font-size: var(--fz14);
+  font-weight: bold;
+}
+.accordion-visible .label .per {
+  position: relative;
+  top: 3px;
+  margin-right: 8px;
+}
+.accordion-visible .label .price {
+  color: var(--color-price);
+  font-size: var(--fz20);
+}
+.accordion-visible .label .price > span {
+  font-size: 1.2em;
+}
+.accordion-visible .label .tax {
+  position: relative;
+  top: 3px;
+  margin-left: 8px;
+  color: #666;
+}
+.accordion-visible .image {
+  max-width: 95px;
+  margin-left: 10px;
+}
+.accordion-visible .image img {
+  height: 95px;
+  object-fit: cover;
+  width: 100%;
+}
+.accordion-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border-top: 1px solid var(--color-main);
+  height: 54px;
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  /*	padding: 0 15px;*/
+  background-color: #fff;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+.accordion-content.--open {
+  /*必要に応じて要調整 */
+  max-height: 2100px;
+}
+.accordion-content p {
+  margin: 12px auto 6px;
+  max-width: 500px;
+}
+.accordion-content .incident {
+  padding: 20px;
+}
+.accordion-content .incident .txt-alert {
+  margin: 0 auto 6px;
+  color: var(--color-alert);
+  font-size: var(--fz14);
+}
+.accordion-content .approach {
+  padding: 0 20px 20px;
+  background: var(--color-base-light);
+  font-weight: bold;
+}
+.accordion-content .approach::before {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 20px;
+  margin: 3px auto;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  background: var(--color-white);
+}
+.accordion-content .content-image {
+  width: 100%;
+  text-align: center;
+}
+.accordion-content .content-image img {
+  width: 100%;
+  height: 55.55vw;
+  object-fit: cover;
+  max-height: 333.33px;
+  max-width: 500px;
+}
+.accordion-content .content-image.next-exist {
+  text-align: center;
+}
+.accordion-content .content-image.next-exist::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 20px;
+  margin: 12px auto 0px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  background: var(--color-white);
+}
+/* 2つめのみ*/
+.accordion.ac02 .accordion-content .compare-duct {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+}
+.accordion.ac02 .accordion-content .compare-duct .duct {
+  width: 48%;
+  margin: 0 6px 0;
+  overflow: hidden;
+}
+.accordion.ac02 .accordion-content .compare-duct .duct p {
+  color: var(--color-alert);
+  font-size: var(--fz16);
+  font-weight: bold;
+  text-align: center;
+}
+.accordion.ac02 .accordion-content .compare-duct .duct.normal p {
+  color: var(--color-main);
+}
+/* 2つめのみ*/
+.accordion.ac03 .accordion-content .bolt-problem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+}
+.accordion.ac03 .accordion-content .bolt-problem .problem {
+  width: 48%;
+  margin: 0 6px 0;
+  overflow: hidden;
+}
+.accordion.ac03 .accordion-content .bolt-problem .problem img {
+  border-radius: 50%;
+}
+.accordion.ac03 .accordion-content .bolt-problem p {
+  color: var(--color-alert);
+  font-size: var(--fz14);
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+.toggle-text {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.toggle-symbol {
+  position: absolute;
+  right: 10px;
+  font-size: var(--fz20);
+  font-weight: bold;
+}
+/* -----for PC----- */
+@media screen and (min-width: 901px) {
+  .accordion-content {
+    max-height: none;
+  }
+  .accordion-header {
+    display: none;
+  }
+  .accordion-visible {
+    padding-top: 50px;
+  }
+  .accordion-content {
+    max-height: none;
+    display: flex;
+    padding: 15px;
+    border-radius: 0 0 15px 0;
+  }
+  .accordion-content .incident {
+    padding: 0 50px;
+  }
+  .accordion-content .content-image img {
+    max-height: 256px;
+    max-width: 384px;
+  }
+  .accordion-content .approach {
+    padding: 30px 50px 30px;
+    position: relative;
+    border-radius: 0 0 15px 0;
+  }
+  .accordion-content .approach::before {
+    position: absolute;
+    left: -14px;
+    top: calc(50% - 24px);
+    transform: rotate(-90deg);
+  }
+  .accordion-visible .image {
+    display: none;
+  }
+  .accordion {
+    border-radius: 30px;
+  }
+  .accordion.ac01 .incident,
+  .accordion.ac01 .approach,
+  .accordion.ac03 .incident,
+  .accordion.ac03 .approach {
+    width: 50%;
+  }
+  .accordion.ac02 .incident,
+  .accordion-content pt {
+    width: 100%;
+  }
+  .accordion.ac03 .accordion-content .bolt-problem {
+    flex-direction: column;
+    align-items: center;
+  }
+  .accordion.ac03 .accordion-content .bolt-problem .problem {
+    width: 69%;
+  }
+  .accordion.ac03 .accordion-content .bolt-problem img {
+    border-radius: 50%;
+  }
+}
+
+/*
+オフィス・店舗・工場
+-------------------------------------------*/
+.sec-any-place {
+  background: var(--color-white);
+  padding-bottom: 60px;
+}
+.sec-any-place .sec-title {
+  text-align: center;
+  font-size: var(--lfz22-sec-ttl);
+  color: var(--color-main);
+  padding: 50px 0;
+  font-weight: bold;
+}
+.sec-any-place .place-list {
+  max-width: 1000px;
+  margin: auto;
+}
+.sec-any-place .place-list img {
+  width: 100%;
+  max-width: 600px;
+}
+.sec-any-place .place-list .office,
+.sec-any-place .place-list .pressure {
+  position: relative;
+  left: -45px;
+  text-align: right;
+}
+.sec-any-place .place-list .kitchen {
+  position: relative;
+  right: -45px;
+  text-align: left;
+}
+/* -----for PC----- */
+@media screen and (min-width: 901px) {
+  .sec-any-place .place-list .office,
+  .sec-any-place .place-list .kitchen,
+  .sec-any-place .place-list .pressure {
+    left: 0;
+    right: 0;
+  }
+}
+@media screen and (min-width: 968px) {
+  /* 画面幅が広がったらいい感じに詰める */
+  .sec-any-place .place-list .kitchen,
+  .sec-any-place .place-list .pressure {
+    margin-top: -120px;
+  }
+}

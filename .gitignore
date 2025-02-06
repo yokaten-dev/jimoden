@@ -1,0 +1,9 @@
+# OSの不要ファイル
+.DS_Store
+Thumbs.db
+
+# フォントキャッシュ（Adobe系）
+AdobeFnt*.lst
+
+# サーバー設定系
+.user.ini

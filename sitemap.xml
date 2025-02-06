@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  -->
+<url>
+  <loc>https://jimoden.jp/</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/price/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/jimoden/search.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/price/switch-replacement-price.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/price/outlet-replacement-price.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/price/add-outlet-replacement-price.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/price/downlight-replacement-price.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/price/fluorescent-light-replacement-price.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/price/mercury-lamp-replacement-price.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/price/breaker-replacement-price.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/price/distribution-board-replacement-price.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/company/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/terms/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/privacy/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/jimoden/aichi.php</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/contractor/aichi/key-nex/</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/contractor/aichi/inuden/</loc>
+  <priority>0.6</priority>
+</url>
+
+</urlset>
