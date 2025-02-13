@@ -256,8 +256,8 @@
             <dd>xx万円</dd>-->
             <dt>代表者名</dt>
             <dd>代表　犬飼 孝則</dd>
-            <dt>電話番号</dt>
-            <dd>090-2943-1541</dd>
+            <!--<dt>電話番号</dt>-->
+            <!--<dd>090-2943-1541</dd>-->
             <dt>事業内容</dt>
             <dd>電気工事業・空調設備工事業</dd>
             <dt>登録電気工事</dt>
@@ -282,9 +282,9 @@
           <!-- update: 企業名・対応エリア・電話番号・営業時間・電話をかけるボタンのURL -->
           <p class="contact-caption">犬飼電気工事に<br class="br-sp" />直接電話したい方はこちら！</p>
           <p class="contact-area">（対応エリア：名古屋市名東区・近郊）</p>
-          <p class="contact-tel-number">090-2943-1541</p>
+          <!--<p class="contact-tel-number">090-2943-1541</p>-->
           <p class="contact-business-hours"><em>営業電話ご遠慮ください</em><br />受付時間 9:00-18:00（土日祝は除く）</p>
-          <div class="btn-call-number-container"><a class="btn-call-number" href="tel:090-2943-1541">電話をかける</a></div>
+          <!-- <div class="btn-call-number-container"><a class="btn-call-number" href="tel:090-2943-1541">電話をかける</a></div> -->
           <!-- セールスの方へお願い -->
           <details class="sales-refusal">
             <summary><span>セールスの方へお願い</span></summary>

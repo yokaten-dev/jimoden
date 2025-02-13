@@ -58,8 +58,27 @@ $(document).ready(function () {
     }
   }
 
+  /* トップへ戻るボタン */
+  function initPageTopButton() {
+    var $pagetop = $("#page_top");
+    // スクロール時
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 300) {
+        $pagetop.addClass("show");
+      } else {
+        $pagetop.removeClass("show");
+      }
+    });
+    // トップへ戻るボタンクリック時
+    $pagetop.click(function () {
+      $("html, body").animate({ scrollTop: 0 }, 500);
+      return false;
+    });
+  }
+
   // 各機能の初期化
   initSmoothScroll();
   initAccordion();
   initFooterLinkSlideOut();
+  initPageTopButton();
 });
