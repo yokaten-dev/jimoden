@@ -54,6 +54,15 @@
             </div>
         </div>
     </main>
+    <div class="breadcrumbs-wrapper">
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+                <li><a href="<?php echo $base_url; ?>/jimoden/search.php">事業者を探す</a></li>
+                <li>愛知県</li>
+            </ol>
+        </nav>
+    </div>
     <?php include '../includes/footer.php'; ?>
 </body>
 

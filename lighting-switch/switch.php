@@ -176,8 +176,17 @@
         </div>
       </div>
     </div>
-
   </main>
+  <div class="breadcrumbs-wrapper">
+    <nav class="breadcrumbs">
+      <ol>
+        <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+        <li><a href="<?php echo $base_url; ?>/tips-index.php">電気工事の基礎知識</a></li>
+        <li><a href="<?php echo $base_url; ?>/lighting-switch/">電気スイッチ</a></li>
+        <li>電気スイッチ故障の原因と交換費用</li>
+      </ol>
+    </nav>
+  </div>
   <?php include '../includes/footer.php'; ?>
   <div id="page_top"><a href="#"></a></div>
   <script>

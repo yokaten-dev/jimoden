@@ -160,7 +160,14 @@
             <p>e-mail: den@den-megu.com<br>（受付時間：10:00～18:00　土日祝日を除きます。）</p>
         </div>
     </main>
-    <?php include '../includes/footer.php'; ?>
+    <div class="breadcrumbs-wrapper">
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+                <li>プライバシーポリシー</li>
+            </ol>
+        </nav>
+    </div><?php include '../includes/footer.php'; ?>
 </body>
 
 </html>

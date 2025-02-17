@@ -215,6 +215,14 @@
             </ol>
         </div>
     </main>
+    <div class="breadcrumbs-wrapper">
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+                <li>利用規約</li>
+            </ol>
+        </nav>
+    </div>
     <?php include '../includes/footer.php'; ?>
 </body>
 

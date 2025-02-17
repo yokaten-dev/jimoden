@@ -120,6 +120,14 @@
             </div>
         </div>
     </main>
+    <div class="breadcrumbs-wrapper">
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+                <li>事業者を探す</li>
+            </ol>
+        </nav>
+    </div>
     <?php include '../includes/footer.php'; ?>
 </body>
 

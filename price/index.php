@@ -118,6 +118,14 @@
       </div>
     </section>
   </main>
+  <div class="breadcrumbs-wrapper">
+    <nav class="breadcrumbs">
+      <ol>
+        <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+        <li>料金表TOP</li>
+      </ol>
+    </nav>
+  </div>
   <?php include '../includes/footer.php'; ?>
 </body>
 

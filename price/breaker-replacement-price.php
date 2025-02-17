@@ -254,6 +254,15 @@
       </div>
     </section>
   </main>
+  <div class="breadcrumbs-wrapper">
+    <nav class="breadcrumbs">
+      <ol>
+        <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+        <li><a href="<?php echo $base_url; ?>/price/">料金表TOP</a></li>
+        <li>ブレーカー交換の料金表</li>
+      </ol>
+    </nav>
+  </div>
   <?php include '../includes/footer.php'; ?>
 </body>
 

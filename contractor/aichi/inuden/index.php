@@ -377,6 +377,16 @@
       </div>
     </section>
   </main>
+  <div class="breadcrumbs-wrapper">
+    <nav class="breadcrumbs">
+      <ol>
+        <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+        <li><a href="<?php echo $base_url; ?>/jimoden/search.php">事業者を探す</a></li>
+        <li><a href="<?php echo $base_url; ?>/jimoden/aichi.php">愛知県</a></li>
+        <li>名古屋市名東区の電気工事店 犬飼電気工事</li>
+      </ol>
+    </nav>
+  </div>
   <!-- 下部固定お問い合わせリンク -->
   <div class="contact-links">
     <p>気軽にご相談ください！</p>

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* -----------------------------------------------------------
+
+電気工事の基礎知識index
+
+----------------------------------------------------------- */
+.tips-index {
+  padding: clamp(1.875rem, 0.75rem + 4.8vw, 3.75rem) 20px 150px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.tips-index h1 {
+  font-weight: bold;
+  /* margin-bottom: 30px; */
+  font-size: var(--fz24);
+  border-bottom: 1px solid var(--color-main);
+}
+.tips-index h2 {
+  font-size: var(--fz22);
+  font-weight: bold;
+  color: var(--color-main);
+}
+.service-container {
+  display: flex;
+  padding: 3em 0;
+  border-bottom: 1px solid #ccc;
+}
+.service-container figure {
+  flex: 1 1 25%;
+  max-width: 150px;
+}
+.service-container > div {
+  margin-left: 1em;
+  flex: 1 0 75%;
+}
+.service-list {
+  margin-left: 2em;
+}
+.service-list li {
+  margin: 1em 0;
+  font-weight: bold;
+  text-indent: -1.5em;
+}
+.service-list li::before {
+  content: "└";
+  margin-right: 8px;
+  color: #999;
+}
+.service-list-sub {
+  padding-left: 1em;
+}
+.service-list-sub li {
+  font-weight: normal;
+}
+@media screen and (max-width: 428px) {
+  .service-container {
+    flex-direction: column;
+  }
+  .service-container figure {
+    margin: 0 auto 2em;
+    width: 60px;
+  }
+}

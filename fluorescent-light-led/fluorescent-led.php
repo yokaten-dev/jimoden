@@ -373,8 +373,17 @@
         </div>
       </div>
     </div>
-
   </main>
+  <div class="breadcrumbs-wrapper">
+    <nav class="breadcrumbs">
+      <ol>
+        <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+        <li><a href="<?php echo $base_url; ?>/tips-index.php">電気工事の基礎知識</a></li>
+        <li><a href="<?php echo $base_url; ?>/fluorescent-light-led/">蛍光灯→LED交換</a></li>
+        <li>蛍光灯からLEDへ交換する前に知っておきたい全知識！</li>
+      </ol>
+    </nav>
+  </div>
   <?php include '../includes/footer.php'; ?>
   <div id="page_top"><a href="#"></a></div>
   <script>
