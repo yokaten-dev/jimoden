@@ -4,6 +4,20 @@
 ジモデンTOPページ
 
 ----------------------------------------------------------- */
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.main {
+  padding-top: 72px;
+}
+@media (max-width: 767px) {
+  .main {
+    padding-top: 52px;
+  }
+}
 /* 業者を探すボタン */
 .btn-to-search-container {
   padding-top: 60px;

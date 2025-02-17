@@ -86,4 +86,8 @@
   <loc>https://jimoden.jp/lighting-switch/switch.php</loc>
   <priority>0.8</priority>
 </url>
+<url>
+  <loc>https://jimoden.jp/tips-index.php</loc>
+  <priority>0.6</priority>
+</url>
 </urlset>

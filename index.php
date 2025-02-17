@@ -19,7 +19,7 @@
     <meta name="description" content="ジモデンは電気工事の料金表がある地元の電気工事業者を探すサイト。スイッチ交換、コンセント交換、蛍光灯・水銀灯からＬＥＤヘ交換、分電盤、ブレーカーの交換など、各種電気工事の料金をわかりやすく掲載しています。" />
     <meta name="keywords" content="電気工事,地元" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="../assets/img/favicon.webp" />
+    <link rel="icon" href="assets/img/favicon.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
@@ -29,7 +29,17 @@
 </head>
 
 <body id="jimoden">
-    <?php include 'includes/header.php'; ?>
+    <header class="header">
+        <div class="header-wrapper">
+            <div class="header-logo">
+                <a href="./"><img src="assets/img/logo.svg" alt="ジモデン" /></a>
+            </div>
+            <div class="header-links">
+                <a href="price/" class="header-link price">料金表</a>
+                <a href="jimoden/search.php" class="header-link search">業者を探す</a>
+            </div>
+        </div>
+    </header>
     <main class="main">
         <section class="mainvisual">
             <div class="wrapper">
@@ -142,7 +152,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="btn-to-more-container"><a class="btn-to-more" href="../price/">ジモデンの料金表をもっと見る</a></div>
+                <div class="btn-to-more-container"><a class="btn-to-more" href="price/">ジモデンの料金表をもっと見る</a></div>
             </div>
         </section>
         <section class="section sec-flow">

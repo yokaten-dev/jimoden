@@ -56,6 +56,7 @@
   font-size: clamp(1.5rem, 0.6rem + 3.84vw, 3rem); /* 24 <-> 48 */
   margin: 0 10px;
   font-weight: bold;
+  word-break: auto-phrase;
 }
 /*-------------------------------------------
 概要
@@ -488,36 +489,6 @@ figure横並び
   .profile-content .profile-image {
     margin-bottom: 0;
   }
-}
-/*-------------------------------------------
-TOPへ戻るボタン
--------------------------------------------*/
-#page_top {
-  position: fixed;
-  bottom: -80px;
-  right: 20px;
-  width: 30px;
-  height: 30px;
-  background: #333;
-  transition: bottom 0.5s ease;
-}
-#page_top.show {
-  bottom: 16px;
-}
-#page_top a::before {
-  position: absolute;
-  content: "";
-  background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24"><path fill="%23ffffff" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" /></svg>') no-repeat center center;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 25px;
-  height: 25px;
-  margin: auto;
-}
-#page_top:hover {
-  background-color: #555;
 }
 /*--------------------------------
 utility

@@ -188,7 +188,6 @@
     </nav>
   </div>
   <?php include '../includes/footer.php'; ?>
-  <div id="page_top"><a href="#"></a></div>
   <script>
     $(document).ready(function() {
       // 変更後の背景画像URL
