@@ -28,18 +28,10 @@
     <link rel="stylesheet" href="jimoden/css/jimoden.css" />
 </head>
 
-<body id="jimoden">
-    <header class="header">
-        <div class="header-wrapper">
-            <div class="header-logo">
-                <a href="./"><img src="assets/img/logo.svg" alt="ジモデン" /></a>
-            </div>
-            <div class="header-links">
-                <a href="price/" class="header-link price">料金表</a>
-                <a href="jimoden/search.php" class="header-link search">業者を探す</a>
-            </div>
-        </div>
-    </header>
+<?php $bodyID = 'jimoden-top'; ?>
+
+<body id="<?php echo $bodyID; ?>">
+    <?php include 'includes/header.php'; ?>
     <main class="main">
         <section class="mainvisual">
             <div class="wrapper">

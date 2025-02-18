@@ -18,10 +18,10 @@
             <div class="footer-service">
                 <p class="footer-service-header"><a href="<?php echo $base_url; ?>/tips-index.php">電気工事の基礎知識</a></p>
                 <ul class="footer-service-list">
-                    <li><span>電気スイッチ</span>
+                    <li><span>スイッチ</span>
                         <ul class="footer-service-list">
-                            <li><a href="<?php echo $base_url; ?>/lighting-switch/">スイッチ交換</a></li>
-                            <li><a href="<?php echo $base_url; ?>/fan-switch/">換気扇交換</a></li>
+                            <li><a href="<?php echo $base_url; ?>/lighting-switch/">電気スイッチ交換</a></li>
+                            <li><a href="<?php echo $base_url; ?>/fan-switch/">換気扇タイマースイッチ交換</a></li>
                         </ul>
                     </li>
                     <li><span>コンセント</span>
@@ -48,7 +48,7 @@
             <div class="footer-service">
                 <p class="footer-service-header"><span>注目の記事</span></p>
                 <ul class="footer-service-list">
-                    <li><span>スイッチ交換</span>
+                    <li><span>電気スイッチ交換</span>
                         <ul class="footer-service-list">
                             <li><a href="<?php echo $base_url; ?>/lighting-switch/switch.php">電気スイッチ故障の原因と交換費用</a></li>
                         </ul>

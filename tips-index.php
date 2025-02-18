@@ -38,14 +38,14 @@
                     <img src="assets/img/switch.png">
                 </figure>
                 <div>
-                    <h2>電気スイッチ</h2>
+                    <h2>スイッチ</h2>
                     <ul class="service-list">
-                        <li><a href="<?php echo $base_url; ?>/lighting-switch/">スイッチ交換</a>
+                        <li><a href="<?php echo $base_url; ?>/lighting-switch/">電気スイッチ交換</a>
                             <ul class="service-list">
                                 <li><a href="<?php echo $base_url; ?>/lighting-switch/switch.php">電気スイッチ故障の原因と交換費用</a></li>
                             </ul>
                         </li>
-                        <li><a href="<?php echo $base_url; ?>/fan-switch/">換気扇交換</a></li>
+                        <li><a href="<?php echo $base_url; ?>/fan-switch/">換気扇タイマースイッチ交換</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,5 +1,38 @@
 $(document).ready(function () {
-  /* スムーススクロール */
+  const $header = $(".header");
+  const $main = $(".main");
+  const $catchcopy = $(".catchcopy");
+
+  // ヘッダーの固定処理
+  function updateHeaderState() {
+    const headerHeight = $header.outerHeight();
+
+    if ($catchcopy.length === 0) {
+      $header.addClass("fixed");
+    } else {
+      const rect = $catchcopy[0].getBoundingClientRect();
+      const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+
+      if (isVisible) {
+        $header.removeClass("fixed");
+      } else {
+        $header.addClass("fixed");
+      }
+    }
+
+    if ($header.hasClass("fixed")) {
+      $main.css("padding-top", `${headerHeight}px`);
+    } else {
+      $main.css("padding-top", "0px");
+    }
+  }
+
+  function initHeaderFixed() {
+    updateHeaderState();
+    $(window).on("scroll resize", updateHeaderState);
+  }
+
+  // スムーススクロールの処理
   function initSmoothScroll() {
     $('a[href^="#"]').click(function (e) {
       const href = $(this).attr("href");
@@ -12,7 +45,7 @@ $(document).ready(function () {
     });
   }
 
-  /* アコーディオンメニュー */
+  // アコーディオンメニューの処理
   function initAccordion() {
     const accTitle = ".js-accordion-title";
     const accContent = ".js-accordion-content";
@@ -39,7 +72,7 @@ $(document).ready(function () {
     updateAccordion();
   }
 
-  /* フッターリンクスライドアウト */
+  // フッターのリンクスライドアウト処理
   function initFooterLinkSlideOut() {
     const $contactLink = $(".contact-links");
     const $mail = $(".mail-form");
@@ -58,10 +91,9 @@ $(document).ready(function () {
     }
   }
 
-  /* トップへ戻るボタン */
+  // トップへ戻るボタンの処理
   function initPageTopButton() {
     var $pagetop = $("#page_top");
-    // スクロール時
     $(window).scroll(function () {
       if ($(this).scrollTop() > 300) {
         $pagetop.addClass("show");
@@ -69,7 +101,6 @@ $(document).ready(function () {
         $pagetop.removeClass("show");
       }
     });
-    // トップへ戻るボタンクリック時
     $pagetop.click(function () {
       $("html, body").animate({ scrollTop: 0 }, 500);
       return false;
@@ -77,6 +108,7 @@ $(document).ready(function () {
   }
 
   // 各機能の初期化
+  initHeaderFixed();
   initSmoothScroll();
   initAccordion();
   initFooterLinkSlideOut();
