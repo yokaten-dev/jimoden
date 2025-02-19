@@ -16,7 +16,7 @@
   </script>
   <meta charset="utf-8" />
   <title>名古屋市名東区の電気工事店 犬飼電気工事 -ジモデン-</title>
-  <meta name="description" content="名古屋市名東区の電気工事業者『犬飼電気工事』はスイッチ・コンセントの故障や破損による交換から事務所、倉庫、工場、店舗のLED取替工事、電源の移設・増設工事まで幅広く対応しています。" />
+  <meta name="description" content="名古屋市名東区の犬飼電気工事は、スイッチ・コンセントの修理交換、LED照明への交換、電源工事のプロ！事務所、店舗、工場の電気設備もお任せください。無料見積もり実施中！" />
   <meta name="keywords" content="電気工事,名古屋市名東区" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="format-detection" content="telephone=no" />
@@ -54,16 +54,16 @@
     <!-- 対応可能な電気工事 -->
     <section class="service-types">
       <div class="wrapper">
-        <h2 class="service-types-title">対応可能な電気工事</h2>
+        <h2 class="service-types-title"><span>名古屋市名東区 犬飼電気工事</span>対応可能な電気工事</h2>
         <ul class="service-list">
-          <li><img src="../../../assets/img/service_switch.png" alt="スイッチ" /></li>
-          <li><img src="../../../assets/img/service_outlet.png" alt="コンセント" /></li>
-          <li><img src="../../../assets/img/service_fluorescent_to_led.png" alt="蛍光灯からLEDへの交換" /></li>
-          <li><img src="../../../assets/img/service_mercury_to_led.png" alt="水銀灯からLEDヘの交換:" /></li>
-          <li><img src="../../../assets/img/service_downlight.png" alt="LED照明・ダウンライト" /></li>
-          <li><img src="../../../assets/img/service_emergency_light.png" alt="誘導灯・非常灯" /></li>
-          <li><img src="../../../assets/img/service_breaker_repair.png" alt="ブレーカー漏電改修" /></li>
-          <li><img src="../../../assets/img/service_distribution_panel.png" alt="分電盤" /></li>
+          <li><img src="../../../assets/img/service_switch.png" alt="スイッチ破損・故障によるスイッチ交換工事" /></li>
+          <li><img src="../../../assets/img/service_outlet.png" alt="コンセント破損による交換、コンセント増設工事" /></li>
+          <li><img src="../../../assets/img/service_fluorescent_to_led.png" alt="蛍光灯からLEDへの交換、増設、移設工事" /></li>
+          <li><img src="../../../assets/img/service_mercury_to_led.png" alt="水銀灯からLEDへの交換、増設、移設工事" /></li>
+          <li><img src="../../../assets/img/service_downlight.png" alt="LED照明の交換、ダウンライト交換工事" /></li>
+          <li><img src="../../../assets/img/service_emergency_light.png" alt="誘導灯・非常灯の交換、増設工事" /></li>
+          <li><img src="../../../assets/img/service_breaker_repair.png" alt="ブレーカー故障による交換、増設と漏電調査、漏電改修" /></li>
+          <li><img src="../../../assets/img/service_distribution_panel.png" alt="分電盤の取替工事" /></li>
         </ul>
       </div>
     </section>
@@ -75,7 +75,7 @@
           <div class="googlemap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6521.481644655136!2d137.00143409999998!3d35.1880118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60036f8d660fa59b%3A0xcda49df26efc2374!2z44CSNDY1LTAwMDQg5oSb55-l55yM5ZCN5Y-k5bGL5biC5ZCN5p2x5Yy66aaZ5Y2X77yR5LiB55uu77yT77yQ77yTIOODkeODqeODreODvOOCr-mmmea1gQ!5e0!3m2!1sja!2sjp!4v1737602039913!5m2!1sja!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
           <!-- update: 企業名・住所・対応エリア・営業時間・受付時間 -->
           <div class="company-info">
-            <p class="company-name">犬飼電気工事</p>
+            <h3 class="company-name">犬飼電気工事</h3>
             <address class="company-address">愛知県名古屋市名東区香南1丁目303番地</address>
             <p class="service-area">対応エリア：名古屋市名東区・近郊</p>
             <p class="business-hours">営業時間：平日9:00-17:00（土日祝の工事可能）</p>
@@ -86,7 +86,7 @@
           <!-- update: 一言メッセージ・担当者の顔写真・挨拶テキスト -->
           <div class="message-bubble">丁寧な仕事に自信があります！</div>
           <div class="person-info">
-            <img src="img/person.jpg" alt="担当者の顔写真" />
+            <img src="img/person.jpg" alt="名古屋市名東区の電気工事業者。犬飼電気工事の代表" />
           </div>
           <p class="greeting-text">犬飼電気工事代表の犬飼です。<br>電気工事の経験１５年。私が仕事で心掛けていることは綺麗な仕事です。準備をしっかり行い、現場を迅速、丁寧にこなします。</p>
         </div>
@@ -95,21 +95,22 @@
     <!-- 電気工事料金表 -->
     <section class="section sec-price">
       <div class="js-accordion-title">
-        <p class="sec-title">電気工事料金表</p>
+        <h2 class="sec-title">電気工事料金表</h2>
         <span class="js-toggle-mark"></span>
       </div>
       <div class="sec-content wrapper js-accordion-content">
-        <p class="supplement">※税込表記</p>
+        <h3 class="company-title">名古屋市名東区 犬飼電気工事</h3>
         <div class="sec-lead">
           <p>地元だから出張費は無料！ <br />料金表にない電気工事も気軽にご相談下さい</p>
         </div>
+        <p class="supplement">※税込表記</p>
         <ul class="service-list">
           <li class="service-item">
             <div class="service-img">
               <img src="../../../assets/img/switch.png" alt="スイッチ交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">スイッチ交換</p>
+              <h4 class="service-title">スイッチ交換</h4>
               <p class="service-description">照明スイッチ、換気扇タイマースイッチの故障による交換</p>
               <p class="service-price">
                 <em><span class="price-label">8,800</span>円</em>&nbsp;+&nbsp;スイッチ部材費
@@ -122,7 +123,7 @@
               <img src="../../../assets/img/outlet.png" alt="コンセント交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">コンセント交換</p>
+              <h4 class="service-title">コンセント交換</h4>
               <p class="service-description">コンセントの破損、焦げによる交換</p>
               <p class="service-price">
                 <em><span class="price-label">8,800</span>円</em>&nbsp;+&nbsp;コンセント部材費
@@ -135,7 +136,7 @@
               <img src="../../../assets/img/outlet.png" alt="コンセント増設" />
             </div>
             <div class="service-details">
-              <p class="service-title">コンセント増設</p>
+              <h4 class="service-title">コンセント増設</h4>
               <p class="service-description">エアコン・キッチン機器等の専用コンセント増設</p>
               <p class="service-price">
                 <em><span class="price-label">10</span>m</em>まで<em><span class="price-label">22,000</span>円</em>
@@ -148,7 +149,7 @@
               <img src="../../../assets/img/downlight.png" alt="ダウンライト交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">ダウンライト交換</p>
+              <h4 class="service-title">ダウンライト交換</h4>
               <p class="service-description">電球・蛍光灯からLEDダウンライトへの交換</p>
               <p class="service-price">
                 <em><span class="price-label">8,800</span>円</em>&nbsp;+&nbsp;ダウンライト器具代
@@ -161,7 +162,7 @@
               <img src="../../../assets/img/fluorescent.png" alt="蛍光灯→LED交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">蛍光灯→LED交換</p>
+              <h4 class="service-title">蛍光灯→LED交換</h4>
               <p class="service-description">事務所・店舗・工場などの直管蛍光灯→LEDへの交換</p>
               <p class="service-price">
                 <em><span class="price-label">10</span>台</em>で<em><span class="price-label">165,000</span>円</em>目安
@@ -174,7 +175,7 @@
               <img src="../../../assets/img/mercury.png" alt="水銀灯→LED交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">水銀灯→LED交換</p>
+              <h4 class="service-title">水銀灯→LED交換</h4>
               <p class="service-description">倉庫・工場などの水銀灯→LEDへの交換</p>
               <p class="service-price">
                 <em><span class="price-label">6</span>台</em>で<em><span class="price-label">363,000</span>円</em>目安
@@ -187,7 +188,7 @@
               <img src="../../../assets/img/breaker.png" alt="ブレーカー交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">ブレーカー交換</p>
+              <h4 class="service-title">ブレーカー交換</h4>
               <p class="service-description">漏電ブレーカー、ブレーカーの故障、誤作動による交換</p>
             </div>
             <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/breaker-replacement-price.php">ブレーカー交換の料金表へ</a></div>
@@ -197,7 +198,7 @@
               <img src="../../../assets/img/distribution_panel.png" alt="分電盤交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">分電盤交換</p>
+              <h4 class="service-title">分電盤交換</h4>
               <p class="service-description">古い分電盤の交換、契約増設ができない</p>
             </div>
             <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/distribution-board-replacement-price.php">分電盤交換の料金表へ</a></div>
@@ -208,10 +209,11 @@
     <!-- 工事までの流れ -->
     <section class="section sec-flow">
       <div class="js-accordion-title">
-        <p class="sec-title">工事までの流れ</p>
+        <h2 class="sec-title">工事までの流れ</h2>
         <span class="js-toggle-mark"></span>
       </div>
       <div class="sec-content wrapper js-accordion-content">
+        <h3 class="company-title">名古屋市名東区 犬飼電気工事</h3>
         <ol class="service-flow">
           <li>
             <p class="label">お問い合わせ<span class="free">無料</span></p>
@@ -236,10 +238,89 @@
         </ol>
       </div>
     </section>
+    <!-- 施工事例 -->
+    <section class="section sec-work">
+      <div class="js-accordion-title">
+        <h2 class="sec-title">施工事例</h2>
+        <span class="js-toggle-mark"></span>
+      </div>
+      <div class="sec-content wrapper js-accordion-content">
+        <h3 class="company-title">名古屋市名東区 電気工事事例</h3>
+        <ul class="work-list">
+          <li class="work-item">
+            <img src="img/advance-switch-replace.png" alt="施行事例：名古屋市名東区の住宅でアドバンススイッチへの交換工事">
+            <h4 class="title">アドバンススイッチへ交換</h4>
+            <p class="place">名古屋市名東区の住宅</p>
+            <p class="text">フルカラーホタルスイッチの故障によりスイッチ交換を行いました。お客様の希望により最新のアドバンススイッチへの交換となりました。</p>
+          </li>
+          <li class="work-item">
+            <img src="img/24time-switch-replace.png" alt="施行事例：名古屋市名東区の車やさんで24時間式タイマーの故障により交換">
+            <h4 class="title">24時間式タイマーの交換</h4>
+            <p class="place">名古屋市名東区の車屋さん</p>
+            <p class="text">外灯を制御する24時間式タイマーが故障しているので交換して欲しいと依頼があり、交換工事を行いました。</p>
+          </li>
+          <li class="work-item">
+            <img src="img/mercury-lamp-replacement.png" alt="施行事例：名古屋市名東区の工場で水銀灯からLEDへの更新工事">
+            <h4 class="title">水銀灯からLEDへの更新工事</h4>
+            <p class="place">名古屋市名東区の工場</p>
+            <p class="text">水銀灯の不点灯が複数発生し、交換用の水銀灯も入手困難な状況とのご相談を受けました。そこで、電気代削減による数年での工事費用回収と、照明環境改善による作業性向上を期待できるLED照明への切り替えをご提案いたしました。結果、お客様にご納得いただき、水銀灯からLED照明への更新工事を実施いたしました。</p>
+          </li>
+          <li class="work-item">
+            <img src="img/exit-sign-replacement.png" alt="施行事例：名古屋市名東区の店舗でLED誘導灯への交換工事">
+            <h4 class="title">誘導灯の更新工事</h4>
+            <p class="place">名古屋市名東区の住宅</p>
+            <p class="text">店舗の誘導灯が点灯しないとのことで、交換のご依頼をいただきました。誘導灯は冷陰極蛍光灯を使用しており、2021年に生産が終了しているため、LED誘導灯への交換をご提案しました。LED誘導灯は、従来の蛍光灯に比べて消費電力が少なく、長寿命であるため、ランニングコストの削減とメンテナンスの手間を軽減できます。お客様にご理解いただき、LED誘導灯への交換工事を完了いたしました。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- お客様の声 -->
+    <section class="section sec-reviews">
+      <div class="js-accordion-title">
+        <h2 class="sec-title">お客様の声</h2>
+        <span class="js-toggle-mark"></span>
+      </div>
+      <div class="sec-content wrapper js-accordion-content">
+        <h3 class="company-title">名古屋市名東区 電気工事実績</h3>
+        <ul class="reviews-list">
+          <li class="review-item">
+            <figure class="customer">
+              <img src="../../img/customer_w01.png" alt="電気スイッチ交換のレビューを寄せてくれた名古屋市名東区 A様">
+              <figcaption>名古屋市名東区 A様</figcaption>
+            </figure>
+            <div class="review">
+              <h4 class="title">電気スイッチ交換</h4>
+              <p class="text">古くなって接触が悪くなっていたトイレのスイッチを交換してもらいました。新しいスイッチはカチッとしっかりとした感触で気持ちがいいですね。犬飼電気工事さんには、ちょっとした工事でも快く引き受けていただき、本当に助かりました。</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <figure class="customer">
+              <img src="../../img/customer_m01.png" alt="事務所の蛍光灯からLEDへの交換のレビューを寄せてくれた名古屋市守山区 B社様">
+              <figcaption>名古屋市守山区 B社様</figcaption>
+            </figure>
+            <div class="review">
+              <h4 class="title">事務所の蛍光灯からLEDへの交換</h4>
+              <p class="text">事務所の蛍光灯がチカチカして目が疲れるので、全ての蛍光灯をLEDへ交換してもらいました。LEDは蛍光灯に比べて明るく、電気代も安くなると聞いていましたが、本当にその通りでした！事務所全体が明るくなったおかげで仕事がはかどるようになりました。犬飼電気工事さん、ありがとうございました！</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <figure class="customer">
+              <img src="../../img/customer_m02.png" alt="工場の水銀灯からLEDへの交換のレビューを寄せてくれた名古屋市名東区  C工場様 ">
+              <figcaption>名古屋市名東区 C工場様 </figcaption>
+            </figure>
+            <div class="review">
+              <h4 class="title">工場の水銀灯からLEDへの交換</h4>
+              <p class="text">工場の水銀灯が暗くて作業効率が悪かったのですが、LEDに交換してもらってから、工場全体が明るくなりました！ 作業員からも「見やすくなった」と好評です。電気代も大幅に削減できたので本当に感謝しています。犬飼電気工事さんは、工事の説明も丁寧で、安心して任せられました。</p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
     <!-- 会社概要 -->
     <section class="section sec-aboutus">
       <div class="js-accordion-title">
-        <p class="sec-title">事業者概要</p>
+        <h2 class="sec-title">事業者概要</h2>
         <span class="js-toggle-mark"></span>
       </div>
       <div class="sec-content wrapper js-accordion-content">
@@ -268,7 +349,7 @@
     </section>
     <!-- お問い合わせ -->
     <section class="section sec-contact">
-      <div class="sec-title">お問い合わせ</div>
+      <h2 class="sec-title">お問い合わせ</h2>
       <div class="sec-content">
         <p class="contact-heading">お見積りは無料です。ご依頼やご不明点など、お気軽にお問い合わせください！</p>
         <ul class="contact-link-list">

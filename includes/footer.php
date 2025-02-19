@@ -50,7 +50,7 @@
                 <ul class="footer-service-list">
                     <li><span>電気スイッチ交換</span>
                         <ul class="footer-service-list">
-                            <li><a href="<?php echo $base_url; ?>/lighting-switch/switch.php">電気スイッチ故障の原因と交換費用</a></li>
+                            <li><a href="<?php echo $base_url; ?>/lighting-switch/broken.php">電気スイッチ故障の原因と交換費用</a></li>
                         </ul>
                     </li>
                     <li><span>蛍光灯→LED交換</span>

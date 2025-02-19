@@ -204,6 +204,13 @@
   font-size: clamp(var(--fz22), 0.85rem + 2.24vw, var(--fz36));
   letter-spacing: 0.05em;
 }
+.service-types .service-types-title span {
+  display: block;
+  font-size: 0.6em;
+  letter-spacing: 0;
+  color: #666;
+  font-weight: normal;
+}
 .service-types .service-list {
   display: flex;
   flex-wrap: wrap;
@@ -350,11 +357,21 @@
   border-top: 3px solid var(--color-main);
   letter-spacing: 0.1em;
 }
-.supplement {
-  font-weight: bold;
+.sec-title span {
+  display: block;
+  font-size: 0.5em;
+  letter-spacing: 0em;
+  color: #666;
+}
+.company-title {
+  width: fit-content;
   color: #999;
-  text-align: center;
-  margin-top: -30px;
+  margin: 0 auto 20px;
+}
+.supplement {
+  color: #333;
+  text-align: right;
+  margin: 20px 0 0;
 }
 @media (min-width: 768px) {
   .sec-title {
@@ -480,7 +497,7 @@
 工事料金例
 -------------------------------------------*/
 .sec-price .sec-lead {
-  margin: 40px auto 40px;
+  margin: 20px auto 20px;
   text-align: center;
 }
 .sec-price .sec-lead p {
@@ -515,7 +532,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 60px;
+  margin-top: 10px;
   gap: 60px 30px;
 }
 .sec-price .service-item {
@@ -995,4 +1012,107 @@
   position: absolute;
   bottom: 0.25em;
   right: -1.25em;
+}
+
+/*-------------------------------------------
+施工事例
+-------------------------------------------*/
+.sec-work .work-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-between;
+}
+.sec-work .work-item {
+  width: calc(50% - 35px);
+}
+.sec-work .work-item img {
+  aspect-ratio: 445/335;
+  object-fit: cover;
+  width: 100%;
+}
+.sec-work .work-item .title {
+  color: var(--color-main);
+  font-weight: bold;
+  font-size: clamp(var(--fz22), 1.15rem + 0.96vw, var(--fz28));
+  margin: 20px 0;
+}
+.sec-work .work-item .place {
+  font-weight: bold;
+  color: #666;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .sec-work .work-list {
+    flex-direction: column;
+  }
+  .sec-work .work-item {
+    width: 100%;
+  }
+}
+
+/*-------------------------------------------
+お客様の声
+-------------------------------------------*/
+.sec-reviews .review-item {
+  display: flex;
+}
+.sec-reviews .review-item:not(:first-child) {
+  margin-top: 60px;
+}
+.sec-reviews .review-item .customer {
+  width: 256px;
+  flex-shrink: 0;
+}
+.sec-reviews .review-item .customer img {
+  width: 128px;
+}
+.sec-reviews .review-item .customer figcaption {
+  color: #666;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.sec-reviews .review-item .review {
+  background: #faeae9;
+  padding: 40px;
+  border-radius: 10px;
+  position: relative;
+  max-width: 710px;
+  flex: 0 1 auto;
+}
+.sec-reviews .review-item .review:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #faeae9;
+  top: 25%;
+  left: -20px;
+}
+.sec-reviews .review-item .title {
+  color: var(--color-main);
+  font-weight: bold;
+  font-size: clamp(var(--fz20), 0.85rem + 0.64vw, var(--fz24));
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .sec-reviews .review-item {
+    flex-direction: column;
+  }
+  .sec-reviews .review-item .customer {
+    margin-inline: auto;
+    width: auto;
+  }
+  .sec-reviews .review-item .review {
+    margin-top: 30px;
+  }
+  .sec-reviews .review-item .review:before {
+    top: -40px;
+    left: calc(50% - 20px);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #faeae9;
+  }
 }
