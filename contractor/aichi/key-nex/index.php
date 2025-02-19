@@ -16,7 +16,7 @@
   </script>
   <meta charset="utf-8" />
   <title>名古屋市南区の電気工事店 株式会社キーネックス -ジモデン-</title>
-  <meta name="description" content="名古屋市南区の電気工事会社『株式会社キーネックス』スイッチ・コンセント破損による交換から事務所、倉庫、工場、店舗のLED化、電源工事まで幅広く対応できます。" />
+  <meta name="description" content="名古屋市南区の電気工事なら株式会社キーネックスへ。スイッチ交換から高圧受電設備工事まで、あらゆる電気工事に迅速対応！地域密着、豊富な実績で安心。無料見積もり実施中！" />
   <meta name="keywords" content="電気工事,名古屋市南区" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="format-detection" content="telephone=no" />
@@ -54,16 +54,16 @@
     <!-- 対応可能な電気工事 -->
     <section class="service-types">
       <div class="wrapper">
-        <p class="service-types-title">対応可能な電気工事</p>
+        <h2 class="service-types-title"><span>名古屋市南区 株式会社キーネックス</span>対応可能な電気工事</h2>
         <ul class="service-list">
-          <li><img src="../../../assets/img/service_switch.png" alt="スイッチ" /></li>
-          <li><img src="../../../assets/img/service_outlet.png" alt="コンセント" /></li>
-          <li><img src="../../../assets/img/service_fluorescent_to_led.png" alt="蛍光灯からLEDへの交換" /></li>
-          <li><img src="../../../assets/img/service_mercury_to_led.png" alt="水銀灯からLEDヘの交換:" /></li>
-          <li><img src="../../../assets/img/service_downlight.png" alt="LED照明・ダウンライト" /></li>
-          <li><img src="../../../assets/img/service_emergency_light.png" alt="誘導灯・非常灯" /></li>
-          <li><img src="../../../assets/img/service_breaker_repair.png" alt="ブレーカー漏電改修" /></li>
-          <li><img src="../../../assets/img/service_distribution_panel.png" alt="分電盤" /></li>
+          <li><img src="../../../assets/img/service_switch.png" alt="スイッチ破損・故障によるスイッチ交換工事" /></li>
+          <li><img src="../../../assets/img/service_outlet.png" alt="コンセント破損による交換、コンセント増設工事" /></li>
+          <li><img src="../../../assets/img/service_fluorescent_to_led.png" alt="蛍光灯からLEDへの交換、増設、移設工事" /></li>
+          <li><img src="../../../assets/img/service_mercury_to_led.png" alt="水銀灯からLEDへの交換、増設、移設工事" /></li>
+          <li><img src="../../../assets/img/service_downlight.png" alt="LED照明の交換、ダウンライト交換工事" /></li>
+          <li><img src="../../../assets/img/service_emergency_light.png" alt="誘導灯・非常灯の交換、増設工事" /></li>
+          <li><img src="../../../assets/img/service_breaker_repair.png" alt="ブレーカー故障による交換、増設と漏電調査、漏電改修" /></li>
+          <li><img src="../../../assets/img/service_distribution_panel.png" alt="分電盤の取替工事" /></li>
         </ul>
       </div>
     </section>
@@ -75,7 +75,7 @@
           <div class="googlemap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13058.793301826536!2d136.9203538913093!3d35.08926965045156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60037b8bbca84377%3A0x2b7b159acf9caff8!2z44ix44Kt44O844ON44OD44Kv44K5!5e0!3m2!1sja!2sjp!4v1732525469201!5m2!1sja!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
           <!-- update: 企業名・住所・対応エリア・営業時間・受付時間 -->
           <div class="company-info">
-            <p class="company-name">株式会社キーネックス</p>
+            <h3 class="company-name">株式会社キーネックス</h3>
             <address class="company-address">愛知県名古屋市南区星園町3番地</address>
             <p class="service-area">対応エリア：名古屋市南区・近郊</p>
             <p class="business-hours">営業時間：平日9:00-17:00（土日祝の工事可能）</p>
@@ -86,7 +86,7 @@
           <!-- update: 一言メッセージ・担当者の顔写真・挨拶テキスト -->
           <div class="message-bubble">電気工事20年のベテランです！</div>
           <div class="person-info">
-            <img src="img/person.jpg" alt="担当者の顔写真" />
+            <img src="img/person.jpg" alt="名古屋市南区の出来工事業者 株式会社キーネックスの代表 中島 健太" />
           </div>
           <p class="greeting-text">株式会社キーネックス代表の中島です。<br />趣味は愛犬の散歩とドライブです。<br />丁寧に対応します！</p>
         </div>
@@ -95,21 +95,22 @@
     <!-- 電気工事料金表 -->
     <section class="section sec-price">
       <div class="js-accordion-title">
-        <p class="sec-title">電気工事料金表</p>
+        <h2 class="sec-title">電気工事料金表</h2>
         <span class="js-toggle-mark"></span>
       </div>
       <div class="sec-content wrapper js-accordion-content">
-        <p class="supplement">※税込表記</p>
+        <h3 class="company-title">名古屋市南区 株式会社キーネックス</h3>
         <div class="sec-lead">
           <p>地元だから出張費は無料！ <br />料金表にない電気工事も気軽にご相談下さい</p>
         </div>
+        <p class="supplement">※税込表記</p>
         <ul class="service-list">
           <li class="service-item">
             <div class="service-img">
               <img src="../../../assets/img/switch.png" alt="スイッチ交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">スイッチ交換</p>
+              <h4 class="service-title">スイッチ交換</h4>
               <p class="service-description">照明スイッチ、換気扇タイマースイッチの故障による交換</p>
               <p class="service-price">
                 <em><span class="price-label">8,800</span>円</em>&nbsp;+&nbsp;スイッチ部材費
@@ -122,7 +123,7 @@
               <img src="../../../assets/img/outlet.png" alt="コンセント交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">コンセント交換</p>
+              <h4 class="service-title">コンセント交換</h4>
               <p class="service-description">コンセントの破損、焦げによる交換</p>
               <p class="service-price">
                 <em><span class="price-label">8,800</span>円</em>&nbsp;+&nbsp;コンセント部材費
@@ -135,7 +136,7 @@
               <img src="../../../assets/img/outlet.png" alt="コンセント増設" />
             </div>
             <div class="service-details">
-              <p class="service-title">コンセント増設</p>
+              <h4 class="service-title">コンセント増設</h4>
               <p class="service-description">エアコン・キッチン機器等の専用コンセント増設</p>
               <p class="service-price">
                 <em><span class="price-label">10</span>m</em>まで<em><span class="price-label">22,000</span>円</em>
@@ -148,7 +149,7 @@
               <img src="../../../assets/img/downlight.png" alt="ダウンライト交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">ダウンライト交換</p>
+              <h4 class="service-title">ダウンライト交換</h4>
               <p class="service-description">電球・蛍光灯からLEDダウンライトへの交換</p>
               <p class="service-price">
                 <em><span class="price-label">8,800</span>円</em>&nbsp;+&nbsp;ダウンライト器具代
@@ -161,7 +162,7 @@
               <img src="../../../assets/img/fluorescent.png" alt="蛍光灯→LED交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">蛍光灯→LED交換</p>
+              <h4 class="service-title">蛍光灯→LED交換</h4>
               <p class="service-description">事務所・店舗・工場などの直管蛍光灯→LEDへの交換</p>
               <p class="service-price">
                 <em><span class="price-label">10</span>台</em>で<em><span class="price-label">165,000</span>円</em>目安
@@ -174,7 +175,7 @@
               <img src="../../../assets/img/mercury.png" alt="水銀灯→LED交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">水銀灯→LED交換</p>
+              <h4 class="service-title">水銀灯→LED交換</h4>
               <p class="service-description">倉庫・工場などの水銀灯→LEDへの交換</p>
               <p class="service-price">
                 <em><span class="price-label">6</span>台</em>で<em><span class="price-label">363,000</span>円</em>目安
@@ -187,7 +188,7 @@
               <img src="../../../assets/img/breaker.png" alt="ブレーカー交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">ブレーカー交換</p>
+              <h4 class="service-title">ブレーカー交換</h4>
               <p class="service-description">漏電ブレーカー、ブレーカーの故障、誤作動による交換</p>
             </div>
             <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/breaker-replacement-price.php">ブレーカー交換の料金表へ</a></div>
@@ -197,7 +198,7 @@
               <img src="../../../assets/img/distribution_panel.png" alt="分電盤交換" />
             </div>
             <div class="service-details">
-              <p class="service-title">分電盤交換</p>
+              <h4 class="service-title">分電盤交換</h4>
               <p class="service-description">古い分電盤の交換、契約増設ができない</p>
             </div>
             <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/distribution-board-replacement-price.php">分電盤交換の料金表へ</a></div>
@@ -208,10 +209,11 @@
     <!-- 工事までの流れ -->
     <section class="section sec-flow">
       <div class="js-accordion-title">
-        <p class="sec-title">工事までの流れ</p>
+        <h2 class="sec-title">工事までの流れ</h2>
         <span class="js-toggle-mark"></span>
       </div>
       <div class="sec-content wrapper js-accordion-content">
+        <h3 class="company-title">名古屋市南区 株式会社キーネックス</h3>
         <ol class="service-flow">
           <li>
             <p class="label">お問い合わせ<span class="free">無料</span></p>
@@ -236,10 +238,95 @@
         </ol>
       </div>
     </section>
+    <!-- 施工事例 -->
+    <section class="section sec-work">
+      <div class="js-accordion-title">
+        <h2 class="sec-title">施工事例</h2>
+        <span class="js-toggle-mark"></span>
+      </div>
+      <div class="sec-content wrapper js-accordion-content">
+        <h3 class="company-title">名古屋市南区 電気工事事例</h3>
+        <ul class="work-list">
+          <li class="work-item">
+            <img src="img/install-security-lights.png" alt="施行事例：名古屋市南区の自治会からの依頼でLED防犯灯の設置工事を行いました。">
+            <h4 class="title">LED防犯灯設置工事</h4>
+            <h5 class="place">名古屋市南区の自治会</h5>
+            <p class="text">犯罪防止と交通事故防止の目的で、夜間にかなり暗い道路へLED防犯灯の設置申請と工事を行いました。</p>
+          </li>
+          <li class="work-item">
+            <img src="img/led-replacement.png" alt="施行事例：名古屋市南区の店舗で蛍光灯からLEDへの切り替え工事を行いました。">
+            <h4 class="title">蛍光灯からLED切り替え工事</h4>
+            <h5 class="place">名古屋市南区の店舗</h5>
+            <p class="text">店舗の直管蛍光灯照明器具をLEDへ交換いたしました。築35年ほどの建物で、天井から落下しそうな埋込蛍光灯照明器具もありましたが、今回の工事でしっかりと天井に固定し、安全性を確保できました。</p>
+          </li>
+          <li class="work-item">
+            <img src="img/bathroom-dryer-heater-replacement.png" alt="施行事例：名古屋市南区の住宅で浴室乾燥暖房機の取替工事を行いました。">
+            <h4 class="title">浴室乾燥暖房機の取替工事</h4>
+            <h5 class="place">名古屋市南区の住宅</h5>
+            <p class="text">20年ほど使用されていた浴室乾燥暖房機が故障し、温風が出なくなってしまいました。冬場は浴室が冷え込むため、安全面も考慮してすぐに新品への交換となりました。</p>
+          </li>
+          <li class="work-item">
+            <img src="img/high-voltage-power-receiving-equipment-construction.png" alt="施行事例：名古屋市南区の工場で高圧受電設備の改修工事">
+            <h4 class="title">高圧受電設備の改修工事</h4>
+            <h5 class="place">名古屋市南区の工場</h5>
+            <p class="text">主任技術者の更新計画に基づき、高圧受電設備において耐用年数を超過した遮断器、計器用変流器、計器類などの更新工事を実施しました。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- お客様の声 -->
+    <section class="section sec-reviews">
+      <div class="js-accordion-title">
+        <h2 class="sec-title">お客様の声</h2>
+        <span class="js-toggle-mark"></span>
+      </div>
+      <div class="sec-content wrapper js-accordion-content">
+        <h3 class="company-title">名古屋市南区 電気工事実績</h3>
+        <ul class="reviews-list">
+          <li class="review-item">
+            <figure class="customer">
+              <img src="../../img/customer_m03.png" alt="キュービクルのトランス交換のレビューを寄せてくれた名古屋市南区 A工場様">
+              <figcaption>名古屋市南区 A工場様</figcaption>
+            </figure>
+            <div class="review">
+              <h4 class="title">キュービクルのトランス交換</h4>
+              <p class="text">以前から懇意にしていた電気工事業者が廃業してしまい、キュービクルのトランス交換が必要な時期に来ていたものの、どこに頼めば良いのか分からず困っておりました。そんな時、キーネックスさんのホームページを見つけ、問い合わせたところ迅速に対応していただき、大変感謝しております。</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <figure class="customer">
+              <img src="../../img/customer_m04.png" alt="工場の蛍光灯からLEDへの更新工事のレビューを寄せてくれた名古屋市南区 B工場様">
+              <figcaption>名古屋市南区 B工場様</figcaption>
+            </figure>
+            <div class="review">
+              <h4 class="title">工場の蛍光灯からLEDへの更新工事</h4>
+              <p class="text">長年使用してきた蛍光灯が暗くなり、作業効率の低下が気になっていたため、キーネックスさんにLEDへの交換工事をお願いしました。
+                工事期間中も、工場の操業に支障が出ないように配慮していただき、大変感謝しております。<br>
+                LEDに交換してからは、工場全体が格段に明るくなり、作業効率が大幅に向上しました。また、電気代も大幅に削減でき、良いことづくめです。<br>
+                キーネックスさんには、照明の配置についても相談に乗っていただき、最適なプランを提案していただきました。おかげで以前は暗かった場所にも光が届くようになり、作業環境が劇的に改善されました。</p>
+            </div>
+          </li>
+          <li class="review-item">
+            <figure class="customer">
+              <img src="../../img/customer_w02.png" alt="浴室の照明スイッチの交換のレビューを寄せてくれた名古屋市名東区 C様 ">
+              <figcaption>名古屋市名東区 C様</figcaption>
+            </figure>
+            <div class="review">
+              <h4 class="title">浴室の照明スイッチの交換</h4>
+              <p class="text">浴室の照明スイッチが、押しても戻ってしまう状態になり、だましだまし使っていましたが、ついに点灯しなくなってしまいました。<br>
+                ホームページで見つけたキーネックスさんに連絡したところ、スイッチの種類を電話で確認してくださり、なんと2時間ほどで駆けつけてくれました。<br>
+                工事は本当にあっという間で、2分ほどで完了。あまりの速さに驚きました！<br>
+                その日の夜から快適にお風呂に入ることができました。迅速な対応、本当にありがとうございました。</p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
     <!-- 会社概要 -->
     <section class="section sec-aboutus">
       <div class="js-accordion-title">
-        <p class="sec-title">会社概要</p>
+        <h2 class="sec-title">会社概要</h2>
         <span class="js-toggle-mark"></span>
       </div>
       <div class="sec-content wrapper js-accordion-content">
@@ -268,7 +355,7 @@
     </section>
     <!-- お問い合わせ -->
     <section class="section sec-contact">
-      <div class="sec-title">お問い合わせ</div>
+      <h2 class="sec-title">お問い合わせ</h2>
       <div class="sec-content">
         <p class="contact-heading">お見積りは無料です。ご依頼やご不明点など、お気軽にお問い合わせください！</p>
         <ul class="contact-link-list">

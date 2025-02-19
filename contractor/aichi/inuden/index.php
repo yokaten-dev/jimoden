@@ -250,25 +250,25 @@
           <li class="work-item">
             <img src="img/advance-switch-replace.png" alt="施行事例：名古屋市名東区の住宅でアドバンススイッチへの交換工事">
             <h4 class="title">アドバンススイッチへ交換</h4>
-            <p class="place">名古屋市名東区の住宅</p>
+            <h5 class="place">名古屋市名東区の住宅</h5>
             <p class="text">フルカラーホタルスイッチの故障によりスイッチ交換を行いました。お客様の希望により最新のアドバンススイッチへの交換となりました。</p>
           </li>
           <li class="work-item">
             <img src="img/24time-switch-replace.png" alt="施行事例：名古屋市名東区の車やさんで24時間式タイマーの故障により交換">
             <h4 class="title">24時間式タイマーの交換</h4>
-            <p class="place">名古屋市名東区の車屋さん</p>
+            <h5 class="place">名古屋市名東区の車屋さん</h5>
             <p class="text">外灯を制御する24時間式タイマーが故障しているので交換して欲しいと依頼があり、交換工事を行いました。</p>
           </li>
           <li class="work-item">
             <img src="img/mercury-lamp-replacement.png" alt="施行事例：名古屋市名東区の工場で水銀灯からLEDへの更新工事">
             <h4 class="title">水銀灯からLEDへの更新工事</h4>
-            <p class="place">名古屋市名東区の工場</p>
+            <h5 class="place">名古屋市名東区の工場</h5>
             <p class="text">水銀灯の不点灯が複数発生し、交換用の水銀灯も入手困難な状況とのご相談を受けました。そこで、電気代削減による数年での工事費用回収と、照明環境改善による作業性向上を期待できるLED照明への切り替えをご提案いたしました。結果、お客様にご納得いただき、水銀灯からLED照明への更新工事を実施いたしました。</p>
           </li>
           <li class="work-item">
             <img src="img/exit-sign-replacement.png" alt="施行事例：名古屋市名東区の店舗でLED誘導灯への交換工事">
             <h4 class="title">誘導灯の更新工事</h4>
-            <p class="place">名古屋市名東区の住宅</p>
+            <h5 class="place">名古屋市名東区の住宅</h5>
             <p class="text">店舗の誘導灯が点灯しないとのことで、交換のご依頼をいただきました。誘導灯は冷陰極蛍光灯を使用しており、2021年に生産が終了しているため、LED誘導灯への交換をご提案しました。LED誘導灯は、従来の蛍光灯に比べて消費電力が少なく、長寿命であるため、ランニングコストの削減とメンテナンスの手間を軽減できます。お客様にご理解いただき、LED誘導灯への交換工事を完了いたしました。</p>
           </li>
         </ul>
