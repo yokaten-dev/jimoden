@@ -19,7 +19,7 @@
   <meta name="description" content="名古屋市南区の電気工事なら株式会社キーネックスへ。スイッチ交換から高圧受電設備工事まで、あらゆる電気工事に迅速対応！地域密着、豊富な実績で安心。無料見積もり実施中！" />
   <meta name="keywords" content="電気工事,名古屋市南区" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="telephone=no, address=no">
   <link rel="icon" href="../../../assets/img/favicon.webp" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

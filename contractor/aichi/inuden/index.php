@@ -19,7 +19,7 @@
   <meta name="description" content="名古屋市名東区の犬飼電気工事は、スイッチ・コンセントの修理交換、LED照明への交換、電源工事のプロ！事務所、店舗、工場の電気設備もお任せください。無料見積もり実施中！" />
   <meta name="keywords" content="電気工事,名古屋市名東区" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="telephone=no, address=no">
   <link rel="icon" href="../../../assets/img/favicon.webp" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
