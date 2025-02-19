@@ -222,9 +222,6 @@
   max-width: 1000px;
   text-align: center;
 }
-.picture img {
-  border-radius: 10px;
-}
 /* 画像キャプション */
 .pic-caption {
   font-weight: bold;
