@@ -241,6 +241,8 @@
 }
 .list li {
   position: relative;
+  margin: 1em 0;
+  line-height: 1.5;
 }
 .list li::before {
   content: "";
@@ -264,8 +266,10 @@
 }
 .desc-list li {
   position: relative;
+  margin: 1em 0;
+  line-height: 1.5;
 }
-.desc-list li::before {
+.desc-list > li::before {
   content: "";
   position: absolute;
   top: 0.75em;
@@ -321,7 +325,7 @@ table th {
   position: relative;
   display: block;
   background: #e9f3ff;
-  color: #00479d;
+  color: var(--color-blue);
   text-decoration: underline;
   padding: 1em 1em 1em 2em;
   border-radius: 10px;
@@ -516,7 +520,18 @@ mark {
 }
 /* 背景カラー */
 .bg-pink {
-  background: #faeae9;
+  background: var(--color-base-pink);
   padding: 2em;
   border-radius: 10px;
+}
+
+/* ページ内アンカーリンク */
+.anchor-link a {
+  color: var(--color-blue);
+  text-decoration: underline;
+}
+.anchor-link::after {
+  content: "↓";
+  color: var(--color-blue);
+  font-weight: bold;
 }

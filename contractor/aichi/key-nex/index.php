@@ -308,8 +308,8 @@
           </li>
           <li class="review-item">
             <figure class="customer">
-              <img src="../../img/customer_w02.png" alt="浴室の照明スイッチの交換のレビューを寄せてくれた名古屋市名東区 C様 ">
-              <figcaption>名古屋市名東区 C様</figcaption>
+              <img src="../../img/customer_w02.png" alt="浴室の照明スイッチの交換のレビューを寄せてくれた名古屋市南区 C様 ">
+              <figcaption>名古屋市南区 C様</figcaption>
             </figure>
             <div class="review">
               <h4 class="title">浴室の照明スイッチの交換</h4>

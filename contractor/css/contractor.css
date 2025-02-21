@@ -1020,11 +1020,11 @@
 .sec-work .work-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 60px 70px;
   justify-content: space-between;
 }
 .sec-work .work-item {
-  width: calc(50% - 35px);
+  width: calc((100% - 70px) / 2);
 }
 .sec-work .work-item img {
   aspect-ratio: 445/335;
