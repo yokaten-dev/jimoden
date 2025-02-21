@@ -274,7 +274,9 @@
         <li><b>信頼できる業者</b>希望の方</li>
         <li><b>料金表</b>で選びたい方</li>
       </ul>
-
+      <div class="btn-to-search-container">
+        <p>＼見積り・相談無料！／</p><a href="../jimoden/search.php">料金表のある<br class="br-sp">地元の電気工事業者を探す</a>
+      </div>
     </section>
 
     <section class="section">

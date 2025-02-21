@@ -533,3 +533,46 @@ mark {
   padding: 2em;
   border-radius: 10px;
 }
+
+/* 業者を探すボタン */
+.btn-to-search-container {
+  padding-top: 60px;
+  width: fit-content;
+  margin: 0 auto;
+  z-index: 30;
+}
+@media (max-width: 767px) {
+  .btn-to-search-container {
+    padding-top: 30px;
+    width: 100%;
+  }
+}
+.btn-to-search-container p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: var(--color-main);
+}
+.btn-to-search-container a {
+  display: flex;
+  padding: 1em 1.5em;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 999px;
+  background: var(--color-text);
+  /* border-bottom: 4px solid #9a2521; */
+  font-size: clamp(var(--fz18), 0.75rem + 1.6vw, var(--fz28));
+  cursor: pointer;
+}
+.btn-to-search-container a::before {
+  content: "";
+  display: inline-block;
+  margin-right: 0.75em;
+  height: 1.5em;
+  width: 1.5em;
+  mask: url(../img/ico_search.svg) no-repeat center / contain;
+  background-color: #fff;
+}
