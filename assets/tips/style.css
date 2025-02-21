@@ -319,6 +319,18 @@ table th {
   padding: 2em;
 }
 /*--------------------------------
+ページ内アンカーリンク
+---------------------------------*/
+.anchor-link a {
+  color: var(--color-blue);
+  text-decoration: underline;
+}
+.anchor-link::after {
+  content: "↓";
+  color: var(--color-blue);
+  font-weight: bold;
+}
+/*--------------------------------
 内部リンク（ジモデン内のリンク）
 ---------------------------------*/
 .local-link {
@@ -344,7 +356,6 @@ table th {
   top: -30px;
   left: 0px;
 }
-
 /*--------------------------------
 外部リンク（他サイト引用）
 ---------------------------------*/
@@ -384,7 +395,6 @@ table th {
   bottom: 0.25em;
   right: -1.25em;
 }
-
 /*--------------------------------
 figure横並び
  - col2: 2列
@@ -409,7 +419,6 @@ figure横並び
     flex-direction: column;
   }
 }
-
 /*--------------------------------
 この記事を書いた人
 ---------------------------------*/
@@ -523,15 +532,4 @@ mark {
   background: var(--color-base-pink);
   padding: 2em;
   border-radius: 10px;
-}
-
-/* ページ内アンカーリンク */
-.anchor-link a {
-  color: var(--color-blue);
-  text-decoration: underline;
-}
-.anchor-link::after {
-  content: "↓";
-  color: var(--color-blue);
-  font-weight: bold;
 }
