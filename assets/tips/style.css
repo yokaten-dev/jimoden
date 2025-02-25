@@ -71,7 +71,7 @@
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  font-weight: bold;
+  /* font-weight: bold; */
   /* font-size: clamp(1.125rem, 1.05rem + 0.32vw, 1.25rem); 18 <-> 20 */
   font-size: clamp(1rem, 0.925rem + 0.32vw, 1.125rem); /* 16 <-> 18  */
 }
@@ -541,17 +541,18 @@ mark {
   margin: 0 auto;
   z-index: 30;
 }
-@media (max-width: 767px) {
-  .btn-to-search-container {
-    padding-top: 30px;
-    width: 100%;
-  }
+.btn-to-search-container .logo {
+  display: inline-block;
+  overflow: hidden;
+  height: 0;
+  padding-top: 62px;
+  width: 180px;
+  background: url(../../assets/img/logo.svg) no-repeat center / contain;
 }
 .btn-to-search-container p {
   text-align: center;
   font-weight: bold;
-  font-size: 1.5em;
-  color: var(--color-main);
+  font-size: clamp(1rem, 0.7rem + 1.28vw, 1.5rem);
 }
 .btn-to-search-container a {
   display: flex;
@@ -562,8 +563,8 @@ mark {
   font-weight: bold;
   text-align: center;
   border-radius: 999px;
-  background: var(--color-text);
-  /* border-bottom: 4px solid #9a2521; */
+  background: linear-gradient(130deg, #484848 50%, #333 50%);
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
   font-size: clamp(var(--fz18), 0.75rem + 1.6vw, var(--fz28));
   cursor: pointer;
 }
@@ -575,4 +576,91 @@ mark {
   width: 1.5em;
   mask: url(../img/ico_search.svg) no-repeat center / contain;
   background-color: #fff;
+}
+@media (max-width: 767px) {
+  .btn-to-search-container {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .btn-to-search-container .logo {
+    padding-top: 28px;
+    width: 81px;
+  }
+}
+/* ジモデンTOPへのリンクボタン */
+.btn-to-top-container {
+  padding-top: 60px;
+  width: fit-content;
+  margin: 0 auto;
+  z-index: 30;
+}
+.btn-to-top-container p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  position: relative;
+  font-size: clamp(1rem, 0.7rem + 1.28vw, 1.5rem);
+  margin-inline: auto;
+  width: fit-content;
+}
+.btn-to-top-container p::before {
+  content: "＼ ";
+  display: inline-block;
+  height: 40px;
+  width: 30px;
+  position: absolute;
+  left: -2em;
+  bottom: 0;
+}
+.btn-to-top-container p::after {
+  content: " ／";
+  display: inline-block;
+  height: 40px;
+  width: 30px;
+  position: absolute;
+  right: -2em;
+  bottom: 0;
+}
+
+.btn-to-top-container a {
+  display: flex;
+  padding: 1em 1.5em;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+  font-weight: bold;
+  text-align: center;
+  border-radius: 999px;
+  background: white;
+  border: 3px solid var(--color-main);
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+  font-size: clamp(var(--fz18), 0.75rem + 1.6vw, var(--fz28));
+  cursor: pointer;
+}
+.btn-to-top-container .logo {
+  display: inline-block;
+  overflow: hidden;
+  height: 0;
+  padding-top: 62px;
+  width: 180px;
+  background: url(../../assets/img/logo.svg) no-repeat center / contain;
+  margin-right: 0.5em;
+}
+.btn-to-top-container a::after {
+  content: "";
+  height: 1.5em;
+  width: 1.5em;
+  mask: url(../img/arrow_right.svg) no-repeat center / contain;
+  background-color: var(--color-main);
+  margin-right: -1em;
+}
+@media (max-width: 767px) {
+  .btn-to-top-container {
+    padding-top: 30px;
+    width: 100%;
+  }
+  .btn-to-top-container .logo {
+    padding-top: 38px;
+    width: 111px;
+  }
 }

@@ -25,7 +25,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
   <link rel="stylesheet" href="../assets/css/common.css" />
-  <link rel="stylesheet" href="../assets/tips/style.css" />
+  <link rel="stylesheet" href="../assets/tips/style.css?20250222" />
 
 </head>
 
@@ -138,6 +138,7 @@
           </ul>
         </li>
       </ul>
+      <br>
       <figure class="picture">
         <figcaption class="pic-caption">蛍光灯、グローランプ、電球が切れているかも？</figcaption>
         <img src="img/burnt-out-light-bulb.png" alt="蛍光灯器具とシーリング器具画像。蛍光灯、グローランプ、電球が切れていませんか？">
@@ -197,7 +198,7 @@
       <h2 class="sec-title" id="sec-3">【費用相場】電気スイッチ交換は業者に直接依頼がお得</h2>
       <p class="minor-title">スイッチ交換費用の目安</p>
       <p class="desc">
-        電気スイッチの交換費用は、業者やスイッチの種類によって幅がありますが、ご自身で業者に直接依頼することで、比較的リーズナブルに済むケースがほとんどです。
+        電気スイッチの交換費用は、業者やスイッチの種類によって幅がありますが、ご自身で業者に直接依頼することで、比較的リーズナブルに済むケースがほとんどです。<br>
         ここでは、一般的なスイッチ交換にかかる費用の目安をご紹介します。これから業者を探される方は、下記にご紹介する費用相場を参考に、適正な価格でスイッチ交換をしてくれる業者を見つけてみましょう。
       </p>
       <ul class="desc-list">
@@ -224,7 +225,7 @@
       <p class="minor-title">注意点</p>
       <ul class="desc-list">
         <li><b>オンライン完結型:</b> 対面相談は不向き</li>
-        <li>業<b>者対応にばらつき:</b>レスポンスが遅い場合も</li>
+        <li><b>業者対応にばらつき:</b>レスポンスが遅い場合も</li>
       </ul>
 
       <p class="minor-title">おすすめユーザー</p>
@@ -274,9 +275,17 @@
         <li><b>信頼できる業者</b>希望の方</li>
         <li><b>料金表</b>で選びたい方</li>
       </ul>
+      <!-- 事業者を探すリンクボタン -->
       <div class="btn-to-search-container">
-        <p>＼見積り・相談無料！／</p><a href="../jimoden/search.php">料金表のある<br class="br-sp">地元の電気工事業者を探す</a>
+        <p><span class="logo">ジモデン</span>なら<br><em>＼ 見積り・相談無料！ ／</em></p>
+        <a href="../jimoden/search.php">料金表のある<br class="br-sp">地元の電気工事業者を探す</a>
       </div>
+      <!-- ジモデンTOPへのリンクボタン -->
+      <!-- <div class="btn-to-top-container">
+        <p><span><em>料金表</em>のある<br class="br-sp"><em>地元</em>の電気工事業者と<em>出会える</em></span></p>
+        <a href="../"><span class="logo">ジモデン</span>をチェック</a>
+      </div> -->
+
     </section>
 
     <section class="section">

@@ -348,7 +348,7 @@ section
 /* 内部リンク
 -------------------------------------------*/
 .anchor-link {
-  var(--color-blue);
+  color: var(--color-blue);
   text-decoration: underline;
   word-break: keep-all;
 }
