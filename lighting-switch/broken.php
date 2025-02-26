@@ -69,7 +69,15 @@
         </ul>
         </p>
       </div>
-      <!-- 目次 -->
+      <!-- ジモデンTOPへのリンクボタン -->
+      <div class="btn-to-top-container">
+        <p><span><em>料金表</em>のある<br class="br-sp"><em>地元</em>の電気工事業者と<em>出会える</em></span></p>
+        <a href="../"><span class="logo">ジモデン</span>をチェック</a>
+      </div>
+    </div>
+
+    <!-- 目次 -->
+    <div class="index-container">
       <div class="index">
         <p class="page-index-title"> <span class="label-switch"> Index </span> </p>
         <ol class="index-list">

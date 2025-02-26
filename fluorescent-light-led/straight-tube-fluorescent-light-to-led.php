@@ -48,53 +48,59 @@
           このページでは、直管蛍光灯をLEDに交換する3つの方法、費用相場、メリット・デメリット、注意点など、プロの電気工事士が詳しく解説します。LED化に興味はあるけど、何から始めればいいか分からない…という方も、ご安心ください。最適なLED化プランが見つかるはずです。
         </p>
       </div>
-      <!-- 目次 -->
-      <div class="index">
-        <p class="page-index-title">
-          <span class="label-switch"> Index </span>
-        </p>
-        <ol class="index-list">
-          <li class="index-item">
-            <a href="#sec-1"><span class="link-num">1.</span><span class="link-title">直管蛍光灯からLEDへ交換！3つの方法と電気工事の有無、工事費用を解説</span></a>
-            <ol class="inner-list">
-              <li class="inner-item">
-                <a href="#sec-1-1"><span class="link-num">1-1.</span><span class="link-title">①【電気工事が必要】蛍光灯照明器具をまるごとLED照明器具へ取り替え</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-1-2"><span class="link-num">1-2.</span><span class="link-title">②【電気工事が必要】安定器バイパス工事 (既存器具利用)</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-1-3"><span class="link-num">1-3.</span><span class="link-title">③【工事不要LEDランプ】交換はグロースターター式限定！注意点も解説</span></a>
-              </li>
-            </ol>
-          </li>
-          <li class="index-item">
-            <a href="#sec-2"><span class="link-num">2.</span><span class="link-title">工事不要LEDランプの確認事項と注意点</span></a>
-            <ol class="inner-list">
-              <li class="inner-item">
-                <a href="#sec-2-1"><span class="link-num">2-1.</span><span class="link-title">確認事項1：蛍光灯の種類をチェック！</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-2-2"><span class="link-num">2-2.</span><span class="link-title">確認事項2：安定器の確認が最も重要</span></a>
-              </li>
-            </ol>
-          </li>
-          <li class="index-item">
-            <a href="#sec-3"><span class="link-num">3.</span><span class="link-title">直管蛍光灯のLED化、業者に頼むと費用はいくら？【相場を解説】</span></a>
-            <ol class="inner-list">
-              <li class="inner-item">
-                <a href="#sec-3-1"><span class="link-num">3-1.</span><span class="link-title">【器具交換】LED照明器具へ交換する場合の費用相場</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-3-2"><span class="link-num">3-2.</span><span class="link-title">【バイパス工事】安定器バイパス工事の場合の費用相場</span></a>
-              </li>
-            </ol>
-          </li>
-          <li class="index-item">
-            <a href="#sec-4"><span class="link-num">4.</span><span class="link-title">まとめ：直管蛍光灯のLED化、迷ったらプロに相談</span></a>
-          </li>
-        </ol>
+      <!-- ジモデンTOPへのリンクボタン -->
+      <div class="btn-to-top-container">
+        <p><span><em>料金表</em>のある<br class="br-sp"><em>地元</em>の電気工事業者と<em>出会える</em></span></p>
+        <a href="../"><span class="logo">ジモデン</span>をチェック</a>
       </div>
+    </div>
+
+    <!-- 目次 -->
+    <div class="index">
+      <p class="page-index-title">
+        <span class="label-switch"> Index </span>
+      </p>
+      <ol class="index-list">
+        <li class="index-item">
+          <a href="#sec-1"><span class="link-num">1.</span><span class="link-title">直管蛍光灯からLEDへ交換！3つの方法と電気工事の有無、工事費用を解説</span></a>
+          <ol class="inner-list">
+            <li class="inner-item">
+              <a href="#sec-1-1"><span class="link-num">1-1.</span><span class="link-title">①【電気工事が必要】蛍光灯照明器具をまるごとLED照明器具へ取り替え</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-1-2"><span class="link-num">1-2.</span><span class="link-title">②【電気工事が必要】安定器バイパス工事 (既存器具利用)</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-1-3"><span class="link-num">1-3.</span><span class="link-title">③【工事不要LEDランプ】交換はグロースターター式限定！注意点も解説</span></a>
+            </li>
+          </ol>
+        </li>
+        <li class="index-item">
+          <a href="#sec-2"><span class="link-num">2.</span><span class="link-title">工事不要LEDランプの確認事項と注意点</span></a>
+          <ol class="inner-list">
+            <li class="inner-item">
+              <a href="#sec-2-1"><span class="link-num">2-1.</span><span class="link-title">確認事項1：蛍光灯の種類をチェック！</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-2-2"><span class="link-num">2-2.</span><span class="link-title">確認事項2：安定器の確認が最も重要</span></a>
+            </li>
+          </ol>
+        </li>
+        <li class="index-item">
+          <a href="#sec-3"><span class="link-num">3.</span><span class="link-title">直管蛍光灯のLED化、業者に頼むと費用はいくら？【相場を解説】</span></a>
+          <ol class="inner-list">
+            <li class="inner-item">
+              <a href="#sec-3-1"><span class="link-num">3-1.</span><span class="link-title">【器具交換】LED照明器具へ交換する場合の費用相場</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-3-2"><span class="link-num">3-2.</span><span class="link-title">【バイパス工事】安定器バイパス工事の場合の費用相場</span></a>
+            </li>
+          </ol>
+        </li>
+        <li class="index-item">
+          <a href="#sec-4"><span class="link-num">4.</span><span class="link-title">まとめ：直管蛍光灯のLED化、迷ったらプロに相談</span></a>
+        </li>
+      </ol>
     </div>
 
     <!-- 各セクション -->
@@ -135,6 +141,11 @@
       <p class="desc">
         LED照明器具本体の購入費用、交換工事費用、そして既存の蛍光灯器具の運搬・処分費用がかかるため、バイパス工事と比較すると、初期費用はどうしても高額になります。しかし、長期的な視点で見ると、電気代の削減やメンテナンスコストの軽減により、十分に費用を回収できるケースがほとんどです。
       </p>
+
+      <!-- クラスター内リンク -->
+      <div class="local-link">
+        <p>LED照明に切り替えることで、電気代を大幅に節約できる可能性があります。詳しくは<a href="how-much-save-with-led.php">『LED照明でどれだけ節約できる？』</a>をご覧ください。</p>
+      </div>
 
       <h3 class="sub-title" id="sec-1-2">②【電気工事が必要】安定器バイパス工事 (既存器具利用)</h3>
       <p class="desc">
@@ -286,9 +297,6 @@
         こちらの写真は、事務所や店舗で最も普及している「屋内天井直付けタイプ、40W 2灯」の直管蛍光灯器具です。このページでは、このような蛍光灯器具をLED化する際に、電気工事業者に工事を依頼した場合の費用相場について、交換方法別（器具交換・バイパス工事）について解説します。
       </p>
       <figure class="picture">
-        <figcaption>
-          <h4 class="pic-caption">安定器には仕様の合うランプ種類が記載されています</h4>
-        </figcaption>
         <img src="img/led-fixture-replacement-and-bypass-construction.png" alt="40W 2灯 直付け蛍光灯器具のLED化 施工後 (器具交換およびバイパス工事)">
       </figure>
       <p class="desc">
@@ -371,7 +379,7 @@
       </ul>
 
       <p class="desc">
-        の3つの方法があり、それぞれにメリット・デメリット、そして費用相場が異なることをご理解いただけたかと思います。
+        の3つの方法があり、それぞれにメリット・デメリット、そして費用相場が異なることをご理解いただけたかと思います。<br>
         しかし、
       </p>
 
@@ -382,10 +390,15 @@
       </p>
 
       <p class="desc">
-        など、様々な疑問や不安が残る方もいらっしゃるかもしれません。
-        特に、蛍光灯の種類や安定器の見分け方、適合するLEDランプの選び方、そして安全に関する注意点など、専門的な知識が必要となる場面も多く、素人判断では難しいケースも少なくありません。
+        など、様々な疑問や不安が残る方もいらっしゃるかもしれません。<br>
+        特に、蛍光灯の種類や安定器の見分け方、適合するLEDランプの選び方、そして安全に関する注意点など、専門的な知識が必要となる場面も多く、素人判断では難しいケースも少なくありません。<br>
         そんな時は、無理にご自身で判断しようとせず、電気工事の専門業者にご相談ください。
       </p>
+
+      <!-- クラスター内リンク -->
+      <div class="local-link">
+        <p>LED照明への切り替えには、多くのメリットがある一方で、注意すべき点もいくつか存在します。『LED照明全般に関する基本情報』については、<a href="fluorescent-led.php">『蛍光灯からLED照明への切り替えの基本情報』</a>をご覧ください。</p>
+      </div><br>
     </section>
 
     <!-- この記事を書いた人 -->

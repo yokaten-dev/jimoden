@@ -7,3 +7,6 @@ AdobeFnt*.lst
 
 # サーバー設定系
 .user.ini
+
+# VS Code（Visual Studio Code）のワークスペース設定ファイル
+local.code-workspace

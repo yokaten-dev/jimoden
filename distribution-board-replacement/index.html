@@ -36,7 +36,7 @@
 <link rel="apple-touch-icon" href="images/apple-icon.webp">
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="assets/css/reset.min.css">
-<link rel="stylesheet" href="assets/css/switch.css">
+<link rel="stylesheet" href="assets/css/switch.css?0226">
 <link rel="preload" href="images/fv_img.png" as="image">
 </head>
 
@@ -573,45 +573,24 @@
     </div>
   </div>
 </main>
-<footer class="footer">
-  <div class="footer-main">
-    <div class="container footer-main__inner">
-      <div class="footer-logo"> <a href="../jimoden/search.php"> <img class="logo" src="images/jimoden_logo500.webp" alt="ジモデン"> </a> </div>
-      <nav class="footer-nav">
-        <div class="footer-nav__group">
-          <p class="footer-nav__title">電気スイッチ</p>
-          <ul class="footer-nav__list">
-            <li class="footer-nav__item"> <a href="https://jimoden.jp/lighting-switch/">照明スイッチ</a> </li>
-            <li class="footer-nav__item"> <a href="https://jimoden.jp/fan-switch/">換気扇スイッチ</a> </li>
-          </ul>
-        </div>
-        <div class="footer-nav__group">
-          <p class="footer-nav__title">コンセント</p>
-          <ul class="footer-nav__list">
-            <li class="footer-nav__item"> <a href="https://jimoden.jp/outlet-replacement/">コンセントの交換</a> </li>
-            <li class="footer-nav__item"> <a href="https://jimoden.jp/outlet-expand/">コンセントの増設</a> </li>
-          </ul>
-        </div>
-        <div class="footer-nav__group">
-          <p class="footer-nav__title">照明器具</p>
-          <ul class="footer-nav__list">
-            <li class="footer-nav__item"> <a href="https://jimoden.jp/downlight/">LEDダウンライト</a> </li>
-            <li class="footer-nav__item"> <a href="https://jimoden.jp/fluorescent-light-led/">蛍光灯からLED</a> </li>
-            <li class="footer-nav__item"> <a href="https://jimoden.jp/mercury-lamp-led/">水銀灯からLED</a> </li>
-          </ul>
-        </div>
-        <div class="footer-nav__group">
-          <p class="footer-nav__title">分電盤・ブレーカー</p>
-          <ul class="footer-nav__list">
-            <li class="footer-nav__item"> <a href="https://jimoden.jp/distribution-board-replacement/">分電盤交換</a> </li>
-            <li class="footer-nav__item"> <a href="https://jimoden.jp/breaker-replacement/">ブレーカー交換</a> </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-  <p class="footer__copyright"> <small>©️ 2024　ジモデン　All rights reserved.</small> </p>
-</footer>
+<div class="breadcrumbs-wrapper">
+  <nav class="breadcrumbs">
+    <ol>
+      <li><a href="../">ホーム</a></li>
+      <li><a href="../tips-index.php">電気工事の基礎知識</a></li>
+      <li>分電盤</li>
+    </ol>
+  </nav>
+</div>
+<div id="footer-placeholder"></div>
+<script defer>
+  // footer呼び出し
+  fetch("../includes/footer.php")
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
 <div id="scroll-top"><a href="#">
   <div class="arrow-wrap"> <span class="border_1"></span> <span class="border_2"></span> </div>
   </a> </div>

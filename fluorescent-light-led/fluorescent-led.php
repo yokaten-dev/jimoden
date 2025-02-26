@@ -61,7 +61,15 @@
         このページが、蛍光灯からLEDへの交換に関する疑問解消や、最適なLED化プランの選定にお役立ていただければ幸いです。
         </p>
       </div>
-      <!-- 目次 -->
+      <!-- ジモデンTOPへのリンクボタン -->
+      <div class="btn-to-top-container">
+        <p><span><em>料金表</em>のある<br class="br-sp"><em>地元</em>の電気工事業者と<em>出会える</em></span></p>
+        <a href="../"><span class="logo">ジモデン</span>をチェック</a>
+      </div>
+    </div>
+
+    <!-- 目次 -->
+    <div class="index-container">
       <div class="index">
         <p class="page-index-title">
           <span class="label-switch"> Index </span>
@@ -164,7 +172,11 @@
         <figcaption class="pic-caption">40W 2灯の蛍光灯器具をまるごとLEDへ交換しても約5年で工事費用を回収できることが多い</figcaption>
         <img src="img/fluorescent-to-led-light.png" alt="直管蛍光灯器具からLED照明器具へ交換した画像。1年で3,600円ほどの電気代削減見込み">
       </figure>
-      <a class="local-link" href="how-much-save-with-led.php"><span>詳しい電気代削減効果はこちらのページ</span></a>
+      <br>
+      <!-- クラスター内リンク -->
+      <div class="local-link">
+        <p>LED照明に切り替えることで、電気代を大幅に節約できる可能性があります。詳しくは<a href="how-much-save-with-led.php">『LED照明でどれだけ節約できる？』</a>をご覧ください。</p>
+      </div>
 
       <h3 class="sub-title" id="sec-2-2">
         <div class="header-chevron">メリット2</div>
@@ -228,6 +240,11 @@
         <dt>ポイント</dt>
         <dd><em>年間の電気代削減効果は約<span>14万</span>円</em>。約2年で初期費用を回収できる見込みです。</dd>
       </dl>
+      <br>
+      <!-- クラスター内リンク -->
+      <div class="local-link">
+        <p>直管蛍光灯をLED照明に交換する方法には、大きく分けてLED器具に交換する方法と、バイパス工事を行う方法の２通りがあります。どちらの工事方法が最適かは、用途によって異なります。<a href="which-is-best.php">『用途別おすすめ直管蛍光灯LED照明』</a>では、それぞれの工事方法の用途に焦点を当て、メリット・デメリットを比較しながら、最適な選び方を詳しく解説しています。</p>
+      </div>
     </section>
 
     <section class="section">
@@ -275,9 +292,7 @@
           <img src="img/compact-fluorescent-base-light.png" alt="コンパクト蛍光灯照明器具の取替えには電気工事が必要">
         </figure>
       </div>
-      <a class="local-link" href="which-is-best.php"><span>LED器具交換とバイパス工事、どちらが良い？はこちらのページ</span></a>
     </section>
-
 
     <section class="section">
       <h2 class="sec-title" id="sec-5">蛍光灯からLEDへ：切り替え工事費用の目安</h2>

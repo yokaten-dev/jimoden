@@ -46,26 +46,33 @@
         <p><mark>蛍光灯からLEDへの交換を検討中の方へ。</mark><br><br>照明器具ごと交換する方法と、既存器具を活かしてバイパス工事を行う方法、それぞれのメリット・デメリットを詳しく解説します。費用、工事内容、注意点など、あなたの状況に最適な選択ができるよう、プロの視点で分かりやすく比較します。
         </p>
       </div>
-      <!-- 目次 -->
-      <div class="index">
-        <p class="page-index-title">
-          <span class="label-switch"> Index </span>
-        </p>
-        <ol class="index-list">
-          <li class="index-item">
-            <a href="#sec-1"><span class="link-num">1.</span><span class="link-title">蛍光灯からLEDへ！選べる2つの工事方法</span></a>
-            <ol class="inner-list">
-              <li class="inner-item">
-                <a href="#sec-1-1"><span class="link-num">1-1.</span><span class="link-title">① LED照明器具への交換</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-1-2"><span class="link-num">1-2.</span><span class="link-title">② 安定器バイパス工事</span></a>
-              </li>
-            </ol>
-          </li>
-          <li class="index-item">
-            <a href="#sec-2"><span class="link-num">2.</span><span class="link-title">LED照明器具への交換：メリット・デメリット</span></a>
-            <!-- <ol class="inner-list">
+      <!-- ジモデンTOPへのリンクボタン -->
+      <div class="btn-to-top-container">
+        <p><span><em>料金表</em>のある<br class="br-sp"><em>地元</em>の電気工事業者と<em>出会える</em></span></p>
+        <a href="../"><span class="logo">ジモデン</span>をチェック</a>
+      </div>
+    </div>
+
+    <!-- 目次 -->
+    <div class="index">
+      <p class="page-index-title">
+        <span class="label-switch"> Index </span>
+      </p>
+      <ol class="index-list">
+        <li class="index-item">
+          <a href="#sec-1"><span class="link-num">1.</span><span class="link-title">蛍光灯からLEDへ！選べる2つの工事方法</span></a>
+          <ol class="inner-list">
+            <li class="inner-item">
+              <a href="#sec-1-1"><span class="link-num">1-1.</span><span class="link-title">① LED照明器具への交換</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-1-2"><span class="link-num">1-2.</span><span class="link-title">② 安定器バイパス工事</span></a>
+            </li>
+          </ol>
+        </li>
+        <li class="index-item">
+          <a href="#sec-2"><span class="link-num">2.</span><span class="link-title">LED照明器具への交換：メリット・デメリット</span></a>
+          <!-- <ol class="inner-list">
               <li class="inner-item">
                 <a href="#sec-1-1"><span class="link-num">2-1.</span><span class="link-title">メリット</span></a>
               </li>
@@ -73,10 +80,10 @@
                 <a href="#sec-1-1"><span class="link-num">2-2.</span><span class="link-title">デメリット</span></a>
               </li>
             </ol> -->
-          </li>
-          <li class="index-item">
-            <a href="#sec-3"><span class="link-num">3.</span><span class="link-title">安定器バイパス工事：メリット・デメリット</span></a>
-            <!-- <ol class="inner-list">
+        </li>
+        <li class="index-item">
+          <a href="#sec-3"><span class="link-num">3.</span><span class="link-title">安定器バイパス工事：メリット・デメリット</span></a>
+          <!-- <ol class="inner-list">
               <li class="inner-item">
                 <a href="#sec-1-1"><span class="link-num">3-1.</span><span class="link-title">メリット</span></a>
               </li>
@@ -84,10 +91,10 @@
                 <a href="#sec-1-1"><span class="link-num">3-2.</span><span class="link-title">デメリット</span></a>
               </li>
             </ol> -->
-          </li>
-          <li class="index-item">
-            <a href="#sec-4"><span class="link-num">4.</span><span class="link-title">【比較表】LED器具交換 vs バイパス工事</span></a>
-            <!-- <ol class="inner-list">
+        </li>
+        <li class="index-item">
+          <a href="#sec-4"><span class="link-num">4.</span><span class="link-title">【比較表】LED器具交換 vs バイパス工事</span></a>
+          <!-- <ol class="inner-list">
               <li class="inner-item">
                 <a href="#sec-1-1"><span class="link-num">4-1.</span><span class="link-title">メリット</span></a>
               </li>
@@ -95,10 +102,10 @@
                 <a href="#sec-1-1"><span class="link-num">4-2.</span><span class="link-title">デメリット</span></a>
               </li>
             </ol> -->
-          </li>
-          <li class="index-item">
-            <a href="#sec-4"><span class="link-num">5.</span><span class="link-title">最適なのはどっち？工事方法を選ぶポイント</span></a>
-            <!-- <ol class="inner-list">
+        </li>
+        <li class="index-item">
+          <a href="#sec-4"><span class="link-num">5.</span><span class="link-title">最適なのはどっち？工事方法を選ぶポイント</span></a>
+          <!-- <ol class="inner-list">
               <li class="inner-item">
                 <a href="#sec-5-1"><span class="link-num">5-1.</span><span class="link-title">LED器具交換がおすすめの方</span></a>
               </li>
@@ -106,13 +113,12 @@
                 <a href="#sec-5-2"><span class="link-num">5-2.</span><span class="link-title">安定器バイパス工事がおすすめの方</span></a>
               </li>
             </ol> -->
-          </li>
+        </li>
 
-          <li class="index-item">
-            <a href="#sec-6"><span class="link-num">6.</span><span class="link-title">まとめ</span></a>
-          </li>
-        </ol>
-      </div>
+        <li class="index-item">
+          <a href="#sec-6"><span class="link-num">6.</span><span class="link-title">まとめ</span></a>
+        </li>
+      </ol>
     </div>
 
     <!-- 各セクション -->
@@ -296,6 +302,10 @@
         「自分の場合は、どちらが良いのか分からない…」<br>
         そんな時は電気工事業者へ相談してみましょう。
       </p>
+      <!-- クラスター内リンク -->
+      <div class="local-link">
+        <p>LED照明への切り替えには、多くのメリットがある一方で、注意すべき点もいくつか存在します。『LED照明全般に関する基本情報』については、<a href="fluorescent-led.php">『蛍光灯からLED照明への切り替えの基本情報』</a>をご覧ください。</p>
+      </div><br>
     </section>
 
     <!-- この記事を書いた人 -->

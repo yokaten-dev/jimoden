@@ -49,78 +49,84 @@
           LED化による電気代削減効果を具体的にイメージしていただき、導入検討の参考にしていただければ幸いです。
         </p>
       </div>
-      <!-- 目次 -->
-      <div class="index">
-        <p class="page-index-title">
-          <span class="label-switch"> Index </span>
-        </p>
-        <ol class="index-list">
-          <li class="index-item">
-            <a href="#sec-1"><span class="link-num">1.</span><span class="link-title">蛍光灯とLEDの消費電力比較</span></a>
-            <ol class="inner-list">
-              <li class="inner-item">
-                <a href="#sec-1-1"><span class="link-num">1-1.</span><span class="link-title">蛍光灯とLEDの消費電力比較表</span></a>
-              </li>
-            </ol>
-          </li>
-          <li class="index-item">
-            <a href="#sec-2"><span class="link-num">2.</span><span class="link-title">電気代削減効果の計算方法</span></a>
-            <ol class="inner-list">
-              <li class="inner-item">
-                <a href="#sec-2-1"><span class="link-num">2-1.</span><span class="link-title">計算式</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-2-2"><span class="link-num">2-2.</span><span class="link-title">計算例：40W 2灯の直管蛍光灯をLEDに交換した場合</span></a>
-              </li>
-            </ol>
-          </li>
-          <li class="index-item">
-            <a href="#sec-3"><span class="link-num">3.</span><span class="link-title">事務所・店舗・工場別！電気代削減シミュレーション</span></a>
-            <ol class="inner-list">
-              <li class="inner-item">
-                <a href="#sec-3-1"><span class="link-num">3-1.</span><span class="link-title">事務所の例（30坪、直管蛍光灯40W 2灯 20台）</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-3-2"><span class="link-num">3-2.</span><span class="link-title">店舗の例（15坪、直管蛍光灯40W 2灯 10台、蛍光灯ダウンライト 15台）</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-3-3"><span class="link-num">3-3.</span><span class="link-title">工場の例（50坪、直管蛍光灯40W 2灯 50台）</span></a>
-              </li>
-            </ol>
-          </li>
-          <li class="index-item">
-            <a href="#sec-4"><span class="link-num">4.</span><span class="link-title">実際の導入事例紹介</span></a>
-            <ol class="inner-list">
-              <li class="inner-item">
-                <a href="#sec-4-1"><span class="link-num">4-1.</span><span class="link-title">事例1：事務所のLED化【器具交換】</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-4-2"><span class="link-num">4-2.</span><span class="link-title">事例2：クリニックのLED化【器具交換】</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-4-3"><span class="link-num">4-3.</span><span class="link-title">事例3：店舗のLED化【バイパス工事】</span></a>
-              </li>
-            </ol>
-          </li>
-          <li class="index-item">
-            <a href="#sec-5"><span class="link-num">5.</span><span class="link-title">電気代削減効果を高めるためのポイント</span></a>
-            <ol class="inner-list">
-              <li class="inner-item">
-                <a href="#sec-5-1"><span class="link-num">5-1.</span><span class="link-title">適切な明るさのLED照明を選ぶ</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-5-2"><span class="link-num">5-2.</span><span class="link-title">照明器具の配置を最適化する</span></a>
-              </li>
-              <li class="inner-item">
-                <a href="#sec-5-3"><span class="link-num">5-3.</span><span class="link-title">センサーやタイマーを活用する</span></a>
-              </li>
-            </ol>
-          </li>
-          <li class="index-item">
-            <a href="#sec-6"><span class="link-num">6.</span><span class="link-title">まとめ</span></a>
-          </li>
-        </ol>
+      <!-- ジモデンTOPへのリンクボタン -->
+      <div class="btn-to-top-container">
+        <p><span><em>料金表</em>のある<br class="br-sp"><em>地元</em>の電気工事業者と<em>出会える</em></span></p>
+        <a href="../"><span class="logo">ジモデン</span>をチェック</a>
       </div>
+    </div>
+
+    <!-- 目次 -->
+    <div class="index">
+      <p class="page-index-title">
+        <span class="label-switch"> Index </span>
+      </p>
+      <ol class="index-list">
+        <li class="index-item">
+          <a href="#sec-1"><span class="link-num">1.</span><span class="link-title">蛍光灯とLEDの消費電力比較</span></a>
+          <ol class="inner-list">
+            <li class="inner-item">
+              <a href="#sec-1-1"><span class="link-num">1-1.</span><span class="link-title">蛍光灯とLEDの消費電力比較表</span></a>
+            </li>
+          </ol>
+        </li>
+        <li class="index-item">
+          <a href="#sec-2"><span class="link-num">2.</span><span class="link-title">電気代削減効果の計算方法</span></a>
+          <ol class="inner-list">
+            <li class="inner-item">
+              <a href="#sec-2-1"><span class="link-num">2-1.</span><span class="link-title">計算式</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-2-2"><span class="link-num">2-2.</span><span class="link-title">計算例：40W 2灯の直管蛍光灯をLEDに交換した場合</span></a>
+            </li>
+          </ol>
+        </li>
+        <li class="index-item">
+          <a href="#sec-3"><span class="link-num">3.</span><span class="link-title">事務所・店舗・工場別！電気代削減シミュレーション</span></a>
+          <ol class="inner-list">
+            <li class="inner-item">
+              <a href="#sec-3-1"><span class="link-num">3-1.</span><span class="link-title">事務所の例（30坪、直管蛍光灯40W 2灯 20台）</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-3-2"><span class="link-num">3-2.</span><span class="link-title">店舗の例（15坪、直管蛍光灯40W 2灯 10台、蛍光灯ダウンライト 15台）</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-3-3"><span class="link-num">3-3.</span><span class="link-title">工場の例（50坪、直管蛍光灯40W 2灯 50台）</span></a>
+            </li>
+          </ol>
+        </li>
+        <li class="index-item">
+          <a href="#sec-4"><span class="link-num">4.</span><span class="link-title">実際の導入事例紹介</span></a>
+          <ol class="inner-list">
+            <li class="inner-item">
+              <a href="#sec-4-1"><span class="link-num">4-1.</span><span class="link-title">事例1：事務所のLED化【器具交換】</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-4-2"><span class="link-num">4-2.</span><span class="link-title">事例2：クリニックのLED化【器具交換】</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-4-3"><span class="link-num">4-3.</span><span class="link-title">事例3：店舗のLED化【バイパス工事】</span></a>
+            </li>
+          </ol>
+        </li>
+        <li class="index-item">
+          <a href="#sec-5"><span class="link-num">5.</span><span class="link-title">電気代削減効果を高めるためのポイント</span></a>
+          <ol class="inner-list">
+            <li class="inner-item">
+              <a href="#sec-5-1"><span class="link-num">5-1.</span><span class="link-title">適切な明るさのLED照明を選ぶ</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-5-2"><span class="link-num">5-2.</span><span class="link-title">照明器具の配置を最適化する</span></a>
+            </li>
+            <li class="inner-item">
+              <a href="#sec-5-3"><span class="link-num">5-3.</span><span class="link-title">センサーやタイマーを活用する</span></a>
+            </li>
+          </ol>
+        </li>
+        <li class="index-item">
+          <a href="#sec-6"><span class="link-num">6.</span><span class="link-title">まとめ</span></a>
+        </li>
+      </ol>
     </div>
 
     <!-- 各セクション -->
@@ -295,6 +301,11 @@
         <b>お客様の声</b><br>
         電気代が安くなっただけでなく、店内が明るく、展示物の見栄えが良くなりました。お客様からも『お店が明るくなったね』と言われます。
       </div>
+      <br>
+      <!-- クラスター内リンク -->
+      <div class="local-link">
+        <p>直管蛍光灯をLED照明に交換する方法には、大きく分けてLED器具に交換する方法と、バイパス工事を行う方法の２通りがあります。どちらの工事方法が最適かは、用途によって異なります。<a href="which-is-best.php">『用途別おすすめ直管蛍光灯LED照明』</a>では、それぞれの工事方法の用途に焦点を当て、メリット・デメリットを比較しながら、最適な選び方を詳しく解説しています。</p>
+      </div>
     </section>
 
     <section class="section">
@@ -318,7 +329,12 @@
       <p class="desc">さらに、電気代削減効果を最大化するためのポイントとして、用途に合わせた適切なLED照明の選び方、効率的な照明プランニング、そしてセンサーやタイマーなどを活用した運用方法についても詳しく説明いたしました。</p>
       <p class="desc">LED化は、単に電気代を節約するだけでなく、照明環境の改善によって、オフィスの場合は、社員の皆様の業務効率の向上が図れますし、店舗の場合は、お客様の購買意欲の向上に貢献したり、クリーンなイメージを打ち出したりする効果があります。さらには、地球環境への負荷を低減するなど、様々なメリットをもたらします。</p>
       <p class="desc">このページでご紹介した情報を参考に、ぜひ皆様の施設に最適なLED化プランをご検討いただき、電気代の賢い節約と、より快適で持続可能な空間づくりを実現していただければ幸いです。LED化を通じて、皆様のビジネスや暮らしが、より豊かで明るいものとなることを心より願っております。</p>
+      <!-- クラスター内リンク -->
+      <div class="local-link">
+        <p>LED照明への切り替えには、多くのメリットがある一方で、注意すべき点もいくつか存在します。『LED照明全般に関する基本情報』については、<a href="fluorescent-led.php">『蛍光灯からLED照明への切り替えの基本情報』</a>をご覧ください。</p>
+      </div><br>
     </section>
+
 
     <!-- この記事を書いた人 -->
     <div class="profile-card-container">
