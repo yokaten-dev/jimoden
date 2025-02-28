@@ -54,25 +54,26 @@
     </div>
 
     <!-- 目次 -->
-    <div class="index">
-      <p class="page-index-title">
-        <span class="label-switch"> Index </span>
-      </p>
-      <ol class="index-list">
-        <li class="index-item">
-          <a href="#sec-1"><span class="link-num">1.</span><span class="link-title">蛍光灯からLEDへ！選べる2つの工事方法</span></a>
-          <ol class="inner-list">
-            <li class="inner-item">
-              <a href="#sec-1-1"><span class="link-num">1-1.</span><span class="link-title">① LED照明器具への交換</span></a>
-            </li>
-            <li class="inner-item">
-              <a href="#sec-1-2"><span class="link-num">1-2.</span><span class="link-title">② 安定器バイパス工事</span></a>
-            </li>
-          </ol>
-        </li>
-        <li class="index-item">
-          <a href="#sec-2"><span class="link-num">2.</span><span class="link-title">LED照明器具への交換：メリット・デメリット</span></a>
-          <!-- <ol class="inner-list">
+    <div class="index-container">
+      <div class="index">
+        <p class="page-index-title">
+          <span class="label-switch"> Index </span>
+        </p>
+        <ol class="index-list">
+          <li class="index-item">
+            <a href="#sec-1"><span class="link-num">1.</span><span class="link-title">蛍光灯からLEDへ！選べる2つの工事方法</span></a>
+            <ol class="inner-list">
+              <li class="inner-item">
+                <a href="#sec-1-1"><span class="link-num">1-1.</span><span class="link-title">① LED照明器具への交換</span></a>
+              </li>
+              <li class="inner-item">
+                <a href="#sec-1-2"><span class="link-num">1-2.</span><span class="link-title">② 安定器バイパス工事</span></a>
+              </li>
+            </ol>
+          </li>
+          <li class="index-item">
+            <a href="#sec-2"><span class="link-num">2.</span><span class="link-title">LED照明器具への交換：メリット・デメリット</span></a>
+            <!-- <ol class="inner-list">
               <li class="inner-item">
                 <a href="#sec-1-1"><span class="link-num">2-1.</span><span class="link-title">メリット</span></a>
               </li>
@@ -80,10 +81,10 @@
                 <a href="#sec-1-1"><span class="link-num">2-2.</span><span class="link-title">デメリット</span></a>
               </li>
             </ol> -->
-        </li>
-        <li class="index-item">
-          <a href="#sec-3"><span class="link-num">3.</span><span class="link-title">安定器バイパス工事：メリット・デメリット</span></a>
-          <!-- <ol class="inner-list">
+          </li>
+          <li class="index-item">
+            <a href="#sec-3"><span class="link-num">3.</span><span class="link-title">安定器バイパス工事：メリット・デメリット</span></a>
+            <!-- <ol class="inner-list">
               <li class="inner-item">
                 <a href="#sec-1-1"><span class="link-num">3-1.</span><span class="link-title">メリット</span></a>
               </li>
@@ -91,10 +92,10 @@
                 <a href="#sec-1-1"><span class="link-num">3-2.</span><span class="link-title">デメリット</span></a>
               </li>
             </ol> -->
-        </li>
-        <li class="index-item">
-          <a href="#sec-4"><span class="link-num">4.</span><span class="link-title">【比較表】LED器具交換 vs バイパス工事</span></a>
-          <!-- <ol class="inner-list">
+          </li>
+          <li class="index-item">
+            <a href="#sec-4"><span class="link-num">4.</span><span class="link-title">【比較表】LED器具交換 vs バイパス工事</span></a>
+            <!-- <ol class="inner-list">
               <li class="inner-item">
                 <a href="#sec-1-1"><span class="link-num">4-1.</span><span class="link-title">メリット</span></a>
               </li>
@@ -102,10 +103,10 @@
                 <a href="#sec-1-1"><span class="link-num">4-2.</span><span class="link-title">デメリット</span></a>
               </li>
             </ol> -->
-        </li>
-        <li class="index-item">
-          <a href="#sec-4"><span class="link-num">5.</span><span class="link-title">最適なのはどっち？工事方法を選ぶポイント</span></a>
-          <!-- <ol class="inner-list">
+          </li>
+          <li class="index-item">
+            <a href="#sec-4"><span class="link-num">5.</span><span class="link-title">最適なのはどっち？工事方法を選ぶポイント</span></a>
+            <!-- <ol class="inner-list">
               <li class="inner-item">
                 <a href="#sec-5-1"><span class="link-num">5-1.</span><span class="link-title">LED器具交換がおすすめの方</span></a>
               </li>
@@ -113,12 +114,13 @@
                 <a href="#sec-5-2"><span class="link-num">5-2.</span><span class="link-title">安定器バイパス工事がおすすめの方</span></a>
               </li>
             </ol> -->
-        </li>
+          </li>
 
-        <li class="index-item">
-          <a href="#sec-6"><span class="link-num">6.</span><span class="link-title">まとめ</span></a>
-        </li>
-      </ol>
+          <li class="index-item">
+            <a href="#sec-6"><span class="link-num">6.</span><span class="link-title">まとめ</span></a>
+          </li>
+        </ol>
+      </div>
     </div>
 
     <!-- 各セクション -->
