@@ -7,6 +7,62 @@
   <priority>1.0</priority>
 </url>
 <url>
+  <loc>https://jimoden.jp/lighting-switch/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/lighting-switch/broken.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/fan-switch/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/outlet-replacement/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/outlet-expand/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/downlight/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/fluorescent-light-led/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/fluorescent-light-led/fluorescent-led.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/fluorescent-light-led/how-much-save-with-led.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/fluorescent-light-led/which-is-best.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/fluorescent-light-led/straight-tube-fluorescent-light-to-led.php</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/mercury-lamp-led/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/distribution-board-replacement/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/breaker-replacement/</loc>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://jimoden.jp/price/</loc>
   <priority>0.8</priority>
 </url>
@@ -63,35 +119,19 @@
   <priority>0.6</priority>
 </url>
 <url>
+  <loc>https://jimoden.jp/tips-index.php</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://jimoden.jp/jimoden/ad.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
   <loc>https://jimoden.jp/contractor/aichi/key-nex/</loc>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://jimoden.jp/contractor/aichi/inuden/</loc>
   <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jimoden.jp/fluorescent-light-led/fluorescent-led.php</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jimoden.jp/fluorescent-light-led/how-much-save-with-led.php</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jimoden.jp/fluorescent-light-led/which-is-best.php</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jimoden.jp/fluorescent-light-led/straight-tube-fluorescent-light-to-led.php</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jimoden.jp/lighting-switch/broken.php</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jimoden.jp/tips-index.php</loc>
-  <priority>0.6</priority>
 </url>
 </urlset>
