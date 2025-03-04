@@ -24,7 +24,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
   <link rel="stylesheet" href="../assets/css/common.css" />
-  <link rel="stylesheet" href="../assets/tips/style.css" />
+  <link rel="stylesheet" href="../assets/tips/style.css?0304" />
 </head>
 
 <body>
@@ -35,7 +35,7 @@
     <div id="mainvisual">
       <div class="mv-overlay">
         <div class="mv-content">
-          <h1 class="main-title">【直管蛍光灯LED化】<br>交換費用・工事・注意点をプロが解説</h1>
+          <h1 class="main-title"><span>【直管蛍光灯LED化】</span><br><span>交換費用・工事・注意点をプロが解説</span></h1>
         </div>
       </div>
     </div>

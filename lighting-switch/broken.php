@@ -25,7 +25,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
   <link rel="stylesheet" href="../assets/css/common.css" />
-  <link rel="stylesheet" href="../assets/tips/style.css?20250222" />
+  <link rel="stylesheet" href="../assets/tips/style.css?0304" />
 
 </head>
 
@@ -37,7 +37,7 @@
     <div id="mainvisual">
       <div class="mv-overlay">
         <div class="mv-content">
-          <h1 class="main-title">電気スイッチ故障の原因と交換費用｜<br class="br-sp">98%はスイッチ本体！<br>DIYと業者依頼を徹底解説</h1>
+          <h1 class="main-title"><span>電気スイッチ故障の原因と交換費用</span><br><span>｜98%はスイッチ本体！</span><br><span>DIYと業者依頼を徹底解説</span></h1>
         </div>
       </div>
     </div>

@@ -30,11 +30,30 @@
 #mainvisual {
   position: relative;
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   background-color: gray;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+#mainvisual::before {
+  content: "";
+  display: block;
+  background: url(../../assets/img/tips_mv.png) no-repeat center center / cover;
+  z-index: 10;
+  width: auto;
+  height: 100%;
+  position: relative;
+  opacity: 0.7;
+}
+@media (max-width: 767px) {
+  #mainvisual::before {
+    background: url(../../assets/img/tips_mv_sp.png) no-repeat center center / cover;
+  }
+}
+#mainvisual .main-title span {
+  background: #fff;
+  padding: 0 0.2em;
 }
 #mainvisual .mv-overlay {
   position: absolute;
@@ -42,19 +61,29 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 #mainvisual .mv-content {
-  color: white;
+  color: #222;
   text-align: center;
+  position: relative;
+  z-index: 50;
+  max-width: 1000px;
+  border: 2px white solid;
+  height: calc(55vh - 30px);
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 /* h1 */
 #mainvisual .main-title {
-  font-size: clamp(1.5rem, 0.6rem + 3.84vw, 3rem); /* 24 <-> 48 */
-  margin: 0 10px;
+  font-size: clamp(1.5rem, 0.9rem + 2.56vw, 2.5rem); /* 24 <-> 40 */
   font-weight: bold;
   word-break: auto-phrase;
 }

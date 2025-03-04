@@ -24,7 +24,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
   <link rel="stylesheet" href="../assets/css/common.css" />
-  <link rel="stylesheet" href="../assets/tips/style.css" />
+  <link rel="stylesheet" href="../assets/tips/style.css?0304" />
 </head>
 
 <body>
@@ -35,7 +35,7 @@
     <div id="mainvisual">
       <div class="mv-overlay">
         <div class="mv-content">
-          <h1 class="main-title">LED器具交換とバイパス工事、どちらが最適？<br>メリット・デメリットを徹底比較</h1>
+          <h1 class="main-title"><span>LED器具交換とバイパス工事、</span><br><span>どちらが最適？</span><br><span>メリット・デメリットを徹底比較</span></h1>
         </div>
       </div>
     </div>
