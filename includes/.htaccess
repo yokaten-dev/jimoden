@@ -1,1 +1,6 @@
-Deny from all
+<FilesMatch ".*">
+    Require all denied
+    <If "%{HTTP_REFERER} =~ m#^https://jimoden\.jp/#">
+        Require all granted
+    </If>
+</FilesMatch>
