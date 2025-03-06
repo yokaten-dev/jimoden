@@ -2,8 +2,13 @@
 ErrorDocument 404 /404.php
 ErrorDocument 500 /500.php
 
-# / なしを / ありに統一
 RewriteEngine On
+
+# HTTP を HTTPS にリダイレクト
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# / なしを / ありに統一
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} !/$
 RewriteRule (.*) %{REQUEST_URI}/ [R=301,L]
