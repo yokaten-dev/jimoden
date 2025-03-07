@@ -25,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="assets/css/common.css" />
-    <link rel="stylesheet" href="assets/tips/tips-index.css" />
+    <link rel="stylesheet" href="assets/css/tips-index.css" />
 </head>
 
 <body id="tips-index">
@@ -104,6 +104,9 @@
         </nav>
     </div>
     <?php include 'includes/footer.php'; ?>
+    <div id="page_top"><a href="#"></a></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

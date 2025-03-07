@@ -1,7 +1,10 @@
 $(document).ready(function () {
-  const $header = $(".header");
-  const $main = $(".main");
+  // ヘッダー要素の取得
+  const $header = $("header");
+  const $main = $("main");
   const $catchcopy = $(".catchcopy");
+  const btnMenu = $("#js-btn-menu");
+  const gnav = $(".gnav");
 
   // ヘッダーの固定処理
   function updateHeaderState() {
@@ -30,6 +33,23 @@ $(document).ready(function () {
   function initHeaderFixed() {
     updateHeaderState();
     $(window).on("scroll resize", updateHeaderState);
+  }
+
+  // グローバルメニューの開閉処理
+  function initGlobalMenu() {
+    btnMenu.on("click", function () {
+      btnMenu.toggleClass("active");
+      gnav.toggleClass("show");
+    });
+
+    $(document).on("click", function (e) {
+      if (!gnav.is(e.target) && !btnMenu.is(e.target) && gnav.has(e.target).length === 0) {
+        if (gnav.hasClass("show")) {
+          gnav.removeClass("show");
+          btnMenu.toggleClass("active");
+        }
+      }
+    });
   }
 
   // スムーススクロールの処理
@@ -109,6 +129,7 @@ $(document).ready(function () {
 
   // 各機能の初期化
   initHeaderFixed();
+  initGlobalMenu();
   initSmoothScroll();
   initAccordion();
   initFooterLinkSlideOut();

@@ -42,81 +42,61 @@
     <meta name="twitter:image" content="images/fv.webp" />
     <link rel="apple-touch-icon" href="images/apple-icon.webp" />
     <meta name="format-detection" content="telephone=no" />
-    <link rel="stylesheet" href="assets/css/reset.min.css" />
-    <link rel="stylesheet" href="assets/css/switch.css?0226" />
     <link rel="preload" href="images/cost-outlet-replacement.webp" as="image" />
+    <link rel="stylesheet" href="assets/css/reset.min.css" />
+    <link rel="stylesheet" href="assets/css/switch.css?0307" />
+    <link rel="stylesheet" href="../assets/css/kensaku.css" />
   </head>
 
   <body>
-    <header>
-      <div class="mobile-header">
-        <div class="mobile-header-in">
-          <a href="../">
-            <div><img class="logo" src="images/jimoden_logo500.webp" alt="ジモデン" /></div>
-          </a>
-          <ul>
-            <li class="has-child">
-              <p>電気スイッチ</p>
-              <ul class="pc-accordion">
-                <li><a href="https://jimoden.jp/lighting-switch/">照明スイッチ</a></li>
-                <li><a href="https://jimoden.jp/fan-switch/">換気扇スイッチ</a></li>
-              </ul>
-            </li>
-            <li class="has-child con">
-              <p>コンセント</p>
-              <ul class="pc-accordion">
-                <li><a href="https://jimoden.jp/outlet-replacement/">コンセントの交換</a></li>
-                <li><a href="https://jimoden.jp/outlet-expand/">コンセントの増設</a></li>
-              </ul>
-            </li>
-            <li class="has-child house">
-              <p>照明器具</p>
-              <ul class="pc-accordion">
-                <li><a href="https://jimoden.jp/downlight/">LEDダウンライト</a></li>
-                <li><a href="https://jimoden.jp/fluorescent-light-led">蛍光灯からLED</a></li>
-                <li><a href="https://jimoden.jp/mercury-lamp-led">水銀灯からLED</a></li>
-              </ul>
-            </li>
-            <li class="has-child board">
-              <p>分電盤<span class="lp">・ブレーカー</span></p>
-              <ul class="pc-accordion">
-                <li><a href="https://jimoden.jp/distribution-board-replacement/">分電盤交換</a></li>
-                <li><a href="https://jimoden.jp/breaker-replacement">ブレーカー交換</a></li>
-              </ul>
-            </li>
-          </ul>
-          <div class="jimoden_btn pc_btn"><a class="hover-red" href="../jimoden/search.php">ジモデンで探す</a></div>
-          <div class="openbtn"><span class="border1"></span><span></span><span class="border2"></span></div>
+    <div class="catchcopy"><span>料金表</span>がある<span>地元</span>の<br class="br-sp" />電気工事業者と<span>出会える</span>「ジモデン」</div>
+    <header class="header fixed">
+      <div class="header-wrapper">
+        <div class="header-logo">
+          <a href="../"><img src="../assets/img/logo.svg" alt="ジモデン" /></a>
         </div>
+        <nav class="header-links">
+          <a href="../price/" class="header-link price">料金表</a>
+          <a href="../jimoden/search.php" class="header-link search">業者を探す</a>
+          <div class="gnav">
+            <ul>
+              <li>
+                <span class="menu-title">電気スイッチ</span>
+                <div class="menu-link">
+                  <a href="../lighting-switch/">照明スイッチ交換</a>
+                  <a href="../fan-switch/">換気扇スイッチ交換</a>
+                </div>
+              </li>
+              <li>
+                <span class="menu-title">コンセント</span>
+                <div class="menu-link">
+                  <a href="../outlet-replacement/">コンセント交換</a>
+                  <a href="../outlet-expand/">コンセント増設</a>
+                </div>
+              </li>
+              <li>
+                <span class="menu-title">照明器具</span>
+                <div class="menu-link">
+                  <a href="../downlight/">LEDでダウンライト</a>
+                  <a href="../fluorescent-light-led/">蛍光灯→LED交換</a>
+                  <a href="../mercury-lamp-led/">水銀灯→LED交換</a>
+                </div>
+              </li>
+              <li>
+                <span class="menu-title">分電盤･ブレーカー</span>
+                <div class="menu-link">
+                  <a href="../distribution-board-replacement/">分電盤</a>
+                  <a href="../breaker-replacement/">ブレーカー</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="btn-menu" id="js-btn-menu" type="button"><span class="border1"></span><span></span><span class="border2"></span></button>
+        </nav>
       </div>
-      <nav id="g-nav">
-        <div id="g-nav-list">
-          <ul>
-            <li>
-              <a href="../"><span class="menu-title">ホーム</span></a>
-            </li>
-            <li>
-              <span class="menu-title">電気スイッチ</span>
-              <div class="menu-link"><a href="https://jimoden.jp/lighting-switch/">照明スイッチ</a> <a href="https://jimoden.jp/fan-switch/">換気扇スイッチ</a></div>
-            </li>
-            <li>
-              <span class="menu-title">コンセント</span>
-              <div class="menu-link"><a href="https://jimoden.jp/outlet-replacement/">コンセントの交換</a> <a href="https://jimoden.jp/outlet-expand/">コンセントの増設</a></div>
-            </li>
-            <li>
-              <span class="menu-title">照明器具</span>
-              <div class="menu-link"><a href="https://jimoden.jp/downlight/">LEDダウンライト</a> <a href="https://jimoden.jp/fluorescent-light-led/">蛍光灯からLED</a> <a href="https://jimoden.jp/mercury-lamp-led">水銀灯からLED</a></div>
-            </li>
-            <li>
-              <span class="menu-title">分電盤･ブレーカー</span>
-              <div class="menu-link"><a href="https://jimoden.jp/distribution-board-replacement/">分電盤</a> <a href="https://jimoden.jp/breaker-replacement">ブレーカー</a></div>
-            </li>
-          </ul>
-          <div class="jimoden_btn"><a class="hover-red" href="../jimoden/search.php">ジモデンで探す</a></div>
-        </div>
-      </nav>
     </header>
-    <main>
+
+    <main class="main">
       <section class="top">
         <div class="top-pc-wrap">
           <div class="fv-cp-wrap_pc">
@@ -618,12 +598,9 @@
           document.getElementById("footer-placeholder").innerHTML = data;
         });
     </script>
-    <div id="scroll-top">
-      <a href="#">
-        <div class="arrow-wrap"><span class="border_1"></span> <span class="border_2"></span></div>
-      </a>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="assets/js/switch.min.js"></script>
+
+    <div id="page_top"><a href="#"></a></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../assets/js/script.js"></script>
   </body>
 </html>

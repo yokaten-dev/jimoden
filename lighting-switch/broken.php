@@ -25,9 +25,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-  <link rel="stylesheet" href="../assets/css/common.css" />
-  <link rel="stylesheet" href="../assets/tips/style.css?0304" />
-
+  <link rel="stylesheet" href="../assets/css/common.css?0307" />
+  <link rel="stylesheet" href="../assets/css/tips.css" />
+  <style>
+    #mainvisual {
+      background-image: url(img/bg-mv.jpg);
+    }
+  </style>
 </head>
 
 <body>
@@ -374,14 +378,9 @@
     </nav>
   </div>
   <?php include '../includes/footer.php'; ?>
-  <script>
-    $(document).ready(function() {
-      // 変更後の背景画像URL
-      var backgroundImageUrl = "img/bg-mv.jpg";
-      // 背景画像を設定
-      $("#mainvisual").css("background-image", "url('" + backgroundImageUrl + "')");
-    });
-  </script>
+  <div id="page_top"><a href="#"></a></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

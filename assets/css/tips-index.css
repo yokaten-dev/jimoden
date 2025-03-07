@@ -28,9 +28,9 @@
 .service-container figure {
   flex: 1 1 25%;
   max-width: 150px;
+  margin-right: 1em;
 }
 .service-container > div {
-  margin-left: 1em;
   flex: 1 0 75%;
 }
 .service-list {
