@@ -492,6 +492,7 @@
 }
 .service-flow .detail {
   margin: 10px 0 0;
+  text-align: justify;
 }
 /*-------------------------------------------
 工事料金例
@@ -1042,6 +1043,9 @@
   color: #666;
   margin: 20px 0;
 }
+.sec-work .work-item .text {
+  text-align: justify;
+}
 @media screen and (max-width: 767px) {
   .sec-work .work-list {
     flex-direction: column;
@@ -1096,6 +1100,9 @@
   font-weight: bold;
   font-size: clamp(var(--fz20), 0.85rem + 0.64vw, var(--fz24));
   margin-bottom: 20px;
+}
+.sec-reviews .review-item .text {
+  text-align: justify;
 }
 @media screen and (max-width: 767px) {
   .sec-reviews .review-item {

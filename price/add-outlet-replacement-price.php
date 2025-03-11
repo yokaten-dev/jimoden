@@ -181,7 +181,7 @@
             <p class="details-note">露出配線の場合は不要<br class="br-pc" />&nbsp;</p>
             <div class="details-breakdown">
               <div class="details-row"><span class="details-label">モール・電線管<em>1m</em>につき</span><span class="details-amount"><em><span>1,100</span>円</em></span></div>
-              <figre class="deteils-image"><img src="img/add_outlet_mallls_and_conduit.png" alt="モールと電線管" /></figre>
+              <figre class="deteils-image"><img src="img/add_outlet_mallls_and_conduit.png" alt="モールと電線管" width="300" /></figre>
             </div>
           </div>
           <div class="cost-details">
@@ -224,7 +224,7 @@
             <p class="details-note">露出配線の場合は不要</p>
             <div class="details-breakdown">
               <div class="details-row"><span class="details-label">モール・電線管<em>1m</em>につき</span><span class="details-amount"><em><span>1,100</span>円</em></span></div>
-              <figre class="deteils-image"><img src="img/add_outlet_mallls_and_conduit.png" alt="モールと電線管" /></figre>
+              <figre class="deteils-image"><img src="img/add_outlet_mallls_and_conduit.png" alt="モールと電線管" width="300" /></figre>
             </div>
           </div>
         </div>

@@ -1,3 +1,10 @@
+RewriteEngine On
+
+# HTTP を HTTPS にリダイレクト
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+
 # BEGIN WordPress
 # "BEGIN WordPress" から "END WordPress" までのディレクティブ (行) は
 # 動的に生成され、WordPress フィルターによってのみ修正が可能です。

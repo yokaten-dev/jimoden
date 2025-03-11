@@ -217,7 +217,7 @@
       <h3 class="sub-title" id="sec-3-1">事務所のLED化：約5年で費用回収</h3>
       <figure class="picture">
         <figcaption class="pic-caption">直管40W-2灯の蛍光灯をまるごとLED器具へ交換した工事例</figcaption>
-        <img src="img/led-baselight-replacement-example.png" alt="直管40W-2灯の蛍光灯をまるごとLED器具へ交換した工事例">
+        <img src="img/led-baselight-replacement-example.png" alt="直管40W-2灯の蛍光灯をまるごとLED器具へ交換した工事例" width="600">
       </figure>
       <dl class="data-list">
         <dt>建物</dt>
@@ -233,7 +233,7 @@
       <h3 class="sub-title" id="sec-3-2">店舗のLED化：約2年で費用回収</h3>
       <figure class="picture">
         <figcaption class="pic-caption">2灯の蛍光灯をLEDバイパス工事を行った例</figcaption>
-        <img src="img/led-bypass-construction-example.png" alt="2灯の蛍光灯をLEDバイパス工事を行った例">
+        <img src="img/led-bypass-construction-example.png" alt="2灯の蛍光灯をLEDバイパス工事を行った例" width="500">
       </figure>
       <dl class="data-list">
         <dt>建物</dt>

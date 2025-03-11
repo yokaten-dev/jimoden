@@ -178,30 +178,30 @@
         <li>ワイド21の新品のバネ</li>
       </ul>
       <h3 class="sub-title" id="sec-2-2">①プレートとハンドルを取り外す</h3>
-      <figure class="picture"><img src="img/wide21-switch-disassembly-step1.png" alt="パナソニック製ワイド21スイッチのバネ交換手順1。プレート枠を取り外した状態" /></figure>
+      <figure class="picture"><img src="img/wide21-switch-disassembly-step1.png" alt="パナソニック製ワイド21スイッチのバネ交換手順1。プレート枠を取り外した状態" width="500" /></figure>
       <p class="desc">まずは外側のプレート枠を取り外し、それからハンドルを取り外します。ハンドルを取り外したらスイッチ本体が見えます。この画像では水色の部品ですが、３路スイッチ、４路スイッチの場合は黄色の部品となりますが、色の違いのみで形は同じなので、関係ありません。</p>
       <h3 class="sub-title" id="sec-2-3">②故障したスイッチのバネを取り外す</h3>
-      <figure class="picture"><img src="img/wide21-switch-disassembly-step2.png" alt="パナソニック製ワイド21スイッチのバネ交換手順2。故障したスイッチのバネをマイナスドライバーで取り出す" /></figure>
+      <figure class="picture"><img src="img/wide21-switch-disassembly-step2.png" alt="パナソニック製ワイド21スイッチのバネ交換手順2。故障したスイッチのバネをマイナスドライバーで取り出す" width="500" /></figure>
       <p class="desc">
         マイナスドライバーを使用して、水色の部品右側と黒い枠の間に2～3mm突っ込み、やさしくグリグリしながら水色の部品を引っ張ります。
       </p>
       <h3 class="sub-title" id="sec-2-4">③バネを取り外せたら、新品のスイッチからバネを取り外す</h3>
-      <figure class="picture"><img src="img/wide21-switch-disassembly-step3.png" alt="パナソニック製ワイド21スイッチのバネ交換手順3。バネを取り外し、新品のバネを用意" /></figure>
+      <figure class="picture"><img src="img/wide21-switch-disassembly-step3.png" alt="パナソニック製ワイド21スイッチのバネ交換手順3。バネを取り外し、新品のバネを用意" width="500" /></figure>
       <p class="desc">
         故障したスイッチから水色の部品とそれにくっついている銀色のバネが取り外せたら、新品のスイッチからも同様にバネを外します。
       </p>
       <h3 class="sub-title" id="sec-2-5">④新品のバネをスイッチに取り付ける</h3>
-      <figure class="picture"><img src="img/wide21-switch-disassembly-step4.png" alt="パナソニック製ワイド21スイッチのバネ交換手順4。故障したスイッチに新品のバネを取り付ける" /></figure>
+      <figure class="picture"><img src="img/wide21-switch-disassembly-step4.png" alt="パナソニック製ワイド21スイッチのバネ交換手順4。故障したスイッチに新品のバネを取り付ける" width="500" /></figure>
       <p class="desc">
         新品の水色の部品とバネを、先に右側から突っ込み、左側も軽く押し込みます。
       </p>
       <h3 class="sub-title" id="sec-2-6">⑤バネが固定されたら動作確認をしましょう</h3>
-      <figure class="picture"><img src="img/wide21-switch-disassembly-step5.png" alt="パナソニック製ワイド21スイッチのバネ交換手順5。新品のバネを取り付けできたら動作確認をしましょう" /></figure>
+      <figure class="picture"><img src="img/wide21-switch-disassembly-step5.png" alt="パナソニック製ワイド21スイッチのバネ交換手順5。新品のバネを取り付けできたら動作確認をしましょう" width="500" /></figure>
       <p class="desc">
         バネを元に戻せましたら、スイッチを何回か押して動作確認をしましょう。この時に感触がおかしい、カチッと音がしない場合はうまく取付けられていないので、もう一度水色の部品とバネを外して、再度取付けましょう。
       </p>
       <h3 class="sub-title" id="sec-2-7">⑥ハンドルとプレートを戻して完了</h3>
-      <figure class="picture"><img src="img/wide21-switch-disassembly-step6.png" alt="パナソニック製ワイド21スイッチのバネ交換手順6。最後にプレートとハンドルを戻して完了" /></figure>
+      <figure class="picture"><img src="img/wide21-switch-disassembly-step6.png" alt="パナソニック製ワイド21スイッチのバネ交換手順6。最後にプレートとハンドルを戻して完了" width="500" /></figure>
       <p class="desc">
         ハンドルとプレートを取付けたら完了です。
       </p>

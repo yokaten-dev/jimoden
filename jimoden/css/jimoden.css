@@ -76,7 +76,7 @@
 }
 .mainvisual .mv-lead {
   font-size: clamp(var(--fz14), 0.575rem + 1.28vw, var(--fz22));
-  font-weight: bold;
+  font-weight: 555;
   margin: 75px 0 0;
   letter-spacing: 0.1em;
   position: relative;
@@ -207,7 +207,7 @@
 }
 .problem-and-solution .solution-text {
   font-size: clamp(var(--fz16), 0.775rem + 0.96vw, var(--fz22));
-  font-weight: bold;
+  font-weight: 555;
   line-height: 2em;
   text-align: center;
   margin-top: 20px;
@@ -283,7 +283,8 @@
 }
 .sec-features .feature-item .feature-text {
   margin-top: 15px;
-  font-weight: bold;
+  font-weight: 555;
+  text-align: justify;
 }
 /* レスポンシブ対応 */
 @media (max-width: 900px) {
@@ -420,6 +421,7 @@
 }
 .service-flow .detail {
   margin: 10px 0 0;
+  text-align: justify;
 }
 @media (max-width: 767px) {
   .sec-flow {
