@@ -129,7 +129,7 @@
   <?php include '../includes/footer.php'; ?>
   <div id="page_top"><a href="#"></a></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="../assets/js/script.js"></script>
+  <script src="../assets/js/script.js?0307"></script>
 </body>
 
 </html>
