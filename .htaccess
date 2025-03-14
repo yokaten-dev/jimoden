@@ -1,19 +1,29 @@
+Options -Indexes
+
 # エラーページの指定
 ErrorDocument 404 /404.php
 ErrorDocument 500 /500.php
 
 RewriteEngine On
 
+# www ありを www なしに統一
+RewriteCond %{HTTP_HOST} ^www\.jimoden\.jp [NC]
+RewriteRule ^(.*)$ https://jimoden.jp/$1 [R=301,L]
+
 # HTTP を HTTPS にリダイレクト
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# 特定URL用のリダイレクト
+RewriteRule ^tips/fluorescent-light-led\.html$ https://jimoden.jp/fluorescent-light-led/fluorescent-led.php [R=301,L]
+RewriteRule ^tips/switch\.html$ https://jimoden.jp/lighting-switch/broken.php [R=301,L]
 
 # / なしを / ありに統一
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} !/$
 RewriteRule (.*) %{REQUEST_URI}/ [R=301,L]
 
-# トップページの `index.html` & `index.php` を `https://example.com/` にリダイレクト
+# トップページの `index.html` & `index.php` を `/` にリダイレクト
 RewriteCond %{THE_REQUEST} /index\.(html|php) [NC]
 RewriteRule ^index\.(html|php)$ / [R=301,L]
 
