@@ -6,6 +6,5 @@ Disallow: /wp-includes/
 Disallow: /tmp/
 Disallow: /private/
 Disallow: /logs/
-Disallow: /*?*
 
 Sitemap: https://jimoden.jp/sitemap.xml
