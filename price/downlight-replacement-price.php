@@ -197,7 +197,7 @@
       </div>
       <div class="sec-content wrapper js-accordion-content">
         <!-- コスト分解 -->
-        <p class="cost-details-summary">次の①～③の合計になります。<span>※税込表記</span></p>
+        <p class="cost-details-summary">次の①～④の合計になります。<span>※税込表記</span></p>
         <div class="cost-equation"><span class="cost-part">①</span>&nbsp;+&nbsp;<span class="cost-part">②</span>&nbsp;+&nbsp;<span class="cost-part">③</span>&nbsp;+&nbsp;<span class="cost-part parking">④駐車場代</span></div>
         <div class="cost-details-container">
           <div class="cost-details">
@@ -407,7 +407,7 @@
       </ol>
     </nav>
   </div>
-  <?php include '../includes/footer.php'; ?>  <div id="page_top"><a href="#"></a></div>
+  <?php include '../includes/footer.php'; ?> <div id="page_top"><a href="#"></a></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="../assets/js/script.js?0307"></script>
 </body>
