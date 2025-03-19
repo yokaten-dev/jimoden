@@ -15,6 +15,7 @@
   </script>
   <meta charset="utf-8" />
   <title>【直管蛍光灯LED化】交換費用・工事・注意点をプロが解説 -ジモデン-</title>
+  <link rel="canonical" href="https://jimoden.jp/fluorescent-light-led/straight-tube-fluorescent-light-to-led.php" />
   <meta name="description" content="事務所/店舗の直管蛍光灯LED化を検討中の方へ。工事費用相場、交換方法(工事不要ランプ/バイパス工事/器具交換)、メリット・デメリット、注意点まで、プロが解説" />
   <meta name="keywords" content="蛍光灯からLED,器具交換,バイパス工事" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

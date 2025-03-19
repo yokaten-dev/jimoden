@@ -16,6 +16,7 @@
     </script>
     <meta charset="utf-8" />
     <title>電気工事の基礎知識 -ジモデン-</title>
+    <link rel="canonical" href="https://jimoden.jp/tips-index.php" />
     <meta name="description" content="ジモデンは電気工事の料金表がある地元の電気工事業者を探すサイト。スイッチ交換、コンセント交換、蛍光灯・水銀灯からＬＥＤヘ交換、分電盤、ブレーカーの交換など、各種電気工事の料金をわかりやすく掲載しています。" />
     <meta name="keywords" content="電気工事,地元" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

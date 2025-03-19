@@ -16,6 +16,7 @@
     </script>
     <meta charset="utf-8" />
     <title>利用規約 -ジモデン-</title>
+    <link rel="canonical" href="https://jimoden.jp/terms/" />
     <meta name="description" content="ジモデンの利用規約についてご案内します。サービスをご利用いただく際の権利、義務、注意事項を明確に記載しています。" />
     <meta name="keywords" content="電気工事,地元,利用規約,ジモデン" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

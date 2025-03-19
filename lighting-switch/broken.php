@@ -16,10 +16,10 @@
   </script>
   <meta charset="utf-8" />
   <title>電気スイッチが押せない！故障の原因、交換費用、業者選びをプロが解説 -ジモデン-</title>
+  <link rel="canonical" href="https://jimoden.jp/lighting-switch/broken.php" />
   <meta name="description" content="電気スイッチが押せない、反応しない、勝手にもどる、戻らない…。その故障原因を徹底解説！交換費用の相場、自分でできる確認方法、DIYのリスク、信頼できる業者の選び方まで。" />
   <meta name="keywords" content="電気スイッチ,故障,押せない,勝手に戻る" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://jimoden.jp/lighting-switch/broken.php" />
   <link rel="icon" href="../assets/img/favicon.webp" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

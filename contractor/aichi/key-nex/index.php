@@ -16,6 +16,7 @@
   </script>
   <meta charset="utf-8" />
   <title>名古屋市南区の電気工事店 株式会社キーネックス -ジモデン-</title>
+  <link rel="canonical" href="https://jimoden.jp/contractor/aichi/key-nex/" />
   <meta name="description" content="名古屋市南区の電気工事なら株式会社キーネックスへ。スイッチ交換から高圧受電設備工事まで、あらゆる電気工事に迅速対応！地域密着、豊富な実績で安心。無料見積もり実施中！" />
   <meta name="keywords" content="電気工事,名古屋市南区" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

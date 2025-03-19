@@ -15,6 +15,7 @@
   </script>
   <meta charset="utf-8" />
   <title>事務所・店舗必見！蛍光灯からLEDで電気代はいくら安くなる？ -ジモデン-</title>
+  <link rel="canonical" href="https://jimoden.jp/fluorescent-light-led/how-much-save-with-led.php" />
   <meta name="description" content="蛍光灯からLEDへの交換で電気代はどれくらい安くなる？事務所や店舗の規模別に、電気代削減効果をシミュレーション！実際の導入事例も交えて、LED化による費用対効果を分かりやすく解説します。" />
   <meta name="keywords" content="蛍光灯からLED,電気代削減" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

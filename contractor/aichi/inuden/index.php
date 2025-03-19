@@ -16,6 +16,7 @@
   </script>
   <meta charset="utf-8" />
   <title>名古屋市名東区の電気工事店 犬飼電気工事 -ジモデン-</title>
+  <link rel="canonical" href="https://jimoden.jp/contractor/aichi/inuden/" />
   <meta name="description" content="名古屋市名東区の犬飼電気工事は、スイッチ・コンセントの修理交換、LED照明への交換、電源工事のプロ！事務所、店舗、工場の電気設備もお任せください。無料見積もり実施中！" />
   <meta name="keywords" content="電気工事,名古屋市名東区" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

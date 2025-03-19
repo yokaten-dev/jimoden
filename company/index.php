@@ -16,6 +16,7 @@
     </script>
     <meta charset="utf-8" />
     <title>運営企業 -ジモデン-</title>
+    <link rel="canonical" href="https://jimoden.jp/company/" />
     <meta name="description" content="運営企業ページです。ジモデンは株式会社電恵によって運営されています。会社の基本情報や事業内容についてご確認ください。" />
     <meta name="keywords" content="電気工事,地元,運営企業,ジモデン" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

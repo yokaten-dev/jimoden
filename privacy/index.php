@@ -16,6 +16,7 @@
     </script>
     <meta charset="utf-8" />
     <title>プライバシーポリシー -ジモデン-</title>
+    <link rel="canonical" href="https://jimoden.jp/privacy/" />
     <meta name="description" content="ジモデンでは、お客様の個人情報を保護するためのプライバシーポリシーを定めています。" />
     <meta name="keywords" content="電気工事,地元,プライバシーポリシー,ジモデン" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

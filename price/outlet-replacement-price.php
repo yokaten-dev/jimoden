@@ -16,6 +16,7 @@
   </script>
   <meta charset="utf-8" />
   <title>コンセント交換の料金表 -地元の電気工事業者 ジモデン-</title>
+  <link rel="canonical" href="https://jimoden.jp/price/outlet-replacement-price.php" />
   <meta name="description" content="コンセント交換工事の料金表 電気工事の料金が明確な地元の電気工事業者へ依頼しよう -ジモデン-" />
   <meta name="keywords" content="コンセント交換,料金表" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

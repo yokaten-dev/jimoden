@@ -15,6 +15,7 @@
   </script>
   <meta charset="utf-8" />
   <title>ズバッとわかる『蛍光灯からLED』メリット、交換費用、信頼できる業者の選び方 -ジモデン-</title>
+  <link rel="canonical" href="https://jimoden.jp/fluorescent-light-led/fluorescent-led.php" />
   <meta name="description" content="蛍光灯からLEDへの交換を検討中の方へ。電気工事士歴20年以上のプロが、LED化のメリット・デメリット、費用相場、工事方法、優良業者選びのポイントを徹底解説！電気代削減効果が分かる施工事例もご紹介。このページでLED化の疑問を解消し、最適なプランを見つけましょう！" />
   <meta name="keywords" content="蛍光灯からLED,電気工事" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

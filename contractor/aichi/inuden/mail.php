@@ -593,6 +593,7 @@ if (($confirmDsp == 0 || $sendmail == 1) && $empty_flag != 1) {
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<meta name="format-detection" content="telephone=no">
+		<meta name="robots" content="noindex, nofollow" />
 		<title>送信内容確認 - ジモデン -</title>
 		<style type="text/css">
 			/* 自由に編集下さい */

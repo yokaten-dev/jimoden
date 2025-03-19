@@ -16,6 +16,7 @@
   </script>
   <meta charset="utf-8" />
   <title>ダウンライト交換の料金表 -地元の電気工事業者 ジモデン-</title>
+  <link rel="canonical" href="https://jimoden.jp/price/downlight-replacement-price.php" />
   <meta name="description" content="ダウンライト交換工事の料金表 電気工事の料金が明確な地元の電気工事業者へ依頼しよう -ジモデン-" />
   <meta name="keywords" content="ダウンライト交換,料金表" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
