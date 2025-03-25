@@ -3,17 +3,24 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+        if (location.hostname === 'jimoden.jp') {
+            window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            var s = document.createElement('script');
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS';
+            s.async = true;
+            s.onload = () => {
+                gtag('js', new Date());
+                gtag('config', 'G-8JGM5XKBDS');
+            };
+            document.head.appendChild(s);
         }
-        gtag('js', new Date());
-
-        gtag('config', 'G-8JGM5XKBDS');
-    </script>
+    </script> 
     <meta charset="utf-8" />
     <title>愛知県の電気工事屋さんを探す -ジモデン-</title>
     <link rel="canonical" href="https://jimoden.jp/jimoden/aichi.php" />

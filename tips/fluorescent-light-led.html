@@ -2,16 +2,24 @@
 <html lang="ja">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+        if (location.hostname === 'jimoden.jp') {
+            window.dataLayer = window.dataLayer || [];
 
-      gtag("config", "G-8JGM5XKBDS");
-    </script>
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            var s = document.createElement('script');
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS';
+            s.async = true;
+            s.onload = () => {
+                gtag('js', new Date());
+                gtag('config', 'G-8JGM5XKBDS');
+            };
+            document.head.appendChild(s);
+        }
+    </script> 
     <meta charset="utf-8" />
     <title>蛍光灯からLEDへの交換【誰でもわかる】自分でする？業者へ頼む？いくら？電気工事のプロが解説</title>
     <meta name="description" content="蛍光灯からLEDへ交換はどうしたらいいの？そんな方に電気工事のプロが蛍光灯からLED交換のメリットと、最小限で済ますLED化から器具全体を交換するLED工事方法、電気工事士の資格が必要なこと、不要なこと、電気工事業者に頼む場合の工事費用を蛍光灯のランプ形状別で解説しています。" />

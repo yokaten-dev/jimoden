@@ -2,18 +2,25 @@
 <html lang="ja">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- Google tag (gtag.js) -->
+    <script>
+        if (location.hostname === 'jimoden.jp') {
+            window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+            function gtag() {
+                dataLayer.push(arguments);
+            }
 
-    gtag('config', 'G-8JGM5XKBDS');
-  </script>
+            var s = document.createElement('script');
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS';
+            s.async = true;
+            s.onload = () => {
+                gtag('js', new Date());
+                gtag('config', 'G-8JGM5XKBDS');
+            };
+            document.head.appendChild(s);
+        }
+    </script> 
   <meta charset="utf-8" />
   <title>電気スイッチが押せない！故障の原因、交換費用、業者選びをプロが解説 -ジモデン-</title>
   <link rel="canonical" href="https://jimoden.jp/lighting-switch/broken.php" />

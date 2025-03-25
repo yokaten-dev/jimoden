@@ -2,18 +2,25 @@
 <html lang="ja">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+    <!-- Google tag (gtag.js) -->
+    <script>
+        if (location.hostname === 'jimoden.jp') {
+            window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+            function gtag() {
+                dataLayer.push(arguments);
+            }
 
-    gtag('config', 'G-8JGM5XKBDS');
-  </script>
+            var s = document.createElement('script');
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS';
+            s.async = true;
+            s.onload = () => {
+                gtag('js', new Date());
+                gtag('config', 'G-8JGM5XKBDS');
+            };
+            document.head.appendChild(s);
+        }
+    </script> 
   <meta charset="utf-8" />
   <title>名古屋市南区の電気工事店 株式会社キーネックス -ジモデン-</title>
   <link rel="canonical" href="https://jimoden.jp/contractor/aichi/key-nex/" />

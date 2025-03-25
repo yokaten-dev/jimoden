@@ -2,17 +2,24 @@
 <html lang="ja">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+        if (location.hostname === 'jimoden.jp') {
+            window.dataLayer = window.dataLayer || [];
 
-      gtag("config", "G-8JGM5XKBDS");
-    </script>
+            function gtag() {
+                dataLayer.push(arguments);
+            }
 
+            var s = document.createElement('script');
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS';
+            s.async = true;
+            s.onload = () => {
+                gtag('js', new Date());
+                gtag('config', 'G-8JGM5XKBDS');
+            };
+            document.head.appendChild(s);
+        }
+    </script> 
     <meta charset="utf-8" />
     <title>換気扇タイマースイッチ交換費用と適正業者を探すポイント -ジモデン-</title>
     <meta name="description" content="故障・破損による浴室・トイレなどの換気扇タイマースイッチ交換を業者へ依頼する際の交換工事費用相場と適正価格で行う業者を探すポイントを電気工事士が分かりやすく説明" />
