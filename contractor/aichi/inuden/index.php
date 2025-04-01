@@ -2,25 +2,25 @@
 <html lang="ja">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script>
-        if (location.hostname === 'jimoden.jp') {
-            window.dataLayer = window.dataLayer || [];
+  <!-- Google tag (gtag.js) -->
+  <script>
+    if (location.hostname === 'jimoden.jp') {
+      window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
-            var s = document.createElement('script');
-            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS';
-            s.async = true;
-            s.onload = () => {
-                gtag('js', new Date());
-                gtag('config', 'G-8JGM5XKBDS');
-            };
-            document.head.appendChild(s);
-        }
-    </script> 
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS';
+      s.async = true;
+      s.onload = () => {
+        gtag('js', new Date());
+        gtag('config', 'G-8JGM5XKBDS');
+      };
+      document.head.appendChild(s);
+    }
+  </script>
   <meta charset="utf-8" />
   <title>名古屋市名東区の電気工事店 犬飼電気工事 -ジモデン-</title>
   <link rel="canonical" href="https://jimoden.jp/contractor/aichi/inuden/" />
@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <link rel="stylesheet" href="https://jimoden.jp/assets/css/ress.min.css" />
   <link rel="stylesheet" href="../../../assets/css/common.css?0307" />
   <link rel="stylesheet" href="../../css/contractor.css" />
 </head>
@@ -43,7 +43,7 @@
     <!-- メインビジュアル -->
     <section class="mainvisual">
       <!-- update: エリア名・企業名 -->
-      <h1 class="mv-title"><em>名古屋名東区</em>の電気工事店<br /><span>犬飼電気工事</span></h1>
+      <h1 class="mv-title"><em>名古屋市名東区</em>の電気工事店<br /><span>犬飼電気工事</span></h1>
       <!-- update: 紹介画像・企業名 -->
       <div class="mv-image"><img src="img/mainvisual.jpg" alt="犬飼電気工事" /></div>
     </section>
@@ -361,34 +361,10 @@
       <div class="sec-content">
         <p class="contact-heading">お見積りは無料です。ご依頼やご不明点など、お気軽にお問い合わせください！</p>
         <ul class="contact-link-list">
-          <li class="contact-link-tel"><a href="#tel">電話</a></li>
+          <!-- <li class="contact-link-tel"><a href="#tel">電話</a></li> -->
           <li class="contact-link-line"><a href="#line">LINE</a></li>
           <li class="contact-link-mail"><a href="#mail">メール</a></li>
         </ul>
-        <!-- 電話 -->
-        <div class="contact-block contact-tel" id="tel">
-          <p class="contact-way">電話</p>
-          <!-- update: 企業名・対応エリア・電話番号・営業時間・電話をかけるボタンのURL -->
-          <p class="contact-caption">犬飼電気工事に<br class="br-sp" />直接電話したい方はこちら！</p>
-          <p class="contact-area">（対応エリア：名古屋市名東区・近郊）</p>
-          <!--<p class="contact-tel-number">090-2943-1541</p>-->
-          <p class="contact-business-hours"><em>営業電話ご遠慮ください</em><br />受付時間 9:00-18:00（土日祝は除く）</p>
-          <!-- <div class="btn-call-number-container"><a class="btn-call-number" href="tel:090-2943-1541">電話をかける</a></div> -->
-          <!-- セールスの方へお願い -->
-          <details class="sales-refusal">
-            <summary><span>セールスの方へお願い</span></summary>
-            <div class="deteils-content">
-              <p>電話やメールでの営業の方へ</p>
-              <p>この度はホームページをご覧いただきましてありがとうございます。<br />当社では、営業やセールスなどの電話やメールをすべてお断りしています。</p>
-              <ul>
-                <li>ホームページの制作や運営・管理等の勧誘</li>
-                <li>インターネット・電話の割引サービス等の勧誘</li>
-                <li>求人広告等の勧誘</li>
-                <li>人材採用・派遣に関する勧誘</li>
-              </ul>
-            </div>
-          </details>
-        </div>
         <!-- LINE -->
         <div class="contact-block contact-line" id="line">
           <p class="contact-way">LINE</p>
@@ -480,7 +456,7 @@
   <div class="contact-links">
     <p>気軽にご相談ください！</p>
     <div class="btn-block">
-      <a href="#tel" class="btn tel">電話</a>
+      <!-- <a href="#tel" class="btn tel">電話</a> -->
       <a href="#line" class="btn line">LINE</a>
       <a href="#mail" class="btn mail">メール</a>
     </div>

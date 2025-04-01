@@ -20,7 +20,7 @@
             };
             document.head.appendChild(s);
         }
-    </script> 
+    </script>
     <meta charset="utf-8" />
     <title>地元の電気工事屋さんを探す（都道府県） -ジモデン-</title>
     <link rel="canonical" href="https://jimoden.jp/jimoden/search.php" />
@@ -31,7 +31,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="https://jimoden.jp/assets/css/ress.min.css" />
     <link rel="stylesheet" href="../assets/css/common.css?0307" />
     <link rel="stylesheet" href="css/search.css" />
 </head>
@@ -61,7 +61,7 @@
                         <li><span>東京都</span></li>
                         <li><span>神奈川県</span></li>
                         <li><span>埼玉県</span></li>
-                        <li><span>千葉県</span></li>
+                        <li><a href="chiba.php">千葉県</a></li>
                         <li><span>茨城県</span></li>
                         <li><span>栃木県</span></li>
                         <li><span>群馬県</span></li>

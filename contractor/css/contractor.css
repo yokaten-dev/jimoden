@@ -28,10 +28,11 @@
 }
 .contact-links .btn-block {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   max-width: 880px;
   padding: 10px 0;
   margin: 0 auto;
+  gap: 0.8em;
 }
 .contact-links .btn-block .btn {
   display: inline-flex;
@@ -45,8 +46,8 @@
   font-weight: bold;
   transition: background-color 0.3s ease;
   align-items: center;
-  width: 31%;
   justify-content: center;
+  flex: 1 1 auto;
 }
 .contact-links .btn-block .btn::before {
   content: "";
@@ -237,7 +238,7 @@
 -------------------------------------------*/
 .location-message {
   background: linear-gradient(to bottom, #f2f2f2 35%, white 35%);
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 .location-message .location-message-inner {
   margin: 0 auto;
@@ -631,15 +632,16 @@
 }
 .sec-contact .contact-link-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 760px;
   margin: 30px auto 0;
+  gap: 0.6em;
 }
 .sec-contact .contact-link-list li {
   border-bottom: 2px solid #bbb;
   border-right: 2px solid #bbb;
   height: 145px;
-  width: 32%;
+  flex: 1 1 auto;
 }
 .sec-contact .contact-link-list li a {
   text-align: center;
@@ -1122,4 +1124,272 @@
     border-right: 20px solid transparent;
     border-bottom: 20px solid #faeae9;
   }
+}
+
+/*-------------------------------------------
+事業者の特徴
+-------------------------------------------*/
+.company-feature {
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-bottom: 100px;
+}
+.company-feature .company-feature-title {
+  background-color: var(--color-main);
+  color: white;
+  padding: 1em 2em;
+  font-weight: bold;
+  display: inline-block;
+  clip-path: polygon(0 0, 100% 0, 97% 100%, 0% 100%);
+  padding: 0.5em 1em 0.5em 0.5em;
+  margin-right: 15px;
+}
+.company-feature .company-feature-title h2 {
+  color: white;
+  /* font-size: 24px 18px; */
+  font-size: clamp(1.125rem, 0.9rem + 0.96vw, 1.5rem);
+  display: inline-block;
+  font-weight: bold;
+}
+/* @media (max-width: 767px) {
+  .company-feature .company-feature-title h2 {
+    letter-spacing: -0.05em;
+  }
+} */
+/*----- お困りごと -----*/
+.company-feature .solution {
+  margin-top: 40px;
+}
+.company-feature .question {
+  text-align: center;
+  font-weight: bold;
+  /* font-size: 20px 18px; */
+  font-size: clamp(1.125rem, 1.05rem + 0.32vw, 1.25rem);
+  padding: 0 15px;
+}
+.company-feature .problem-list {
+  display: flex;
+  gap: 3.5em 0.5em;
+  margin-inline: auto;
+  justify-content: center;
+  width: 100%;
+  overflow: visible; /* または auto */ /* 縦横中央 */
+  margin-top: 20px;
+}
+@media (max-width: 1000px) {
+  .company-feature .problem-list {
+    flex-wrap: wrap;
+    max-width: 740px;
+  }
+}
+.company-feature .problem-item {
+  flex: 0 1 auto;
+  width: 180px;
+  border-radius: 50%;
+  background-color: var(--color-base);
+  padding: 1em;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  position: relative;
+}
+.company-feature .problem-item::after {
+  content: "";
+  display: inline-block;
+  height: 75px;
+  width: 86px;
+  background: url(../img/trouble_01.png) no-repeat center / contain;
+  position: absolute;
+  bottom: -40px;
+  right: 50px;
+}
+.company-feature .problem-item:nth-of-type(2):after {
+  background-image: url(../img/trouble_02.png);
+}
+.company-feature .problem-item:nth-of-type(3):after {
+  background-image: url(../img/trouble_03.png);
+}
+.company-feature .problem-item:nth-of-type(4):after {
+  background-image: url(../img/trouble_04.png);
+}
+.company-feature .problem-item:nth-of-type(5):after {
+  background-image: url(../img/trouble_05.png);
+}
+/*----- お任せください -----*/
+.company-feature .resolve {
+  background: var(--color-base-pink);
+  padding: 85px 20px 40px 40px;
+  position: relative;
+  margin-top: 80px;
+}
+.company-feature .resolve::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-width: 25px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+.company-feature .resolve::after {
+  content: "";
+  display: block;
+  background: url(../img/text_omakasekudasai.svg) no-repeat center / contain;
+  position: absolute;
+  width: 213px;
+  height: 37px;
+  text-align: center;
+  top: 30px;
+  left: calc((100% - 213px) / 2);
+}
+.company-feature .resolve .container {
+  display: flex;
+  gap: 30px;
+}
+@media (max-width: 767px) {
+  .company-feature .resolve {
+    padding-left: 20px;
+  }
+  .company-feature .resolve .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.company-feature .resolve .person-info {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.company-feature .resolve .person-info img {
+  object-fit: cover;
+}
+.company-feature .resolve .text {
+  font-weight: 500;
+  /* font-size: 18px 16px; */
+  font-size: clamp(1rem, 0.925rem + 0.32vw, 1.125rem);
+}
+/*----- 事例 -----*/
+.company-feature .example {
+  margin: 40px 0 0;
+  border: 2px solid #bbb;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  .company-feature .example {
+    margin: 40px 15px 0;
+  }
+}
+.company-feature .example-title {
+  /* font-size: 24px 18px; */
+  font-size: clamp(1.125rem, 0.9rem + 0.96vw, 1.5rem);
+  font-weight: bold;
+  text-align: center;
+}
+.company-feature .example-list {
+}
+.company-feature .example-item {
+  padding: 40px 0;
+}
+.company-feature .example-item:not(:last-of-type) {
+  border-bottom: 1px solid #ccc;
+}
+.company-feature .example-item .item-title {
+  /* font-size: 20px 18px; */
+  font-size: clamp(1.125rem, 1.05rem + 0.32vw, 1.25rem);
+  color: var(--color-main);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.company-feature .example-item .item-title::before {
+  content: "";
+  display: inline-block;
+  height: 47px;
+  width: 104px;
+  background: url(../img/case1.svg) no-repeat center / contain;
+  position: relative;
+  top: 15px;
+}
+.company-feature .example-item:nth-of-type(2) .item-title::before {
+  background-image: url(../img/case2.svg);
+}
+.company-feature .example-item:nth-of-type(3) .item-title::before {
+  background-image: url(../img/case3.svg);
+}
+.company-feature .example-item .container {
+  display: flex;
+  gap: 20px;
+}
+.company-feature .example-item .photo {
+  width: 450px;
+  flex: 1 0 auto;
+}
+.company-feature .example-item .photo img {
+  width: 100%;
+}
+.company-feature .example-item .column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.company-feature .example-item .detail {
+  text-align: justify;
+}
+.company-feature .example-item .price {
+  text-align: center;
+  font-weight: bold;
+}
+.company-feature .example-item .price dd {
+  font-size: 20px;
+}
+.company-feature .example-item .price dd span {
+  font-size: 1.8em;
+}
+@media (max-width: 767px) {
+  .company-feature .example-item .container {
+    flex-direction: column;
+  }
+  .company-feature .example-item .item-title::before {
+    display: block;
+    margin-inline: auto;
+    top: -5px;
+    left: -15px;
+  }
+  .company-feature .example-item .photo {
+    width: 100%;
+  }
+}
+
+/* header */
+/* あとで移動する */
+.header .header-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+}
+.header .header-heading .name {
+  font-weight: bold;
+  /* font-size: 20px 13px; */
+  font-size: clamp(0.813rem, 0.55rem + 1.12vw, 1.25rem);
+  color: #666;
+}
+/* footer */
+/* あとで移動する */
+.footer .footer-contractor {
+  width: fit-content;
+  margin-inline: auto;
+  /* font-size: 18px 14px; */
+  font-size: clamp(0.875rem, 0.725rem + 0.64vw, 1.125rem);
+}
+.footer .footer-contractor address span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.footer .footer-contractor ul {
+  margin-top: 1em;
 }
