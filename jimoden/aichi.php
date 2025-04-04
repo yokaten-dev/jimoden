@@ -20,13 +20,14 @@
             };
             document.head.appendChild(s);
         }
-    </script> 
+    </script>
     <meta charset="utf-8" />
     <title>愛知県の電気工事屋さんを探す -ジモデン-</title>
     <link rel="canonical" href="https://jimoden.jp/jimoden/aichi.php" />
     <meta name="description" content="ジモデンは電気工事の料金表がある地元の電気工事業者を探すサイト。スイッチ交換、コンセント交換、蛍光灯・水銀灯からＬＥＤヘ交換、分電盤、ブレーカーの交換など、各種電気工事の料金をわかりやすく掲載しています。" />
     <meta name="keywords" content="電気工事,地元" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no, address=no" />
     <link rel="icon" href="../assets/img/favicon.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -48,7 +48,7 @@
         <p class="name"><em>千葉市中央区</em>&nbsp;株式会社K-Life</p>
       </div>
       <nav class="header-links">
-        <a href="../../../price/" class="header-link price">料金表</a>
+        <a href="#" class="header-link price">料金表</a>
       </nav>
     </div>
   </header>
@@ -223,7 +223,7 @@
               <h4 class="service-title">分電盤交換</h4>
               <p class="service-description">古い分電盤の交換、契約増設ができない</p>
             </div>
-            <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/distribution-board-replacement-price.php">分電盤交換の料金表へ</a></div>
+            <div class="btn-to-more-container"><a class="btn-to-more" href="#">分電盤交換の料金表へ</a></div>
           </li>
           <li class="service-item">
             <div class="service-img">
@@ -233,7 +233,7 @@
               <h4 class="service-title">ブレーカー交換</h4>
               <p class="service-description">漏電ブレーカー、ブレーカーの故障、誤作動による交換</p>
             </div>
-            <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/breaker-replacement-price.php">ブレーカー交換の料金表へ</a></div>
+            <div class="btn-to-more-container"><a class="btn-to-more" href="#">ブレーカー交換の料金表へ</a></div>
           </li>
           <li class="service-item">
             <div class="service-img">
@@ -246,7 +246,7 @@
                 <em><span class="price-label">8,800</span>円</em>&nbsp;+&nbsp;スイッチ部材費
               </p>
             </div>
-            <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/switch-replacement-price.php">スイッチ交換の料金表へ</a></div>
+            <div class="btn-to-more-container"><a class="btn-to-more" href="#">スイッチ交換の料金表へ</a></div>
           </li>
           <li class="service-item">
             <div class="service-img">
@@ -259,7 +259,7 @@
                 <em><span class="price-label">8,800</span>円</em>&nbsp;+&nbsp;コンセント部材費
               </p>
             </div>
-            <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/outlet-replacement-price.php">コンセント交換の料金表へ</a></div>
+            <div class="btn-to-more-container"><a class="btn-to-more" href="#">コンセント交換の料金表へ</a></div>
           </li>
           <li class="service-item">
             <div class="service-img">
@@ -272,7 +272,7 @@
                 <em><span class="price-label">10</span>m</em>まで<em><span class="price-label">22,000</span>円</em>
               </p>
             </div>
-            <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/add-outlet-replacement-price.php">コンセント増設の料金表へ</a></div>
+            <div class="btn-to-more-container"><a class="btn-to-more" href="#">コンセント増設の料金表へ</a></div>
           </li>
           <li class="service-item">
             <div class="service-img">
@@ -285,7 +285,7 @@
                 <em><span class="price-label">8,800</span>円</em>&nbsp;+&nbsp;ダウンライト器具代
               </p>
             </div>
-            <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/downlight-replacement-price.php">ダウンライト交換の料金表へ</a></div>
+            <div class="btn-to-more-container"><a class="btn-to-more" href="#">ダウンライト交換の料金表へ</a></div>
           </li>
           <li class="service-item">
             <div class="service-img">
@@ -298,7 +298,7 @@
                 <em><span class="price-label">10</span>台</em>で<em><span class="price-label">165,000</span>円</em>目安
               </p>
             </div>
-            <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/fluorescent-light-replacement-price.php">蛍光灯LED交換の料金表へ</a></div>
+            <div class="btn-to-more-container"><a class="btn-to-more" href="#">蛍光灯LED交換の料金表へ</a></div>
           </li>
           <li class="service-item">
             <div class="service-img">
@@ -311,7 +311,7 @@
                 <em><span class="price-label">6</span>台</em>で<em><span class="price-label">363,000</span>円</em>目安
               </p>
             </div>
-            <div class="btn-to-more-container"><a class="btn-to-more" href="../../../price/mercury-lamp-replacement-price.php">水銀灯LED交換の料金表へ</a></div>
+            <div class="btn-to-more-container"><a class="btn-to-more" href="#">水銀灯LED交換の料金表へ</a></div>
           </li>
         </ul>
       </div>
