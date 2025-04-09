@@ -96,13 +96,17 @@ $(document).ready(function () {
   function initFooterLinkSlideOut() {
     const $contactLink = $(".contact-links");
     const $mail = $(".mail-form");
+    const $footer = $(".footer");
 
-    if ($mail.length) {
+    // 対象となる判定要素（mail-formがなければfooter）
+    const $target = $mail.length ? $mail : $footer;
+
+    if ($target.length) {
       $(window).on("scroll", function () {
         const scrollPosition = $(window).scrollTop() + $(window).height();
-        const mailOffsetTop = $mail.offset().top;
+        const targetOffsetTop = $target.offset().top;
 
-        if (scrollPosition >= mailOffsetTop) {
+        if (scrollPosition >= targetOffsetTop) {
           $contactLink.addClass("slide-out");
         } else {
           $contactLink.removeClass("slide-out");

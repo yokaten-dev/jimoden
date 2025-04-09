@@ -19,13 +19,13 @@
   <meta name="description" content="蛍光灯からLEDへの交換を検討中の方へ。電気工事士歴20年以上のプロが、LED化のメリット・デメリット、費用相場、工事方法、優良業者選びのポイントを徹底解説！電気代削減効果が分かる施工事例もご紹介。このページでLED化の疑問を解消し、最適なプランを見つけましょう！" />
   <meta name="keywords" content="蛍光灯からLED,電気工事" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="../assets/img/favicon.webp" />
+  <link rel="icon" href="/assets/img/favicon.webp" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://jimoden.jp/assets/css/ress.min.css" />
-  <link rel="stylesheet" href="../assets/css/common.css?0307" />
-  <link rel="stylesheet" href="../assets/css/tips.css" />
+  <link rel="stylesheet" href="/assets/css/ress.min.css" />
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  <link rel="stylesheet" href="/assets/css/tips.css" />
   <style>
     #mainvisual {
       background-image: url(img/bg-mv.jpg);
@@ -34,9 +34,19 @@
 </head>
 
 <body>
-  <?php include '../includes/header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
   <main class="main">
+    <div class="breadcrumbs-wrapper">
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="/">ホーム</a></li>
+          <li><a href="/tips-index.php">電気工事の基礎知識</a></li>
+          <li><a href="/fluorescent-light-led/">蛍光灯→LED交換</a></li>
+          <li>蛍光灯からLEDへ交換する前に知っておきたい全知識！</li>
+        </ol>
+      </nav>
+    </div>
     <!-- メインビジュアル -->
     <div id="mainvisual">
       <div class="mv-overlay">
@@ -395,20 +405,10 @@
       </div>
     </div>
   </main>
-  <div class="breadcrumbs-wrapper">
-    <nav class="breadcrumbs">
-      <ol>
-        <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
-        <li><a href="<?php echo $base_url; ?>/tips-index.php">電気工事の基礎知識</a></li>
-        <li><a href="<?php echo $base_url; ?>/fluorescent-light-led/">蛍光灯→LED交換</a></li>
-        <li>蛍光灯からLEDへ交換する前に知っておきたい全知識！</li>
-      </ol>
-    </nav>
-  </div>
-  <?php include '../includes/footer.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
   <div id="page_top"><a href="#"></a></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="../assets/js/script.js?0307"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

@@ -2,38 +2,38 @@
 <html lang="ja">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script>
-        if (location.hostname === 'jimoden.jp') {
-            window.dataLayer = window.dataLayer || [];
+  <!-- Google tag (gtag.js) -->
+  <script>
+    if (location.hostname === 'jimoden.jp') {
+      window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
-            var s = document.createElement('script');
-            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS';
-            s.async = true;
-            s.onload = () => {
-                gtag('js', new Date());
-                gtag('config', 'G-8JGM5XKBDS');
-            };
-            document.head.appendChild(s);
-        }
-    </script> 
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8JGM5XKBDS';
+      s.async = true;
+      s.onload = () => {
+        gtag('js', new Date());
+        gtag('config', 'G-8JGM5XKBDS');
+      };
+      document.head.appendChild(s);
+    }
+  </script>
   <meta charset="utf-8" />
   <title>電気スイッチが押せない！故障の原因、交換費用、業者選びをプロが解説 -ジモデン-</title>
   <link rel="canonical" href="https://jimoden.jp/lighting-switch/broken.php" />
   <meta name="description" content="電気スイッチが押せない、反応しない、勝手にもどる、戻らない…。その故障原因を徹底解説！交換費用の相場、自分でできる確認方法、DIYのリスク、信頼できる業者の選び方まで。" />
   <meta name="keywords" content="電気スイッチ,故障,押せない,勝手に戻る" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="../assets/img/favicon.webp" />
+  <link rel="icon" href="/assets/img/favicon.webp" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://jimoden.jp/assets/css/ress.min.css" />
-  <link rel="stylesheet" href="../assets/css/common.css?0307" />
-  <link rel="stylesheet" href="../assets/css/tips.css" />
+  <link rel="stylesheet" href="/assets/css/ress.min.css" />
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  <link rel="stylesheet" href="/assets/css/tips.css" />
   <style>
     #mainvisual {
       background-image: url(img/bg-mv.jpg);
@@ -42,9 +42,19 @@
 </head>
 
 <body>
-  <?php include '../includes/header.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
   <main class="main">
+    <div class="breadcrumbs-wrapper">
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="/">ホーム</a></li>
+          <li><a href="/tips-index.php">電気工事の基礎知識</a></li>
+          <li><a href="/lighting-switch/">電気スイッチ交換</a></li>
+          <li>電気スイッチ故障の原因と交換費用</li>
+        </ol>
+      </nav>
+    </div>
     <!-- メインビジュアル -->
     <div id="mainvisual">
       <div class="mv-overlay">
@@ -374,20 +384,10 @@
       </div>
     </div>
   </main>
-  <div class="breadcrumbs-wrapper">
-    <nav class="breadcrumbs">
-      <ol>
-        <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
-        <li><a href="<?php echo $base_url; ?>/tips-index.php">電気工事の基礎知識</a></li>
-        <li><a href="<?php echo $base_url; ?>/lighting-switch/">電気スイッチ交換</a></li>
-        <li>電気スイッチ故障の原因と交換費用</li>
-      </ol>
-    </nav>
-  </div>
-  <?php include '../includes/footer.php'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
   <div id="page_top"><a href="#"></a></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="../assets/js/script.js?0307"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

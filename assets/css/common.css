@@ -143,6 +143,7 @@ header
   display: flex;
   align-items: center;
   height: 72px;
+  padding: 0 15px;
 }
 .header-wrapper {
   display: flex;
@@ -151,7 +152,7 @@ header
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 .header .header-logo {
   width: 140px;
@@ -164,7 +165,8 @@ header
   display: flex;
   align-items: flex-end;
   font-weight: bold;
-  font-size: var(--fz22);
+  /* font-size: var(--fz22); */
+  font-size: clamp(var(--fz11), 0.275rem + 1.76vw, var(--fz22));
   border-left: 2px solid #ddd;
   padding: 0 25px;
 }
@@ -184,6 +186,9 @@ header
 }
 .header .header-links .header-link.search::before {
   background: url(../../assets/img/ico_search.svg) no-repeat center center / contain;
+}
+.header .header-links .header-link.contact::before {
+  background: url(../../assets/img/ico_plane.svg) no-repeat center center / contain;
 }
 .header .btn-menu {
   position: relative;
@@ -317,7 +322,7 @@ header
   }
   .header-wrapper {
     height: 52px;
-    padding: 0 10px 0;
+    /* padding: 0 10px 0; */
   }
   .header .header-logo {
     width: 80px;
@@ -329,7 +334,7 @@ header
     flex-direction: column;
     align-items: center;
     font-size: var(--fz11);
-    padding: 0 15px;
+    padding: 0 1em;
     line-height: 1.4;
   }
   .header .header-links .header-link::before {
@@ -424,7 +429,7 @@ footer
   margin-top: 50px;
   font-size: var(--fz12);
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 767px) {
   .footer-service-container {
     flex-direction: column;
     align-items: flex-start;
@@ -434,15 +439,15 @@ footer
 breadcrumbs
 -------------------------------------------*/
 .breadcrumbs-wrapper {
-  background: #ddd;
-  padding: 3em 20px 0;
+  padding: 0.8em 15px 0.5em;
 }
 .breadcrumbs {
-  max-width: 1350px;
+  max-width: 1000px;
   margin-inline: auto;
 }
 .breadcrumbs ol {
-  font-size: 0.9em;
+  font-size: 0.8em;
+  color: #666;
 }
 .breadcrumbs li {
   display: inline;
@@ -462,11 +467,11 @@ breadcrumbs
   transform: rotate(45deg);
   width: 0.3em;
   height: 0.3em;
-  margin-left: 0.8em;
+  margin-left: 0.6em;
   border-top: 1px solid #333333;
   border-right: 1px solid #333333;
   content: "";
-  margin-right: 0.6em;
+  margin-right: 0.4em;
 }
 .breadcrumbs a {
   text-decoration: underline;
@@ -547,10 +552,17 @@ main
 }
 /* 指定の画面幅以上の場合は改行しない */
 @media screen and (min-width: 768px) {
+  .br-tb {
+    display: none;
+  }
+}
+/* 指定の画面幅以上の場合は改行しない */
+@media screen and (min-width: 500px) {
   .br-sp {
     display: none;
   }
 }
+
 /*-------------------------------------------
 TOPへ戻るボタン
 -------------------------------------------*/

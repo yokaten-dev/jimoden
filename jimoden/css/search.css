@@ -4,8 +4,10 @@
 事業者を探すページ
 
 ----------------------------------------------------------- */
-.search-container {
+.main {
   background: var(--color-base);
+}
+.search-container {
   padding: 60px 0 150px;
 }
 /* 戻るリンク */

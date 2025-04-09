@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://jimoden.jp/assets/css/ress.min.css" />
-  <link rel="stylesheet" href="../assets/css/common.css?0307" />
+  <link rel="stylesheet" href="../assets/css/common.css" />
   <link rel="stylesheet" href="css/price-top.css" />
 </head>
 
@@ -129,7 +129,7 @@
   <div class="breadcrumbs-wrapper">
     <nav class="breadcrumbs">
       <ol>
-        <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
+        <li><a href="/">ホーム</a></li>
         <li>料金表TOP</li>
       </ol>
     </nav>
@@ -137,7 +137,7 @@
   <?php include '../includes/footer.php'; ?>
   <div id="page_top"><a href="#"></a></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="../assets/js/script.js?0307"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

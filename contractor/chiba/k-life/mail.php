@@ -40,12 +40,12 @@ $site_top = "https://jimoden.jp/";
 
 
 //--------------111111111111 業者のメールアドレス ----------------
-$to = "inukaidenki11@gmail.com";
+$to = "info@k-life20.com";
 
 //自動返信メールの送信元メールアドレス
 //必ず実在するメールアドレスでかつ出来る限り設置先サイトのドメインと同じドメインのメールアドレスとすることを強く推奨します
 //--------------2222222222222 業者のメールアドレス ----------------
-$from = "inukaidenki11@gmail.com";
+$from = "info@k-life20.com";
 
 //フォームのメールアドレス入力箇所のname属性の値（name="○○"　の○○部分）
 $Email = "Email";
@@ -95,7 +95,7 @@ $jumpPage = 1;
 
 //--------------333333333333 メール送信ありがとうございましたのアドレス ----------------
 
-$thanksPage = "https://jimoden.jp/contractor/aichi/inuden/complete.html";
+$thanksPage = "https://jimoden.jp/contractor/chiba/k-life/complete.html";
 
 // 必須入力項目を設定する(する=1, しない=0)
 $requireCheck = 1;
@@ -116,7 +116,7 @@ $remail = 1;
 
 
 //自動返信メールの送信者欄に表示される名前　※あなたの名前や会社名など（もし自動返信メールの送信者名が文字化けする場合ここは空にしてください）
-$refrom_name = "犬飼電気工事";
+$refrom_name = "株式会社K-Life";
 
 //--------------444444444444 ここまで　自動返信メール内容（変更する箇所） ----------------
 
@@ -148,11 +148,11 @@ $mailFooterDsp = 1;
 $mailSignature = <<< FOOTER
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-犬飼電気工事
-〒465-0004
-愛知県名古屋市名東区香南1丁目303番地
-TEL:090-2943-1541
-Email:inukaidenki11@gmail.com
+株式会社K-Life
+〒260-0808
+千葉県千葉市中央区星久喜町315-1
+TEL:090-1939-4496
+Email:info@k-life20.com
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 
 FOOTER;

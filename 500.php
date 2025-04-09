@@ -6,7 +6,6 @@ http_response_code(500);
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" href="https://jimoden.jp/assets/img/favicon.webp" />
   <meta name="robots" content="noindex, nofollow">
   <title>料金表のある地元の電気工事業者と直接つながる -ジモデン-</title>
   <style>

@@ -340,6 +340,14 @@
 .sec-price-example .price-label {
   font-size: 1.5em;
 }
+.sec-price-example .price-text {
+  font-size: clamp(var(--fz16), 0.775rem + 0.96vw, var(--fz22));
+  font-weight: 555;
+  line-height: 2em;
+  margin-top: 50px;
+  width: fit-content;
+  margin-inline: auto;
+}
 @media (max-width: 767px) {
   .sec-price-example {
     padding: 50px 0;

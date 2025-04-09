@@ -20,7 +20,7 @@
             };
             document.head.appendChild(s);
         }
-    </script> 
+    </script>
     <meta charset="utf-8" />
     <title>運営企業 -ジモデン-</title>
     <link rel="canonical" href="https://jimoden.jp/company/" />
@@ -32,13 +32,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://jimoden.jp/assets/css/ress.min.css" />
-    <link rel="stylesheet" href="../assets/css/common.css?0307" />
+    <link rel="stylesheet" href="../assets/css/common.css" />
     <link rel="stylesheet" href="css/company.css" />
 </head>
 
 <body id="company">
-    <?php include '../includes/header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
     <main class="main">
+        <div class="breadcrumbs-wrapper">
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="/">ホーム</a></li>
+                    <li>運営企業</li>
+                </ol>
+            </nav>
+        </div>
         <div class="about-company">
             <h1 class="ttl">運営企業</h1>
             <p>電気工事の料金表がある地元の電気工事業者と直接つながる、これがジモデン。<br>まずは知ってもらうこと、知らないからあなたに電気工事を頼めない。そしてスイッチ交換、蛍光灯→LEDなどの単純な工事の料金表があることで、成約率の高い問い合わせを集めることに特化。<br>どんなお得意様も、最初はどこかで初めて出会ってお付き合いが始まったはず。ジモデンはそんな出会いを創り出すサイトです。</p>
@@ -65,18 +73,10 @@
             </div>
         </div>
     </main>
-    <div class="breadcrumbs-wrapper">
-        <nav class="breadcrumbs">
-            <ol>
-                <li><a href="<?php echo $base_url; ?>/">ホーム</a></li>
-                <li>運営企業</li>
-            </ol>
-        </nav>
-    </div>
-    <?php include '../includes/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
     <div id="page_top"><a href="#"></a></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="../assets/js/script.js?0307"></script>
+    <script src="../assets/js/script.js"></script>
 </body>
 
 </html>
