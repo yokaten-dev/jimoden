@@ -110,7 +110,7 @@
           <!-- update: 企業名・住所・対応エリア・営業時間・受付時間 -->
           <div class="company-info">
             <h3 class="company-name">株式会社K-Life</h3>
-            <address class="company-address">千葉県千葉市中央区星久喜町315-1</address>
+            <address class="company-address">千葉県千葉市中央区星久喜町315-1 アローズハウス１号棟</address>
             <p class="service-area">対応エリア：千葉市中央区・近郊</p>
             <p class="business-hours">営業時間：平日9:00-17:00（土日祝の工事可能）</p>
             <p class="reception-hours">受付：メール・LINEは24時間受付</p>
@@ -461,7 +461,7 @@
             <dt>設立年月日</dt>
             <dd>令和2年8月3日</dd>
             <dt>所在地</dt>
-            <dd>〒260-0808<br />千葉県千葉市中央区星久喜町315-1</dd>
+            <dd>〒260-0808<br />千葉県千葉市中央区星久喜町315-1 アローズハウス１号棟</dd>
             <!--<dt>資本金</dt>
             <dd>xx万円</dd>-->
             <dt>代表者名</dt>
@@ -493,7 +493,7 @@
           <p class="contact-caption">株式会社K-Lifeに<br class="br-sp" />直接電話したい方はこちら！</p>
           <p class="contact-area">（対応エリア：千葉市中央区・近郊）</p>
           <p class="contact-tel-number">090-1939-4496</p>
-          <p class="contact-business-hours"><em>営業電話ご遠慮ください</em><br />受付時間 9:00-18:00（土日祝は除く）</p>
+          <p class="contact-business-hours"><em>営業電話ご遠慮ください</em><br />受付時間 9:00-17:00（土日祝は除く）</p>
           <div class="btn-call-number-container"><a class="btn-call-number" href="tel:090-1939-4496">電話をかける</a></div>
           <!-- セールスの方へお願い -->
           <details class="sales-refusal">
@@ -601,7 +601,7 @@
       <div class="footer-contractor">
         <address>
           <a class="contractor-name" href="./">株式会社K-Life</a>
-          <p>〒260-0808<br class="br-sp"> 千葉県千葉市中央区星久喜町315-1</p>
+          <p>〒260-0808<br class="br-sp"> 千葉県千葉市中央区星久喜町315-1 アローズハウス１号棟</p>
         </address>
         <ul>
           <li>対応エリア：千葉市中央区・近郊</li>
@@ -622,6 +622,23 @@
   <div id="page_top"><a href="#"></a></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="/assets/js/script.js"></script>
+  <script>
+    window.addEventListener("load", function() {
+      if (window.location.hash) {
+        const targetId = window.location.hash.slice(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          // 少し待ってからスクロールする
+          setTimeout(() => {
+            target.scrollIntoView({
+              behavior: "auto",
+              block: "start"
+            });
+          }, 100);
+        }
+      }
+    });
+  </script>
 </body>
 
 </html>

@@ -291,7 +291,7 @@
       <div class="footer-contractor">
         <address>
           <a class="contractor-name" href="../">株式会社K-Life</a>
-          <p>〒457-0069<br class="br-sp"> 千葉県千葉市中央区星久喜町315-1</p>
+          <p>〒457-0069<br class="br-sp"> 千葉県千葉市中央区星久喜町315-1 アローズハウス１号棟</p>
         </address>
         <ul>
           <li>対応エリア：千葉市中央区・近郊</li>
