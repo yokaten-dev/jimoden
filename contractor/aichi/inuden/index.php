@@ -503,6 +503,23 @@
   <div id="page_top"><a href="#"></a></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="/assets/js/script.js"></script>
+  <script>
+    window.addEventListener("load", function() {
+      if (window.location.hash) {
+        const targetId = window.location.hash.slice(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          // レンダリングが完了したあとにスクロールさせる（iOS対策）
+          setTimeout(() => {
+            target.scrollIntoView({
+              behavior: "auto",
+              block: "start"
+            });
+          }, 100);
+        }
+      }
+    });
+  </script>
 </body>
 
 </html>

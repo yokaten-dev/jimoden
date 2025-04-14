@@ -493,7 +493,7 @@
           <p class="contact-caption">株式会社K-Lifeに<br class="br-sp" />直接電話したい方はこちら！</p>
           <p class="contact-area">（対応エリア：千葉市中央区・近郊）</p>
           <p class="contact-tel-number">090-1939-4496</p>
-          <p class="contact-business-hours"><em>営業電話ご遠慮ください</em><br />受付時間 9:00-17:00（土日祝は除く）</p>
+          <p class="contact-business-hours"><em>営業電話ご遠慮ください</em><br />受付時間 9:00-17:00（土日祝も受付）</p>
           <div class="btn-call-number-container"><a class="btn-call-number" href="tel:090-1939-4496">電話をかける</a></div>
           <!-- セールスの方へお願い -->
           <details class="sales-refusal">
@@ -628,7 +628,7 @@
         const targetId = window.location.hash.slice(1);
         const target = document.getElementById(targetId);
         if (target) {
-          // 少し待ってからスクロールする
+          // レンダリングが完了したあとにスクロールさせる（iOS対策）
           setTimeout(() => {
             target.scrollIntoView({
               behavior: "auto",
