@@ -76,8 +76,8 @@ $bodyID = 'jimoden-top'; // ページによって設定
             <div class="wrapper">
                 <p class="problem-title"><em>悩み・不安・疑問、</em>なんでもどうぞ</p>
                 <picture class="problem-list">
-                    <source media="(min-width: 768px)" srcset="jimoden/img/img_problem.png" alt="外が暗くて怖い…古くなった分電盤やブレーカーを交換したい。コンセントが壊れた！LEDにすると電気代が安くなるってホント？でも…どうしたらいいのかわからない！" />
-                    <source media="(max-width: 767px)" srcset="jimoden/img/img_problem_sp.png" alt="外が暗くて怖い…古くなった分電盤やブレーカーを交換したい。コンセントが壊れた！LEDにすると電気代が安くなるってホント？でも…どうしたらいいのかわからない！" />
+                    <source media="(min-width: 768px)" srcset="jimoden/img/img_problem.png" />
+                    <source media="(max-width: 767px)" srcset="jimoden/img/img_problem_sp.png" />
                     <img src="jimoden/img/img_problem.png" alt="外が暗くて怖い…古くなった分電盤やブレーカーを交換したい。コンセントが壊れた！LEDにすると電気代が安くなるってホント？でも…どうしたらいいのかわからない！" />
                 </picture>
                 <p class="solution-title">お任せください！</p>
